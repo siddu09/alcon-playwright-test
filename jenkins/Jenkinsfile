@@ -1,0 +1,116 @@
+pipeline {
+  agent {
+    docker {
+      image 'mcr.microsoft.com/playwright:v1.44.0-focal'
+      args  '-u root:root --shm-size=2g'
+    }
+  }
+
+  parameters {
+    choice(
+      name:         'ENV',
+      choices:      ['qa', 'dev', 'prod'],
+      description:  'Target environment'
+    )
+    choice(
+      name:         'BROWSER',
+      choices:      ['chromium', 'firefox', 'webkit'],
+      description:  'Browser engine'
+    )
+    string(
+      name:         'TAGS',
+      defaultValue: '@smoke',
+      description:  'Cucumber tag filter (e.g. @smoke, @regression)'
+    )
+    string(
+      name:         'PARALLEL_WORKERS',
+      defaultValue: '4',
+      description:  'Number of parallel Cucumber workers'
+    )
+  }
+
+  environment {
+    ENV              = "${params.ENV}"
+    BROWSER          = "${params.BROWSER}"
+    HEADLESS         = 'true'
+    PARALLEL_WORKERS = "${params.PARALLEL_WORKERS}"
+    RECORD_TRACE     = 'true'
+    LOG_LEVEL        = 'info'
+    CI               = 'true'
+  }
+
+  options {
+    timeout(time: 60, unit: 'MINUTES')
+    timestamps()
+    buildDiscarder(logRotator(numToKeepStr: '20', artifactNumToKeepStr: '5'))
+    disableConcurrentBuilds()
+  }
+
+  stages {
+
+    stage('Checkout') {
+      steps {
+        checkout scm
+        sh 'echo "Branch: ${GIT_BRANCH} | Commit: ${GIT_COMMIT}"'
+      }
+    }
+
+    stage('Install Dependencies') {
+      steps {
+        sh 'npm ci'
+        sh "npx playwright install --with-deps ${BROWSER}"
+      }
+    }
+
+    stage('Lint & Type Check') {
+      steps {
+        sh 'npm run lint'
+        sh 'npm run type-check'
+      }
+    }
+
+    stage('Run BDD Tests') {
+      steps {
+        sh "TAGS='${params.TAGS}' npm run test:parallel"
+      }
+      post {
+        always {
+          archiveArtifacts artifacts: 'reports/**/*', allowEmptyArchive: true
+          junit allowEmptyResults: true, testResults: 'reports/*.xml'
+        }
+      }
+    }
+
+    stage('Generate Allure Report') {
+      steps {
+        sh 'npm run allure:generate'
+      }
+    }
+  }
+
+  post {
+    always {
+      allure([
+        includeProperties: true,
+        results: [[path: 'reports/allure-results']]
+      ])
+      cleanWs()
+    }
+    success {
+      echo '✅  Pipeline PASSED'
+    }
+    failure {
+      echo '❌  Pipeline FAILED'
+      emailext(
+        subject: "❌ FAILED: ${currentBuild.fullDisplayName}",
+        body:    """
+          Job    : ${env.JOB_NAME}
+          Build  : ${env.BUILD_NUMBER}
+          Status : ${currentBuild.result}
+          URL    : ${env.BUILD_URL}
+        """,
+        recipientProviders: [[$class: 'DevelopersRecipientProvider']]
+      )
+    }
+  }
+}

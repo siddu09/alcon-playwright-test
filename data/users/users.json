@@ -1,0 +1,38 @@
+[
+  {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "role": "standard",
+    "email": "standard@example.com"
+  },
+  {
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "role": "locked",
+    "email": "locked@example.com"
+  },
+  {
+    "username": "problem_user",
+    "password": "secret_sauce",
+    "role": "problem",
+    "email": "problem@example.com"
+  },
+  {
+    "username": "performance_glitch_user",
+    "password": "secret_sauce",
+    "role": "performance",
+    "email": "performance@example.com"
+  },
+  {
+    "username": "error_user",
+    "password": "secret_sauce",
+    "role": "error",
+    "email": "error@example.com"
+  },
+  {
+    "username": "visual_user",
+    "password": "secret_sauce",
+    "role": "visual",
+    "email": "visual@example.com"
+  }
+]
