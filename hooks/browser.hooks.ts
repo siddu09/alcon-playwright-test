@@ -69,7 +69,7 @@ Before(async function (this: CustomWorld, { pickle }) {
   logger.info(`\n▶  Scenario : "${this.scenarioName}"`);
   logger.info(`   Tags     : ${tags}`);
 
-  // ── Launch browser ──────────────────────────────────────────────────────────
+  this.logger.info(`📍 SETUP: Launching ${envConfig.BROWSER} browser`);
 
   const launchers: Record<string, () => Promise<Browser>> = {
     chromium: () => chromium.launch(getLaunchOptions()),
@@ -80,7 +80,7 @@ Before(async function (this: CustomWorld, { pickle }) {
   const launchBrowser = launchers[envConfig.BROWSER] ?? launchers['chromium'];
   this.browser = await launchBrowser();
 
-  // ── Create context ──────────────────────────────────────────────────────────
+  this.logger.info(`📍 SETUP: Creating browser context`);
 
   this.context = await this.browser.newContext({
     viewport:          { width: 1280, height: 720 },
@@ -93,9 +93,10 @@ Before(async function (this: CustomWorld, { pickle }) {
     }),
   });
 
-  // ── Start tracing ───────────────────────────────────────────────────────────
+  // ── Start tracing ──────────────────────────────────────────────────────────
 
   if (envConfig.RECORD_TRACE || process.env.CI) {
+    this.logger.info(`📍 SETUP: Starting trace recording`);
     await this.context.tracing.start({
       screenshots: true,
       snapshots:   true,
@@ -105,6 +106,7 @@ Before(async function (this: CustomWorld, { pickle }) {
 
   // ── Open page ───────────────────────────────────────────────────────────────
 
+  this.logger.info(`📍 SETUP: Creating new page`);
   this.page = await this.context.newPage();
   this.page.setDefaultTimeout(TIMEOUTS.ELEMENT);
   this.page.setDefaultNavigationTimeout(TIMEOUTS.NAVIGATION);
@@ -119,10 +121,8 @@ After(async function (this: CustomWorld, { result, pickle }) {
 
   logger.info(`${icon}  "${pickle.name}" → ${status ?? 'UNKNOWN'}  (${duration}ms)`);
 
-  // ── On failure: capture artefacts ──────────────────────────────────────────
-
   if (status === Status.FAILED) {
-
+    this.logger.info(`📍 TEARDOWN: Capturing failure artifacts`);
     // Screenshot
     if (this.page) {
       try {
@@ -160,7 +160,6 @@ After(async function (this: CustomWorld, { result, pickle }) {
         logger.error('Failed to save trace', err);
       }
     }
-
   } else {
     // Stop tracing without saving (passed scenarios)
     try {
@@ -168,15 +167,13 @@ After(async function (this: CustomWorld, { result, pickle }) {
     } catch { /* tracing may not have been started */ }
   }
 
-  // ── Teardown ────────────────────────────────────────────────────────────────
-
+  this.logger.info(`📍 TEARDOWN: Closing browser`);
   try {
     await this.page?.close();
     await this.context?.close();
     await this.browser?.close();
   } catch (err) {
     logger.warn('Cleanup error during scenario teardown');
-    logger.error('Teardown error', err);
   }
 });
 

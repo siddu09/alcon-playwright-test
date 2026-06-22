@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Broken tests",
+    "matchedStatuses": [
+      "broken"
+    ],
+    "messageRegex": ".*Error.*"
+  },
+  {
+    "name": "Failed assertions",
+    "matchedStatuses": [
+      "failed"
+    ],
+    "messageRegex": ".*AssertionError.*"
+  },
+  {
+    "name": "Ignored tests",
+    "matchedStatuses": [
+      "skipped",
+      "pending"
+    ]
+  }
+]

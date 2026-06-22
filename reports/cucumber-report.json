@@ -1,0 +1,196 @@
+[
+  {
+    "description": "  As a B2B user\n  I want to configure and add an individual order to cart\n  So that I can place the required trial lenses",
+    "elements": [
+      {
+        "description": "",
+        "id": "individual-order-for-dailies-total1-astigmatism;configure-random-lens-values-and-add-trial-pack-to-cart",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Configure random lens values and add trial pack to cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1217557332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I open the MyAlcon Japan store login page",
+            "match": {
+              "location": "step-definitions/order/individual-order.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4992749292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I login to MyAlcon with email \"marloint.test+b2b2cnewuser@alconlabs.com\" and password \"Bangalore##88\"",
+            "match": {
+              "location": "step-definitions/order/individual-order.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4574172291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I create a new individual order",
+            "match": {
+              "location": "step-definitions/order/individual-order.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2425665915
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I select product \"DAILIES TOTAL1® for Astigmatism\" from Daily Contact Lenses",
+            "match": {
+              "location": "step-definitions/order/individual-order.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2525929041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I configure random lens values for both eyes",
+            "match": {
+              "location": "step-definitions/order/individual-order.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4738228580
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I select pack size as Trial 5",
+            "match": {
+              "location": "step-definitions/order/individual-order.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 892350372
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Add to cart should be enabled",
+            "match": {
+              "location": "step-definitions/order/individual-order.steps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3139040
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I add configured product to cart",
+            "match": {
+              "location": "step-definitions/order/individual-order.steps.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79869873
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I navigate to your cart from home header",
+            "match": {
+              "location": "step-definitions/order/individual-order.steps.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1521507788
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should see product \"DAILIES TOTAL1® for Astigmatism\" in cart",
+            "match": {
+              "location": "step-definitions/order/individual-order.steps.ts:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12946913
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 225092708
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@order",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "individual-order-for-dailies-total1-astigmatism",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Individual order for DAILIES TOTAL1 Astigmatism",
+    "tags": [
+      {
+        "name": "@order",
+        "line": 1
+      },
+      {
+        "name": "@smoke",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "uri": "features/order/individual-order.feature"
+  }
+]

@@ -1,0 +1,72 @@
+[2026-06-22 18:25:46.882] [ERROR]   ✗ FAILED step: "I open the MyAlcon Japan store login page"
+[2026-06-22 18:25:46.883] [ERROR]     Error: function timed out, ensure the promise resolves within 30000 milliseconds
+    at Timeout.<anonymous> (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/@cucumber/cucumber/src/time.ts:50:14)
+    at listOnTimeout (node:internal/timers:594:17)
+    at processTimers (node:internal/timers:529:7)
+[2026-06-22 18:26:31.604] [ERROR]   ✗ FAILED step: "I login to MyAlcon with email "marloint.test+b2b2cnewuser@alconlabs.com" and password "Bangalore##88""
+[2026-06-22 18:26:31.604] [ERROR]     Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeEnabled[2m([22m[2m)[22m failed
+
+Locator: locator('button:has-text("Log In")').first()
+Expected: enabled
+Timeout: 10000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "to.be.enabled" with timeout 10000ms[22m
+[2m  - waiting for locator('button:has-text("Log In")').first()[22m
+
+    at captureRawStack (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright-core/lib/coreBundle.js:3172:17)
+    at callMatcherAsStep (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright/lib/matchers/expect.js:12875:57)
+    at Object.toBeEnabled (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright/lib/matchers/expect.js:12865:23)
+    at IndividualOrderPage.assertEnabled (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/pages/base/base.page.ts:147:27)
+    at IndividualOrderPage.loginWith (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/pages/order/individual-order.page.ts:54:16)
+    at async CustomWorld.<anonymous> (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/step-definitions/order/individual-order.steps.ts:17:5)
+[2026-06-22 18:33:34.427] [ERROR]   ✗ FAILED step: "I create a new individual order"
+[2026-06-22 18:33:34.427] [ERROR]     Error: Individual Order menu item should be visible
+
+[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator: locator('role=menuitem[name="Individual Order"]').first()
+Expected: visible
+Timeout: 10000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "to.be.visible" with timeout 10000ms[22m
+[2m  - waiting for locator('role=menuitem[name="Individual Order"]').first()[22m
+
+    at captureRawStack (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright-core/lib/coreBundle.js:3172:17)
+    at callMatcherAsStep (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright/lib/matchers/expect.js:12875:57)
+    at Object.toBeVisible (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright/lib/matchers/expect.js:12865:23)
+    at IndividualOrderPage.assertVisible (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/pages/base/base.page.ts:111:36)
+    at IndividualOrderPage.selectIndividualOrder (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/pages/order/individual-order.page.ts:87:16)
+    at CustomWorld.<anonymous> (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/step-definitions/order/individual-order.steps.ts:24:19)
+[2026-06-22 18:35:53.707] [ERROR]   ✗ FAILED step: "I should see product "DAILIES TOTAL1® for Astigmatism" in cart"
+[2026-06-22 18:35:53.707] [ERROR]     Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeGreaterThanOrEqual[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: >= [32m3[39m
+Received:    [31m0[39m
+    at captureRawStack (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright-core/lib/coreBundle.js:3172:17)
+    at callMatcherAsStep (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright/lib/matchers/expect.js:12875:57)
+    at Object.toBeGreaterThanOrEqual (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright/lib/matchers/expect.js:12865:23)
+    at CustomWorld.<anonymous> (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/step-definitions/order/individual-order.steps.ts:70:23)
+[2026-06-22 18:38:25.259] [ERROR]   ✗ FAILED step: "I should see product "DAILIES TOTAL1® for Astigmatism" in cart"
+[2026-06-22 18:38:25.259] [ERROR]     Error: Expected product "DAILIES TOTAL1® for Astigmatism" in cart
+
+[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator: locator('[data-test="product-name"]').filter({ hasText: 'DAILIES TOTAL1® for Astigmatism' }).first()
+Expected: visible
+Timeout: 10000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "to.be.visible" with timeout 10000ms[22m
+[2m  - waiting for locator('[data-test="product-name"]').filter({ hasText: 'DAILIES TOTAL1® for Astigmatism' }).first()[22m
+
+    at captureRawStack (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright-core/lib/coreBundle.js:3172:17)
+    at callMatcherAsStep (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright/lib/matchers/expect.js:12875:57)
+    at Object.toBeVisible (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright/lib/matchers/expect.js:12865:23)
+    at IndividualOrderPage.assertVisible (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/pages/base/base.page.ts:111:36)
+    at IndividualOrderPage.assertProductExistsInCart (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/pages/order/individual-order.page.ts:175:16)
+    at async CustomWorld.<anonymous> (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/step-definitions/order/individual-order.steps.ts:67:3)

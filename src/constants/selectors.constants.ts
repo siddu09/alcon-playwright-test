@@ -63,3 +63,30 @@ export const COMMON_SELECTORS = {
   ERROR_MESSAGE:   '.error-message',
   TOAST_MESSAGE:   '.toast-message',
 } as const;
+
+// ─── MyAlcon Individual Order ───────────────────────────────────────────────
+export const MYALCON_ORDER_SELECTORS = {
+  LOGIN_BUTTON:                     'button:has-text("Log in")',
+  EMAIL_INPUT:                      'input[placeholder*="Email Address"]',
+  PASSWORD_INPUT:                   'input[placeholder*="Password"]',
+  LOGIN_SUBMIT:                     'button:has-text("Log In")',
+  NEW_ORDER_NAV_BUTTON:             '[data-test="h-NavigateBtnNewOrder"]',
+  INDIVIDUAL_ORDER_MENU_ITEM:       'role=menuitem[name="Individual Order"]',
+  PRODUCT_CARD_CONTAINER:           '[data-test="pc-ProductCardContainer"]',
+  PRODUCT_CARD_TITLE:               '[data-test="pc-CardTitle"]',
+  PRODUCT_SELECT_BUTTON:            '[data-test="pc-SelectBtn"]',
+  CONFIGURE_PRODUCT_NAME:           '[data-test="product-name"]',
+  LEFT_LENS_POWER:                  '[data-test="asf-AttributeNameSelectlefteyelensPower"]',
+  LEFT_LENS_CYLINDER:               '[data-test="asf-AttributeNameSelectlefteyelensCylinder"]',
+  LEFT_LENS_AXIS:                   '[data-test="asf-AttributeNameSelectlefteyelensAxis"]',
+  RIGHT_LENS_POWER:                 '[data-test="asf-AttributeNameSelectrighteyelensPower"]',
+  RIGHT_LENS_CYLINDER:              '[data-test="asf-AttributeNameSelectrighteyelensCylinder"]',
+  RIGHT_LENS_AXIS:                  '[data-test="asf-AttributeNameSelectrighteyelensAxis"]',
+  PACK_SIZE_TRIAL:                  '[data-test="psf-PackSizeChip-5-Trial"]',
+  ADD_TO_CART_BUTTON:               '[data-test="od-AddToCartBtn"]',
+  MINI_CART_BUTTON:                 '[data-test="mc-IconButton"]',
+  CART_PRODUCT_NAME:                '[data-test="product-name"]',
+  AUTOCOMPLETE_INPUT:               'input[role="combobox"]',
+  AUTOCOMPLETE_OPEN_BUTTON:         'button[aria-label="Open"]',
+  AUTOCOMPLETE_OPTIONS:             '[role="option"]',
+} as const;

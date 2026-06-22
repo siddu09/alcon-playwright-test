@@ -1,0 +1,1 @@
+[{"values":["qa"],"name":"Environment"},{"values":["URL=https://www.saucedemo.com"],"name":"Base"},{"values":["chromium"],"name":"Browser"},{"values":["true"],"name":"Headless"},{"values":["Version=v22.14.0"],"name":"Node"},{"values":["Date=2026-06-22T14:23:12.000Z"],"name":"Run"},{"values":["(ms)=30000"],"name":"Timeout"},{"values":["1"],"name":"Workers"}]

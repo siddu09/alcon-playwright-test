@@ -24,7 +24,7 @@ export class EnvironmentConfig {
 
     this.config = {
       ENV:              env,
-      BASE_URL:         process.env.BASE_URL         || 'https://www.saucedemo.com',
+      BASE_URL:         process.env.BASE_URL         || 'https://qa.nonprod-store.myalcon.com/jp',
       API_URL:          process.env.API_URL,
       TEST_USERNAME:    process.env.TEST_USERNAME,
       TEST_PASSWORD:    process.env.TEST_PASSWORD,

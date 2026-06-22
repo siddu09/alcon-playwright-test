@@ -1,5 +1,5 @@
 {
-  "name": "alcon-playwright-automation framework",
+  "name": "alcon-playwright-automation-framework",
   "version": "1.0.0",
   "description": "Alcon Automation framework for web application testing",
   "main": "index.js",
@@ -7,9 +7,16 @@
     "test": "playwright test",
     "test:headed": "playwright test --headed",
     "test:ui": "playwright test --ui",
-    "report": "playwright show-report"
+    "report": "playwright show-report",
+    "lint": "eslint . --ext .ts",
+    "type-check": "tsc --noEmit",
+    "test:playwright": "playwright test",
+    "test:qa": "ENV=qa playwright test",
+    "test:dev": "ENV=dev playwright test",
+    "test:prod": "ENV=prod playwright test",
+    "test:parallel": "playwright test --workers=${PARALLEL_WORKERS:-4}",
+    "allure:generate": "mkdir -p reports/allure-results reports/allure-report && allure generate reports/allure-results --clean -o reports/allure-report"
   },
-
   "keywords": [],
   "author": "Siddesh Belura",
   "license": "Apache-2.0",
@@ -17,6 +24,11 @@
   "devDependencies": {
     "@playwright/test": "^1.61.0",
     "@types/node": "^26.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.36.0",
+    "@typescript-eslint/parser": "^8.36.0",
+    "allure-commandline": "^2.34.1",
+    "allure-cucumberjs": "^3.10.0",
+    "eslint": "^9.31.0",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3"
   },
@@ -25,6 +37,7 @@
     "allure-playwright": "^3.10.0",
     "dotenv": "^17.4.2",
     "playwright": "^1.61.0",
-    "winston": "^3.19.0"
+    "winston": "^3.19.0",
+    "winston-daily-rotate-file": "^4.7.1"
   }
 }

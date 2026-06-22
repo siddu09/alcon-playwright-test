@@ -1,0 +1,611 @@
+[2026-06-22 17:29:02.709] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 17:29:02.709] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 17:29:03.212] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 17:29:03.331] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 17:29:05.853] [INFO ] Login page navigation complete
+[2026-06-22 17:29:05.857] [INFO ] Login page navigation complete
+[2026-06-22 17:29:05.890] [INFO ] Login as: standard_user
+[2026-06-22 17:29:05.892] [INFO ] Login as: standard_user
+[2026-06-22 17:29:05.891] [INFO ] Entering username: standard_user
+[2026-06-22 17:29:05.892] [INFO ] Entering username: standard_user
+[2026-06-22 17:35:17.628] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 17:35:17.629] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 17:35:18.241] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 17:35:18.241] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 17:35:20.692] [INFO ] Login page navigation complete
+[2026-06-22 17:35:20.724] [INFO ] Login as: standard_user
+[2026-06-22 17:35:20.724] [INFO ] Entering username: standard_user
+[2026-06-22 17:35:20.759] [INFO ] Entering password: [REDACTED]
+[2026-06-22 17:35:20.784] [INFO ] Clicking login button
+[2026-06-22 17:35:20.880] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 17:35:20.986] [INFO ] Login page navigation complete
+[2026-06-22 17:35:21.033] [INFO ] Login as: standard_user
+[2026-06-22 17:35:21.033] [INFO ] Entering username: standard_user
+[2026-06-22 17:35:21.065] [INFO ] Entering password: [REDACTED]
+[2026-06-22 17:35:21.090] [INFO ] Clicking login button
+[2026-06-22 17:35:21.132] [INFO ] Dashboard loaded and verified ✓
+[2026-06-22 17:35:21.188] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 17:35:21.313] [INFO ] Login page navigation complete
+[2026-06-22 17:35:21.331] [INFO ] Login as: invalid_user
+[2026-06-22 17:35:21.331] [INFO ] Entering username: invalid_user
+[2026-06-22 17:36:29.214] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 17:36:29.273] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 17:36:29.614] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 17:36:29.673] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 17:36:33.895] [INFO ] Login page navigation complete
+[2026-06-22 17:36:33.929] [INFO ] Login as: standard_user
+[2026-06-22 17:36:33.929] [INFO ] Entering username: standard_user
+[2026-06-22 17:36:33.960] [INFO ] Entering password: [REDACTED]
+[2026-06-22 17:36:33.986] [INFO ] Clicking login button
+[2026-06-22 17:36:34.034] [INFO ] Dashboard loaded and verified ✓
+[2026-06-22 17:36:34.035] [INFO ] Login page navigation complete
+[2026-06-22 17:36:34.056] [INFO ] Login as: standard_user
+[2026-06-22 17:36:34.056] [INFO ] Entering username: standard_user
+[2026-06-22 17:36:34.074] [INFO ] Login page navigation complete
+[2026-06-22 18:25:16.402] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 18:25:16.403] [INFO ]   🚀  Alcon Playwright BDD Test Suite — STARTED
+[2026-06-22 18:25:16.403] [INFO ]       Environment  : qa
+[2026-06-22 18:25:16.403] [INFO ]       Base URL     : https://www.saucedemo.com
+[2026-06-22 18:25:16.403] [INFO ]       Browser      : chromium
+[2026-06-22 18:25:16.404] [INFO ]       Headless     : true
+[2026-06-22 18:25:16.404] [INFO ]       Timeout (ms) : 30000
+[2026-06-22 18:25:16.404] [INFO ]       Workers      : 1
+[2026-06-22 18:25:16.404] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 18:25:16.418] [INFO ] 
+▶  Scenario : "Configure random lens values and add trial pack to cart"
+[2026-06-22 18:25:16.418] [INFO ]    Tags     : @order, @smoke, @regression
+[2026-06-22 18:25:16.877] [INFO ] Navigating → https://qa.nonprod-store.myalcon.com/jp
+[2026-06-22 18:25:46.882] [ERROR]   ✗ FAILED step: "I open the MyAlcon Japan store login page"
+[2026-06-22 18:25:46.883] [ERROR]     Error: function timed out, ensure the promise resolves within 30000 milliseconds
+    at Timeout.<anonymous> (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/@cucumber/cucumber/src/time.ts:50:14)
+    at listOnTimeout (node:internal/timers:594:17)
+    at processTimers (node:internal/timers:529:7)
+[2026-06-22 18:25:46.886] [INFO ] ❌  "Configure random lens values and add trial pack to cart" → FAILED  (30468ms)
+[2026-06-22 18:25:47.007] [INFO ]    📸 Screenshot → reports/screenshots/Configure_random_lens_values_and_add_trial_pack_to_cart_1782132946886.png
+[2026-06-22 18:25:47.049] [INFO ] Allure environment.properties written ✓
+[2026-06-22 18:25:47.049] [INFO ] Run "npm run allure:generate" then "npm run allure:open" to view the report.
+[2026-06-22 18:25:47.049] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 18:25:47.049] [INFO ]   ✅  Alcon Playwright BDD Test Suite — COMPLETE
+[2026-06-22 18:25:47.049] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 18:26:17.383] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 18:26:17.383] [INFO ]   🚀  Alcon Playwright BDD Test Suite — STARTED
+[2026-06-22 18:26:17.384] [INFO ]       Environment  : qa
+[2026-06-22 18:26:17.384] [INFO ]       Base URL     : https://www.saucedemo.com
+[2026-06-22 18:26:17.384] [INFO ]       Browser      : chromium
+[2026-06-22 18:26:17.384] [INFO ]       Headless     : true
+[2026-06-22 18:26:17.384] [INFO ]       Timeout (ms) : 30000
+[2026-06-22 18:26:17.384] [INFO ]       Workers      : 1
+[2026-06-22 18:26:17.385] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 18:26:17.396] [INFO ] 
+▶  Scenario : "Configure random lens values and add trial pack to cart"
+[2026-06-22 18:26:17.396] [INFO ]    Tags     : @order, @smoke, @regression
+[2026-06-22 18:26:31.604] [ERROR]   ✗ FAILED step: "I login to MyAlcon with email "marloint.test+b2b2cnewuser@alconlabs.com" and password "Bangalore##88""
+[2026-06-22 18:26:31.604] [ERROR]     Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeEnabled[2m([22m[2m)[22m failed
+
+Locator: locator('button:has-text("Log In")').first()
+Expected: enabled
+Timeout: 10000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "to.be.enabled" with timeout 10000ms[22m
+[2m  - waiting for locator('button:has-text("Log In")').first()[22m
+
+    at captureRawStack (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright-core/lib/coreBundle.js:3172:17)
+    at callMatcherAsStep (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright/lib/matchers/expect.js:12875:57)
+    at Object.toBeEnabled (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright/lib/matchers/expect.js:12865:23)
+    at IndividualOrderPage.assertEnabled (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/pages/base/base.page.ts:147:27)
+    at IndividualOrderPage.loginWith (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/pages/order/individual-order.page.ts:54:16)
+    at async CustomWorld.<anonymous> (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/step-definitions/order/individual-order.steps.ts:17:5)
+[2026-06-22 18:26:31.607] [INFO ] ❌  "Configure random lens values and add trial pack to cart" → FAILED  (14211ms)
+[2026-06-22 18:26:31.664] [INFO ]    📸 Screenshot → reports/screenshots/Configure_random_lens_values_and_add_trial_pack_to_cart_1782132991607.png
+[2026-06-22 18:26:31.697] [INFO ] Allure environment.properties written ✓
+[2026-06-22 18:26:31.697] [INFO ] Run "npm run allure:generate" then "npm run allure:open" to view the report.
+[2026-06-22 18:26:31.697] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 18:26:31.697] [INFO ]   ✅  Alcon Playwright BDD Test Suite — COMPLETE
+[2026-06-22 18:26:31.697] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 18:33:12.585] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 18:33:12.586] [INFO ]   🚀  Alcon Playwright BDD Test Suite — STARTED
+[2026-06-22 18:33:12.586] [INFO ]       Environment  : qa
+[2026-06-22 18:33:12.586] [INFO ]       Base URL     : https://www.saucedemo.com
+[2026-06-22 18:33:12.586] [INFO ]       Browser      : chromium
+[2026-06-22 18:33:12.586] [INFO ]       Headless     : true
+[2026-06-22 18:33:12.587] [INFO ]       Timeout (ms) : 30000
+[2026-06-22 18:33:12.587] [INFO ]       Workers      : 1
+[2026-06-22 18:33:12.587] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 18:33:12.598] [INFO ] 
+▶  Scenario : "Configure random lens values and add trial pack to cart"
+[2026-06-22 18:33:12.598] [INFO ]    Tags     : @order, @smoke, @regression
+[2026-06-22 18:33:34.426] [ERROR]   ✗ FAILED step: "I create a new individual order"
+[2026-06-22 18:33:34.427] [ERROR]     Error: Individual Order menu item should be visible
+
+[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator: locator('role=menuitem[name="Individual Order"]').first()
+Expected: visible
+Timeout: 10000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "to.be.visible" with timeout 10000ms[22m
+[2m  - waiting for locator('role=menuitem[name="Individual Order"]').first()[22m
+
+    at captureRawStack (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright-core/lib/coreBundle.js:3172:17)
+    at callMatcherAsStep (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright/lib/matchers/expect.js:12875:57)
+    at Object.toBeVisible (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright/lib/matchers/expect.js:12865:23)
+    at IndividualOrderPage.assertVisible (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/pages/base/base.page.ts:111:36)
+    at IndividualOrderPage.selectIndividualOrder (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/pages/order/individual-order.page.ts:87:16)
+    at CustomWorld.<anonymous> (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/step-definitions/order/individual-order.steps.ts:24:19)
+[2026-06-22 18:33:34.429] [INFO ] ❌  "Configure random lens values and add trial pack to cart" → FAILED  (21831ms)
+[2026-06-22 18:33:34.571] [INFO ]    📸 Screenshot → reports/screenshots/Configure_random_lens_values_and_add_trial_pack_to_cart_1782133414429.png
+[2026-06-22 18:33:34.622] [INFO ] Allure environment.properties written ✓
+[2026-06-22 18:33:34.622] [INFO ] Run "npm run allure:generate" then "npm run allure:open" to view the report.
+[2026-06-22 18:33:34.622] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 18:33:34.623] [INFO ]   ✅  Alcon Playwright BDD Test Suite — COMPLETE
+[2026-06-22 18:33:34.623] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 18:35:32.813] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 18:35:32.814] [INFO ]   🚀  Alcon Playwright BDD Test Suite — STARTED
+[2026-06-22 18:35:32.814] [INFO ]       Environment  : qa
+[2026-06-22 18:35:32.815] [INFO ]       Base URL     : https://www.saucedemo.com
+[2026-06-22 18:35:32.815] [INFO ]       Browser      : chromium
+[2026-06-22 18:35:32.815] [INFO ]       Headless     : true
+[2026-06-22 18:35:32.815] [INFO ]       Timeout (ms) : 30000
+[2026-06-22 18:35:32.815] [INFO ]       Workers      : 1
+[2026-06-22 18:35:32.815] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 18:35:32.827] [INFO ] 
+▶  Scenario : "Configure random lens values and add trial pack to cart"
+[2026-06-22 18:35:32.827] [INFO ]    Tags     : @order, @smoke, @regression
+[2026-06-22 18:35:51.380] [INFO ] Lens selections -> LEFT: {"power":"-5.00","cylinder":"-2.25","axis":"020"} | RIGHT: {"power":"-5.25","cylinder":"-2.25","axis":"160"}
+[2026-06-22 18:35:53.707] [ERROR]   ✗ FAILED step: "I should see product "DAILIES TOTAL1® for Astigmatism" in cart"
+[2026-06-22 18:35:53.707] [ERROR]     Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeGreaterThanOrEqual[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: >= [32m3[39m
+Received:    [31m0[39m
+    at captureRawStack (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright-core/lib/coreBundle.js:3172:17)
+    at callMatcherAsStep (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright/lib/matchers/expect.js:12875:57)
+    at Object.toBeGreaterThanOrEqual (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright/lib/matchers/expect.js:12865:23)
+    at CustomWorld.<anonymous> (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/step-definitions/order/individual-order.steps.ts:70:23)
+[2026-06-22 18:35:53.708] [INFO ] ❌  "Configure random lens values and add trial pack to cart" → FAILED  (20881ms)
+[2026-06-22 18:35:54.005] [INFO ]    📸 Screenshot → reports/screenshots/Configure_random_lens_values_and_add_trial_pack_to_cart_1782133553708.png
+[2026-06-22 18:35:54.060] [INFO ] Allure environment.properties written ✓
+[2026-06-22 18:35:54.060] [INFO ] Run "npm run allure:generate" then "npm run allure:open" to view the report.
+[2026-06-22 18:35:54.060] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 18:35:54.060] [INFO ]   ✅  Alcon Playwright BDD Test Suite — COMPLETE
+[2026-06-22 18:35:54.060] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 18:37:54.509] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 18:37:54.510] [INFO ]   🚀  Alcon Playwright BDD Test Suite — STARTED
+[2026-06-22 18:37:54.510] [INFO ]       Environment  : qa
+[2026-06-22 18:37:54.510] [INFO ]       Base URL     : https://www.saucedemo.com
+[2026-06-22 18:37:54.510] [INFO ]       Browser      : chromium
+[2026-06-22 18:37:54.510] [INFO ]       Headless     : true
+[2026-06-22 18:37:54.510] [INFO ]       Timeout (ms) : 30000
+[2026-06-22 18:37:54.511] [INFO ]       Workers      : 1
+[2026-06-22 18:37:54.511] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 18:37:54.523] [INFO ] 
+▶  Scenario : "Configure random lens values and add trial pack to cart"
+[2026-06-22 18:37:54.523] [INFO ]    Tags     : @order, @smoke, @regression
+[2026-06-22 18:38:13.339] [INFO ] Lens selections -> LEFT: {"power":"-4.25","cylinder":"-1.75","axis":"020"} | RIGHT: {"power":"-7.00","cylinder":"-1.75","axis":"020"}
+[2026-06-22 18:38:25.259] [ERROR]   ✗ FAILED step: "I should see product "DAILIES TOTAL1® for Astigmatism" in cart"
+[2026-06-22 18:38:25.259] [ERROR]     Error: Expected product "DAILIES TOTAL1® for Astigmatism" in cart
+
+[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator: locator('[data-test="product-name"]').filter({ hasText: 'DAILIES TOTAL1® for Astigmatism' }).first()
+Expected: visible
+Timeout: 10000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "to.be.visible" with timeout 10000ms[22m
+[2m  - waiting for locator('[data-test="product-name"]').filter({ hasText: 'DAILIES TOTAL1® for Astigmatism' }).first()[22m
+
+    at captureRawStack (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright-core/lib/coreBundle.js:3172:17)
+    at callMatcherAsStep (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright/lib/matchers/expect.js:12875:57)
+    at Object.toBeVisible (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/node_modules/playwright/lib/matchers/expect.js:12865:23)
+    at IndividualOrderPage.assertVisible (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/pages/base/base.page.ts:111:36)
+    at IndividualOrderPage.assertProductExistsInCart (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/pages/order/individual-order.page.ts:175:16)
+    at async CustomWorld.<anonymous> (/Users/sid/Documents/PlaywrightAutomation/alcon-playwright-test/step-definitions/order/individual-order.steps.ts:67:3)
+[2026-06-22 18:38:25.260] [INFO ] ❌  "Configure random lens values and add trial pack to cart" → FAILED  (30738ms)
+[2026-06-22 18:38:25.519] [INFO ]    📸 Screenshot → reports/screenshots/Configure_random_lens_values_and_add_trial_pack_to_cart_1782133705260.png
+[2026-06-22 18:38:25.571] [INFO ] Allure environment.properties written ✓
+[2026-06-22 18:38:25.571] [INFO ] Run "npm run allure:generate" then "npm run allure:open" to view the report.
+[2026-06-22 18:38:25.571] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 18:38:25.571] [INFO ]   ✅  Alcon Playwright BDD Test Suite — COMPLETE
+[2026-06-22 18:38:25.571] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 19:50:34.021] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 19:50:34.022] [INFO ]   🚀  Alcon Playwright BDD Test Suite — STARTED
+[2026-06-22 19:50:34.022] [INFO ]       Environment  : qa
+[2026-06-22 19:50:34.022] [INFO ]       Base URL     : https://www.saucedemo.com
+[2026-06-22 19:50:34.022] [INFO ]       Browser      : chromium
+[2026-06-22 19:50:34.022] [INFO ]       Headless     : true
+[2026-06-22 19:50:34.022] [INFO ]       Timeout (ms) : 30000
+[2026-06-22 19:50:34.023] [INFO ]       Workers      : 1
+[2026-06-22 19:50:34.023] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 19:50:34.023] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 19:50:34.024] [INFO ]   🚀  Alcon Playwright BDD Test Suite — STARTED
+[2026-06-22 19:50:34.024] [INFO ]       Environment  : qa
+[2026-06-22 19:50:34.024] [INFO ]       Base URL     : https://www.saucedemo.com
+[2026-06-22 19:50:34.025] [INFO ]       Browser      : chromium
+[2026-06-22 19:50:34.025] [INFO ]       Headless     : true
+[2026-06-22 19:50:34.025] [INFO ]       Timeout (ms) : 30000
+[2026-06-22 19:50:34.025] [INFO ]       Workers      : 1
+[2026-06-22 19:50:34.025] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 19:50:34.038] [INFO ] 
+▶  Scenario : "Configure random lens values and add trial pack to cart"
+[2026-06-22 19:50:34.038] [INFO ]    Tags     : @order, @smoke, @regression
+[2026-06-22 19:50:52.898] [INFO ] Lens selections -> LEFT: {"power":"-5.00","cylinder":"-2.25","axis":"160"} | RIGHT: {"power":"-5.75","cylinder":"-1.75","axis":"090"}
+[2026-06-22 19:50:55.266] [INFO ] ✅  "Configure random lens values and add trial pack to cart" → PASSED  (21229ms)
+[2026-06-22 19:50:55.307] [INFO ] Allure environment.properties written ✓
+[2026-06-22 19:50:55.307] [INFO ] Allure environment.properties written ✓
+[2026-06-22 19:50:55.307] [INFO ] Run "npm run allure:generate" then "npm run allure:open" to view the report.
+[2026-06-22 19:50:55.307] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 19:50:55.307] [INFO ]   ✅  Alcon Playwright BDD Test Suite — COMPLETE
+[2026-06-22 19:50:55.307] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 19:50:55.307] [INFO ] Run "npm run allure:generate" then "npm run allure:open" to view the report.
+[2026-06-22 19:50:55.307] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 19:50:55.307] [INFO ]   ✅  Alcon Playwright BDD Test Suite — COMPLETE
+[2026-06-22 19:50:55.308] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 19:51:16.367] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 19:51:16.416] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 19:51:16.760] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 19:51:16.864] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 19:51:19.521] [INFO ] Login page navigation complete
+[2026-06-22 19:51:19.547] [INFO ] Login as: 
+[2026-06-22 19:51:19.548] [INFO ] Entering username: 
+[2026-06-22 19:51:19.563] [INFO ] Entering password: [REDACTED]
+[2026-06-22 19:51:19.591] [INFO ] Clicking login button
+[2026-06-22 19:51:19.624] [INFO ] Login page navigation complete
+[2026-06-22 19:51:19.625] [INFO ] Login error verified: "Epic sadface: Username is required"
+[2026-06-22 19:51:19.644] [INFO ] Login as: standard_user
+[2026-06-22 19:51:19.644] [INFO ] Entering username: standard_user
+[2026-06-22 19:51:19.672] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 19:51:19.676] [INFO ] Entering password: [REDACTED]
+[2026-06-22 19:51:19.698] [INFO ] Clicking login button
+[2026-06-22 19:51:19.707] [INFO ] Login page navigation complete
+[2026-06-22 19:51:19.733] [INFO ] Login as: standard_user
+[2026-06-22 19:51:19.733] [INFO ] Entering username: standard_user
+[2026-06-22 19:51:19.764] [INFO ] Entering password: [REDACTED]
+[2026-06-22 19:51:19.786] [INFO ] Clicking login button
+[2026-06-22 19:51:19.791] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 19:51:19.827] [INFO ] Dashboard loaded and verified ✓
+[2026-06-22 19:51:19.878] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 19:51:19.953] [INFO ] Login page navigation complete
+[2026-06-22 19:51:19.970] [INFO ] Login as: invalid_user
+[2026-06-22 19:51:19.970] [INFO ] Entering username: invalid_user
+[2026-06-22 19:51:19.997] [INFO ] Entering password: [REDACTED]
+[2026-06-22 19:51:20.018] [INFO ] Clicking login button
+[2026-06-22 19:51:20.053] [INFO ] Login error verified: "Epic sadface: Username and password do not match any user in this service"
+[2026-06-22 19:51:22.457] [INFO ] Login page navigation complete
+[2026-06-22 19:51:22.473] [INFO ] Login as: standard_user
+[2026-06-22 19:51:22.473] [INFO ] Entering username: standard_user
+[2026-06-22 19:51:22.485] [INFO ] Entering password: [REDACTED]
+[2026-06-22 19:51:22.517] [INFO ] Clicking login button
+[2026-06-22 19:51:22.550] [INFO ] Login error verified: "Epic sadface: Password is required"
+[2026-06-22 19:51:22.591] [INFO ] Login page navigation complete
+[2026-06-22 19:51:22.605] [INFO ] Login as: locked_out_user
+[2026-06-22 19:51:22.605] [INFO ] Entering username: locked_out_user
+[2026-06-22 19:51:22.618] [INFO ] Entering password: [REDACTED]
+[2026-06-22 19:51:22.648] [INFO ] Clicking login button
+[2026-06-22 19:51:22.679] [INFO ] Login error verified: "Epic sadface: Sorry, this user has been locked out."
+[2026-06-22 19:51:22.846] [INFO ] Login page navigation complete
+[2026-06-22 19:51:22.862] [INFO ] Login as: standard_user
+[2026-06-22 19:51:22.862] [INFO ] Entering username: standard_user
+[2026-06-22 19:51:22.882] [INFO ] Entering password: [REDACTED]
+[2026-06-22 19:51:22.908] [INFO ] Clicking login button
+[2026-06-22 19:51:22.953] [INFO ] Dashboard loaded and verified ✓
+[2026-06-22 19:51:22.954] [INFO ] Logging out
+[2026-06-22 19:51:22.954] [INFO ] Opening navigation menu
+[2026-06-22 19:51:23.000] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 19:51:24.075] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 19:51:24.537] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 19:51:25.258] [INFO ] Login page navigation complete
+[2026-06-22 19:51:25.279] [INFO ] Login as: invalid_user
+[2026-06-22 19:51:25.279] [INFO ] Entering username: invalid_user
+[2026-06-22 19:51:25.303] [INFO ] Entering password: [REDACTED]
+[2026-06-22 19:51:25.321] [INFO ] Clicking login button
+[2026-06-22 19:51:25.360] [INFO ] Login error verified: "Epic sadface: Username and password do not match any user in this service"
+[2026-06-22 19:51:25.370] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 19:51:25.459] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 19:51:26.956] [INFO ] Login page navigation complete
+[2026-06-22 19:51:26.988] [INFO ] Login as: standard_user
+[2026-06-22 19:51:26.988] [INFO ] Entering username: standard_user
+[2026-06-22 19:51:27.018] [INFO ] Entering password: [REDACTED]
+[2026-06-22 19:51:27.034] [INFO ] Clicking login button
+[2026-06-22 19:51:27.057] [INFO ] Login page navigation complete
+[2026-06-22 19:51:27.081] [INFO ] Login as: standard_user
+[2026-06-22 19:51:27.082] [INFO ] Entering username: standard_user
+[2026-06-22 19:51:27.130] [INFO ] Entering password: [REDACTED]
+[2026-06-22 19:51:27.178] [INFO ] Clicking login button
+[2026-06-22 19:51:27.231] [INFO ] Dashboard loaded and verified ✓
+[2026-06-22 19:51:27.313] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 19:51:27.368] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 19:51:27.735] [INFO ] Login page navigation complete
+[2026-06-22 19:51:27.751] [INFO ] Login as: standard_user
+[2026-06-22 19:51:27.751] [INFO ] Entering username: standard_user
+[2026-06-22 19:51:27.768] [INFO ] Entering password: [REDACTED]
+[2026-06-22 19:51:27.783] [INFO ] Clicking login button
+[2026-06-22 19:51:27.820] [INFO ] Login error verified: "Epic sadface: Password is required"
+[2026-06-22 19:51:28.368] [INFO ] Login page navigation complete
+[2026-06-22 19:51:28.391] [INFO ] Login as: 
+[2026-06-22 19:51:28.391] [INFO ] Entering username: 
+[2026-06-22 19:51:28.416] [INFO ] Entering password: [REDACTED]
+[2026-06-22 19:51:28.434] [INFO ] Clicking login button
+[2026-06-22 19:51:28.476] [INFO ] Login error verified: "Epic sadface: Username is required"
+[2026-06-22 19:51:29.627] [INFO ] Login page navigation complete
+[2026-06-22 19:51:29.649] [INFO ] Login as: locked_out_user
+[2026-06-22 19:51:29.649] [INFO ] Entering username: locked_out_user
+[2026-06-22 19:51:29.676] [INFO ] Entering password: [REDACTED]
+[2026-06-22 19:51:29.701] [INFO ] Clicking login button
+[2026-06-22 19:51:29.751] [INFO ] Login error verified: "Epic sadface: Sorry, this user has been locked out."
+[2026-06-22 19:51:29.861] [INFO ] Login page navigation complete
+[2026-06-22 19:51:29.868] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 19:51:29.884] [INFO ] Login as: standard_user
+[2026-06-22 19:51:29.884] [INFO ] Entering username: standard_user
+[2026-06-22 19:51:29.904] [INFO ] Entering password: [REDACTED]
+[2026-06-22 19:51:29.930] [INFO ] Clicking login button
+[2026-06-22 19:51:29.992] [INFO ] Dashboard loaded and verified ✓
+[2026-06-22 19:51:29.992] [INFO ] Logging out
+[2026-06-22 19:51:29.992] [INFO ] Opening navigation menu
+[2026-06-22 19:51:30.167] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 19:51:30.739] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 19:51:31.860] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 19:51:32.876] [INFO ] Login page navigation complete
+[2026-06-22 19:51:32.916] [INFO ] Login as: standard_user
+[2026-06-22 19:51:32.917] [INFO ] Entering username: standard_user
+[2026-06-22 19:51:32.958] [INFO ] Entering password: [REDACTED]
+[2026-06-22 19:51:32.969] [INFO ] Clicking login button
+[2026-06-22 19:51:33.022] [INFO ] Dashboard loaded and verified ✓
+[2026-06-22 19:51:33.203] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 19:51:33.496] [INFO ] Login page navigation complete
+[2026-06-22 19:51:33.515] [INFO ] Login as: invalid_user
+[2026-06-22 19:51:33.516] [INFO ] Entering username: invalid_user
+[2026-06-22 19:51:33.551] [INFO ] Entering password: [REDACTED]
+[2026-06-22 19:51:33.564] [INFO ] Clicking login button
+[2026-06-22 19:51:33.618] [INFO ] Login error verified: "Epic sadface: Username and password do not match any user in this service"
+[2026-06-22 19:51:33.802] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 19:51:34.010] [INFO ] Login page navigation complete
+[2026-06-22 19:51:34.031] [INFO ] Login as: standard_user
+[2026-06-22 19:51:34.032] [INFO ] Entering username: standard_user
+[2026-06-22 19:51:34.070] [INFO ] Entering password: [REDACTED]
+[2026-06-22 19:51:34.083] [INFO ] Clicking login button
+[2026-06-22 19:51:34.349] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-22 19:51:35.317] [INFO ] Login page navigation complete
+[2026-06-22 19:51:35.351] [INFO ] Login as: 
+[2026-06-22 19:51:35.351] [INFO ] Entering username: 
+[2026-06-22 19:51:35.389] [INFO ] Entering password: [REDACTED]
+[2026-06-22 19:51:35.403] [INFO ] Clicking login button
+[2026-06-22 19:51:35.447] [INFO ] Login error verified: "Epic sadface: Username is required"
+[2026-06-22 19:51:36.382] [INFO ] Login page navigation complete
+[2026-06-22 19:51:36.404] [INFO ] Login as: standard_user
+[2026-06-22 19:51:36.404] [INFO ] Entering username: standard_user
+[2026-06-22 19:51:36.421] [INFO ] Entering password: [REDACTED]
+[2026-06-22 19:51:36.432] [INFO ] Clicking login button
+[2026-06-22 19:51:36.475] [INFO ] Login error verified: "Epic sadface: Password is required"
+[2026-06-22 19:51:37.031] [INFO ] Login page navigation complete
+[2026-06-22 19:51:37.058] [INFO ] Login as: locked_out_user
+[2026-06-22 19:51:37.059] [INFO ] Entering username: locked_out_user
+[2026-06-22 19:51:37.075] [INFO ] Entering password: [REDACTED]
+[2026-06-22 19:51:37.088] [INFO ] Clicking login button
+[2026-06-22 19:51:37.128] [INFO ] Login error verified: "Epic sadface: Sorry, this user has been locked out."
+[2026-06-22 19:51:37.781] [INFO ] Login page navigation complete
+[2026-06-22 19:51:37.814] [INFO ] Login as: standard_user
+[2026-06-22 19:51:37.814] [INFO ] Entering username: standard_user
+[2026-06-22 19:51:37.836] [INFO ] Entering password: [REDACTED]
+[2026-06-22 19:51:37.852] [INFO ] Clicking login button
+[2026-06-22 19:51:37.911] [INFO ] Dashboard loaded and verified ✓
+[2026-06-22 19:51:37.911] [INFO ] Logging out
+[2026-06-22 19:51:37.911] [INFO ] Opening navigation menu
+[2026-06-22 19:52:51.805] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 19:52:51.805] [INFO ]   🚀  Alcon Playwright BDD Test Suite — STARTED
+[2026-06-22 19:52:51.805] [INFO ]       Environment  : qa
+[2026-06-22 19:52:51.806] [INFO ]       Base URL     : https://www.saucedemo.com
+[2026-06-22 19:52:51.806] [INFO ]       Browser      : chromium
+[2026-06-22 19:52:51.806] [INFO ]       Headless     : true
+[2026-06-22 19:52:51.806] [INFO ]       Timeout (ms) : 30000
+[2026-06-22 19:52:51.806] [INFO ]       Workers      : 1
+[2026-06-22 19:52:51.806] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 19:52:51.807] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 19:52:51.807] [INFO ]   🚀  Alcon Playwright BDD Test Suite — STARTED
+[2026-06-22 19:52:51.807] [INFO ]       Environment  : qa
+[2026-06-22 19:52:51.808] [INFO ]       Base URL     : https://www.saucedemo.com
+[2026-06-22 19:52:51.808] [INFO ]       Browser      : chromium
+[2026-06-22 19:52:51.808] [INFO ]       Headless     : true
+[2026-06-22 19:52:51.808] [INFO ]       Timeout (ms) : 30000
+[2026-06-22 19:52:51.808] [INFO ]       Workers      : 1
+[2026-06-22 19:52:51.808] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 19:52:51.821] [INFO ] 
+▶  Scenario : "Configure random lens values and add trial pack to cart"
+[2026-06-22 19:52:51.821] [INFO ]    Tags     : @order, @smoke, @regression
+[2026-06-22 19:53:10.113] [INFO ] Lens selections -> LEFT: {"power":"-7.00","cylinder":"-0.75","axis":"090"} | RIGHT: {"power":"-6.00","cylinder":"-0.75","axis":"090"}
+[2026-06-22 19:53:11.964] [INFO ] ✅  "Configure random lens values and add trial pack to cart" → PASSED  (20143ms)
+[2026-06-22 19:53:12.000] [INFO ] Allure environment.properties written ✓
+[2026-06-22 19:53:12.001] [INFO ] Run "npm run allure:generate" then "npm run allure:open" to view the report.
+[2026-06-22 19:53:12.001] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 19:53:12.001] [INFO ]   ✅  Alcon Playwright BDD Test Suite — COMPLETE
+[2026-06-22 19:53:12.001] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 19:53:12.001] [INFO ] Allure environment.properties written ✓
+[2026-06-22 19:53:12.001] [INFO ] Run "npm run allure:generate" then "npm run allure:open" to view the report.
+[2026-06-22 19:53:12.001] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 19:53:12.002] [INFO ]   ✅  Alcon Playwright BDD Test Suite — COMPLETE
+[2026-06-22 19:53:12.002] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:10:18.688] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:10:18.689] [INFO ]   🚀  Alcon Playwright BDD Test Suite — STARTED
+[2026-06-22 20:10:18.689] [INFO ]       Environment  : qa
+[2026-06-22 20:10:18.689] [INFO ]       Base URL     : https://www.saucedemo.com
+[2026-06-22 20:10:18.689] [INFO ]       Browser      : chromium
+[2026-06-22 20:10:18.689] [INFO ]       Headless     : true
+[2026-06-22 20:10:18.689] [INFO ]       Timeout (ms) : 30000
+[2026-06-22 20:10:18.690] [INFO ]       Workers      : 1
+[2026-06-22 20:10:18.690] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:10:18.688] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:10:18.689] [INFO ]   🚀  Alcon Playwright BDD Test Suite — STARTED
+[2026-06-22 20:10:18.689] [INFO ]       Environment  : qa
+[2026-06-22 20:10:18.689] [INFO ]       Base URL     : https://www.saucedemo.com
+[2026-06-22 20:10:18.689] [INFO ]       Browser      : chromium
+[2026-06-22 20:10:18.689] [INFO ]       Headless     : true
+[2026-06-22 20:10:18.689] [INFO ]       Timeout (ms) : 30000
+[2026-06-22 20:10:18.690] [INFO ]       Workers      : 1
+[2026-06-22 20:10:18.690] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:10:18.704] [INFO ] 
+▶  Scenario : "Configure random lens values and add trial pack to cart"
+[2026-06-22 20:10:18.704] [INFO ]    Tags     : @order, @smoke, @regression
+[2026-06-22 20:10:38.532] [INFO ] Lens selections -> LEFT: {"power":"-5.00","cylinder":"-1.25","axis":"090"} | RIGHT: {"power":"-4.50","cylinder":"-1.25","axis":"160"}
+[2026-06-22 20:10:40.912] [INFO ] ✅  "Configure random lens values and add trial pack to cart" → PASSED  (22209ms)
+[2026-06-22 20:10:40.955] [INFO ] Allure environment.properties written ✓
+[2026-06-22 20:10:40.955] [INFO ] Allure environment.properties written ✓
+[2026-06-22 20:10:40.955] [INFO ] Run "npm run allure:generate" then "npm run allure:open" to view the report.
+[2026-06-22 20:10:40.955] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:10:40.955] [INFO ]   ✅  Alcon Playwright BDD Test Suite — COMPLETE
+[2026-06-22 20:10:40.955] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:10:40.955] [INFO ] Run "npm run allure:generate" then "npm run allure:open" to view the report.
+[2026-06-22 20:10:40.955] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:10:40.955] [INFO ]   ✅  Alcon Playwright BDD Test Suite — COMPLETE
+[2026-06-22 20:10:40.955] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:20:58.325] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:20:58.326] [INFO ]   🚀  Alcon Playwright BDD Test Suite — STARTED
+[2026-06-22 20:20:58.326] [INFO ]       Environment  : qa
+[2026-06-22 20:20:58.326] [INFO ]       Base URL     : https://www.saucedemo.com
+[2026-06-22 20:20:58.326] [INFO ]       Browser      : chromium
+[2026-06-22 20:20:58.326] [INFO ]       Headless     : true
+[2026-06-22 20:20:58.326] [INFO ]       Timeout (ms) : 30000
+[2026-06-22 20:20:58.327] [INFO ]       Workers      : 1
+[2026-06-22 20:20:58.327] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:20:58.325] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:20:58.326] [INFO ]   🚀  Alcon Playwright BDD Test Suite — STARTED
+[2026-06-22 20:20:58.326] [INFO ]       Environment  : qa
+[2026-06-22 20:20:58.326] [INFO ]       Base URL     : https://www.saucedemo.com
+[2026-06-22 20:20:58.327] [INFO ]       Browser      : chromium
+[2026-06-22 20:20:58.327] [INFO ]       Headless     : true
+[2026-06-22 20:20:58.327] [INFO ]       Timeout (ms) : 30000
+[2026-06-22 20:20:58.327] [INFO ]       Workers      : 1
+[2026-06-22 20:20:58.327] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:20:58.342] [INFO ] 
+▶  Scenario : "Configure random lens values and add trial pack to cart"
+[2026-06-22 20:20:58.343] [INFO ]    Tags     : @order, @smoke, @regression
+[2026-06-22 20:20:58.343] [INFO ] 📍 SETUP: Launching chromium browser
+[2026-06-22 20:20:58.539] [INFO ] 📍 SETUP: Creating browser context
+[2026-06-22 20:20:58.546] [INFO ] 📍 SETUP: Creating new page
+[2026-06-22 20:21:17.244] [INFO ] Lens selections -> LEFT: {"power":"-7.00","cylinder":"-0.75","axis":"160"} | RIGHT: {"power":"-5.50","cylinder":"-1.75","axis":"020"}
+[2026-06-22 20:21:19.587] [INFO ] ✅  "Configure random lens values and add trial pack to cart" → PASSED  (21244ms)
+[2026-06-22 20:21:19.588] [INFO ] 📍 TEARDOWN: Closing browser
+[2026-06-22 20:21:19.620] [INFO ] Allure environment.properties written ✓
+[2026-06-22 20:21:19.621] [INFO ] Allure environment.properties written ✓
+[2026-06-22 20:21:19.621] [INFO ] Run "npm run allure:generate" then "npm run allure:open" to view the report.
+[2026-06-22 20:21:19.621] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:21:19.621] [INFO ]   ✅  Alcon Playwright BDD Test Suite — COMPLETE
+[2026-06-22 20:21:19.621] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:21:19.621] [INFO ] Run "npm run allure:generate" then "npm run allure:open" to view the report.
+[2026-06-22 20:21:19.621] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:21:19.621] [INFO ]   ✅  Alcon Playwright BDD Test Suite — COMPLETE
+[2026-06-22 20:21:19.621] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:37:51.138] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:37:51.138] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:37:51.138] [INFO ]   🚀  Alcon Playwright BDD Test Suite — STARTED
+[2026-06-22 20:37:51.139] [INFO ]       Environment  : qa
+[2026-06-22 20:37:51.139] [INFO ]       Base URL     : https://www.saucedemo.com
+[2026-06-22 20:37:51.139] [INFO ]       Browser      : chromium
+[2026-06-22 20:37:51.139] [INFO ]       Headless     : true
+[2026-06-22 20:37:51.139] [INFO ]       Timeout (ms) : 30000
+[2026-06-22 20:37:51.140] [INFO ]       Workers      : 1
+[2026-06-22 20:37:51.140] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:37:51.139] [INFO ]   🚀  Alcon Playwright BDD Test Suite — STARTED
+[2026-06-22 20:37:51.139] [INFO ]       Environment  : qa
+[2026-06-22 20:37:51.140] [INFO ]       Base URL     : https://www.saucedemo.com
+[2026-06-22 20:37:51.140] [INFO ]       Browser      : chromium
+[2026-06-22 20:37:51.140] [INFO ]       Headless     : true
+[2026-06-22 20:37:51.140] [INFO ]       Timeout (ms) : 30000
+[2026-06-22 20:37:51.141] [INFO ]       Workers      : 1
+[2026-06-22 20:37:51.141] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:37:51.153] [INFO ] 
+▶  Scenario : "Configure random lens values and add trial pack to cart"
+[2026-06-22 20:37:51.154] [INFO ]    Tags     : @order, @smoke, @regression
+[2026-06-22 20:37:51.154] [INFO ] 📍 SETUP: Launching chromium browser
+[2026-06-22 20:37:51.358] [INFO ] 📍 SETUP: Creating browser context
+[2026-06-22 20:37:51.365] [INFO ] 📍 SETUP: Creating new page
+[2026-06-22 20:38:11.821] [INFO ] Lens selections -> LEFT: {"power":"-6.50","cylinder":"-1.75","axis":"020"} | RIGHT: {"power":"-5.75","cylinder":"-1.75","axis":"160"}
+[2026-06-22 20:38:14.194] [INFO ] ✅  "Configure random lens values and add trial pack to cart" → PASSED  (23041ms)
+[2026-06-22 20:38:14.195] [INFO ] 📍 TEARDOWN: Closing browser
+[2026-06-22 20:38:14.238] [INFO ] Allure environment.properties written ✓
+[2026-06-22 20:38:14.238] [INFO ] Allure environment.properties written ✓
+[2026-06-22 20:38:14.238] [INFO ] Run "npm run allure:generate" then "npm run allure:open" to view the report.
+[2026-06-22 20:38:14.238] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:38:14.238] [INFO ]   ✅  Alcon Playwright BDD Test Suite — COMPLETE
+[2026-06-22 20:38:14.238] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:38:14.238] [INFO ] Run "npm run allure:generate" then "npm run allure:open" to view the report.
+[2026-06-22 20:38:14.238] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:38:14.238] [INFO ]   ✅  Alcon Playwright BDD Test Suite — COMPLETE
+[2026-06-22 20:38:14.239] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:38:20.037] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:38:20.038] [INFO ]   🚀  Alcon Playwright BDD Test Suite — STARTED
+[2026-06-22 20:38:20.038] [INFO ]       Environment  : qa
+[2026-06-22 20:38:20.038] [INFO ]       Base URL     : https://qa.nonprod-store.myalcon.com/jp
+[2026-06-22 20:38:20.038] [INFO ]       Browser      : chromium
+[2026-06-22 20:38:20.038] [INFO ]       Headless     : true
+[2026-06-22 20:38:20.039] [INFO ]       Timeout (ms) : 30000
+[2026-06-22 20:38:20.039] [INFO ]       Workers      : 1
+[2026-06-22 20:38:20.039] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:38:20.037] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:38:20.038] [INFO ]   🚀  Alcon Playwright BDD Test Suite — STARTED
+[2026-06-22 20:38:20.038] [INFO ]       Environment  : qa
+[2026-06-22 20:38:20.038] [INFO ]       Base URL     : https://qa.nonprod-store.myalcon.com/jp
+[2026-06-22 20:38:20.039] [INFO ]       Browser      : chromium
+[2026-06-22 20:38:20.039] [INFO ]       Headless     : true
+[2026-06-22 20:38:20.039] [INFO ]       Timeout (ms) : 30000
+[2026-06-22 20:38:20.039] [INFO ]       Workers      : 1
+[2026-06-22 20:38:20.039] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:38:20.051] [INFO ] 
+▶  Scenario : "Configure random lens values and add trial pack to cart"
+[2026-06-22 20:38:20.051] [INFO ]    Tags     : @order, @smoke, @regression
+[2026-06-22 20:38:20.052] [INFO ] 📍 SETUP: Launching chromium browser
+[2026-06-22 20:38:20.150] [INFO ] 📍 SETUP: Creating browser context
+[2026-06-22 20:38:20.155] [INFO ] 📍 SETUP: Creating new page
+[2026-06-22 20:38:41.068] [INFO ] Lens selections -> LEFT: {"power":"-8.00","cylinder":"-0.75","axis":"160"} | RIGHT: {"power":"-7.50","cylinder":"-2.25","axis":"160"}
+[2026-06-22 20:38:43.957] [INFO ] ✅  "Configure random lens values and add trial pack to cart" → PASSED  (23906ms)
+[2026-06-22 20:38:43.958] [INFO ] 📍 TEARDOWN: Closing browser
+[2026-06-22 20:38:44.004] [INFO ] Allure environment.properties written ✓
+[2026-06-22 20:38:44.004] [INFO ] Run "npm run allure:generate" then "npm run allure:open" to view the report.
+[2026-06-22 20:38:44.004] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:38:44.004] [INFO ]   ✅  Alcon Playwright BDD Test Suite — COMPLETE
+[2026-06-22 20:38:44.004] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:38:44.004] [INFO ] Allure environment.properties written ✓
+[2026-06-22 20:38:44.004] [INFO ] Run "npm run allure:generate" then "npm run allure:open" to view the report.
+[2026-06-22 20:38:44.005] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:38:44.005] [INFO ]   ✅  Alcon Playwright BDD Test Suite — COMPLETE
+[2026-06-22 20:38:44.005] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:41:24.000] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:41:24.000] [INFO ]   🚀  Alcon Playwright BDD Test Suite — STARTED
+[2026-06-22 20:41:24.000] [INFO ]       Environment  : qa
+[2026-06-22 20:41:24.000] [INFO ]       Base URL     : https://qa.nonprod-store.myalcon.com/jp
+[2026-06-22 20:41:24.001] [INFO ]       Browser      : chromium
+[2026-06-22 20:41:24.001] [INFO ]       Headless     : false
+[2026-06-22 20:41:24.001] [INFO ]       Timeout (ms) : 30000
+[2026-06-22 20:41:24.001] [INFO ]       Workers      : 1
+[2026-06-22 20:41:24.001] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:41:24.001] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:41:24.002] [INFO ]   🚀  Alcon Playwright BDD Test Suite — STARTED
+[2026-06-22 20:41:24.002] [INFO ]       Environment  : qa
+[2026-06-22 20:41:24.002] [INFO ]       Base URL     : https://qa.nonprod-store.myalcon.com/jp
+[2026-06-22 20:41:24.003] [INFO ]       Browser      : chromium
+[2026-06-22 20:41:24.003] [INFO ]       Headless     : false
+[2026-06-22 20:41:24.003] [INFO ]       Timeout (ms) : 30000
+[2026-06-22 20:41:24.003] [INFO ]       Workers      : 1
+[2026-06-22 20:41:24.003] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:41:24.017] [INFO ] 
+▶  Scenario : "Configure random lens values and add trial pack to cart"
+[2026-06-22 20:41:24.017] [INFO ]    Tags     : @order, @smoke, @regression
+[2026-06-22 20:41:24.018] [INFO ] 📍 SETUP: Launching chromium browser
+[2026-06-22 20:41:24.717] [INFO ] 📍 SETUP: Creating browser context
+[2026-06-22 20:41:24.753] [INFO ] 📍 SETUP: Creating new page
+[2026-06-22 20:41:44.493] [INFO ] Lens selections -> LEFT: {"power":"-4.50","cylinder":"-2.25","axis":"180"} | RIGHT: {"power":"-5.25","cylinder":"-0.75","axis":"180"}
+[2026-06-22 20:41:47.004] [INFO ] ✅  "Configure random lens values and add trial pack to cart" → PASSED  (22987ms)
+[2026-06-22 20:41:47.005] [INFO ] 📍 TEARDOWN: Closing browser
+[2026-06-22 20:41:47.232] [INFO ] Allure environment.properties written ✓
+[2026-06-22 20:41:47.232] [INFO ] Run "npm run allure:generate" then "npm run allure:open" to view the report.
+[2026-06-22 20:41:47.232] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:41:47.232] [INFO ]   ✅  Alcon Playwright BDD Test Suite — COMPLETE
+[2026-06-22 20:41:47.232] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:41:47.232] [INFO ] Allure environment.properties written ✓
+[2026-06-22 20:41:47.233] [INFO ] Run "npm run allure:generate" then "npm run allure:open" to view the report.
+[2026-06-22 20:41:47.233] [INFO ] ══════════════════════════════════════════════════
+[2026-06-22 20:41:47.233] [INFO ]   ✅  Alcon Playwright BDD Test Suite — COMPLETE
+[2026-06-22 20:41:47.233] [INFO ] ══════════════════════════════════════════════════
