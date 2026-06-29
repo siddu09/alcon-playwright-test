@@ -1,0 +1,41 @@
+- generic [ref=e3]:
+  - generic [ref=e6]:
+    - img "Logo" [ref=e9] [cursor=pointer]
+    - generic [ref=e12]:
+      - combobox [ref=e13] [cursor=pointer]:
+        - generic [ref=e14]:
+          - paragraph [ref=e16]: DEV
+          - generic [ref=e17]: "|"
+          - paragraph [ref=e19]: English
+      - textbox: en
+      - img
+      - group
+  - paragraph [ref=e22]:
+    - progressbar [ref=e23]:
+      - img [ref=e24]
+  - generic [ref=e27]:
+    - generic [ref=e28]:
+      - img "Alcon logo" [ref=e29] [cursor=pointer]:
+        - img "Logo" [ref=e30]
+      - paragraph [ref=e31]: © 2026 Alcon Inc.
+    - list [ref=e32]:
+      - listitem [ref=e33]:
+        - link "Privacy Notice" [ref=e34] [cursor=pointer]:
+          - /url: https://preferences.myalcon.com/privacy-notice/?hidebanner=true
+          - paragraph [ref=e35]: Privacy
+      - listitem [ref=e36]:
+        - link "Cookie Notice" [ref=e37] [cursor=pointer]:
+          - /url: https://preferences.myalcon.com/cookie-notice?hidebanner=true
+          - paragraph [ref=e38]: Cookie Notice
+      - listitem [ref=e39]:
+        - link "About Alcon" [ref=e40] [cursor=pointer]:
+          - /url: https://www.alcon.co.jp/about-us
+          - paragraph [ref=e41]: About
+      - listitem [ref=e42]:
+        - link "Exercise your rights" [ref=e43] [cursor=pointer]:
+          - /url: https://preferences.myalcon.com/exercise-my-rights/?hidebanner=true
+          - paragraph [ref=e44]: Exercise your rights
+      - listitem [ref=e45]:
+        - link "Terms & Conditions" [ref=e46] [cursor=pointer]:
+          - /url: /terms-and-conditions?market=jp&locale=en
+          - paragraph [ref=e47]: Terms & Conditions

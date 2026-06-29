@@ -1,0 +1,42 @@
+- generic [ref=e1]:
+  - main [ref=e16]:
+    - heading "MyAlcon ID logo logo" [level=1] [ref=e18]:
+      - img "MyAlcon ID logo logo" [ref=e19]
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - heading "Log in with your MyAlcon ID" [level=2] [ref=e26]:
+          - text: Log in with your
+          - text: MyAlcon ID
+        - alert [ref=e53]:
+          - alert [ref=e55]:
+            - generic: 
+            - paragraph [ref=e56]: We found some errors. Please review the form and make corrections.
+        - generic [ref=e27]:
+          - generic [ref=e30]:
+            - textbox "Email Address" [invalid] [ref=e32]:
+              - /placeholder: "Email Address "
+            - alert [ref=e57]:
+              - img "Error": 
+              - text: This field cannot be left blank
+          - text:  
+          - generic [ref=e36]:
+            - textbox "Password" [ref=e37]:
+              - /placeholder: "Password "
+              - text: marloint.test+b2b2cnewuser@alconlabs.comBangalore##88
+            - generic:
+              - generic [ref=e38] [cursor=pointer]: 
+              - text: 
+          - generic [ref=e42]:
+            - checkbox [ref=e43]
+            - link "Forgot password?" [ref=e44] [cursor=pointer]:
+              - /url: "#"
+            - link "Help" [ref=e45] [cursor=pointer]:
+              - /url: https://www.myalcon.com/international/professional/myalconid/faqs
+      - button "Log In" [active] [ref=e47] [cursor=pointer]
+  - contentinfo [ref=e13]:
+    - generic [ref=e49]:
+      - link "Privacy notices" [ref=e50] [cursor=pointer]:
+        - /url: https://preferences.myalcon.com/privacy-notice/?hidebanner=true
+      - link "Terms of use" [ref=e51] [cursor=pointer]:
+        - /url: https://www.alcon.com/terms-use
+      - generic [ref=e52]: ©2026 Alcon Inc.

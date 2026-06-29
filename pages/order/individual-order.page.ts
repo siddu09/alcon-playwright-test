@@ -73,6 +73,10 @@ export class IndividualOrderPage extends BasePage {
     await expect(this.page).toHaveURL(/\/mas|\/individual-order/);
   }
 
+  async assertMasLandingUrl(): Promise<void> {
+    await expect(this.page).toHaveURL('https://qa.nonprod-store.myalcon.com/mas');
+  }
+
   async openNewOrder(): Promise<void> {
     if (await this.newOrderNavButton.isVisible().catch(() => false)) {
       await this.click(this.newOrderNavButton);

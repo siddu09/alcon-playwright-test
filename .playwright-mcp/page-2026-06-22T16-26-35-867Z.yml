@@ -1,0 +1,92 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - img "Logo" [ref=e9] [cursor=pointer]
+      - generic [ref=e208]:
+        - combobox [ref=e209] [cursor=pointer]:
+          - generic [ref=e210]:
+            - paragraph [ref=e212]: JA
+            - generic [ref=e213]: "|"
+            - paragraph [ref=e215]: 日本語
+        - textbox: ja-JP
+        - img
+        - group
+    - generic [ref=e218]:
+      - generic [ref=e219]:
+        - generic [ref=e222]:
+          - heading "ようこそ！ MARLÖへ" [level=1] [ref=e223]
+          - generic [ref=e224]: MARLOをはじめましょう！
+          - button "ログイン" [ref=e225] [cursor=pointer]:
+            - paragraph [ref=e226]: ログイン
+          - button "ユーザーの方はこちらをクリックしてください" [ref=e227] [cursor=pointer]:
+            - paragraph [ref=e228]: ユーザーの方はこちらをクリックしてください
+            - img [ref=e230]
+        - generic [ref=e235]:
+          - heading "ご不明点はお問い合わせください。" [level=2] [ref=e236]
+          - paragraph [ref=e237]: "お問い合わせ先：:"
+          - generic [ref=e239]:
+            - paragraph [ref=e240]: MARLOお客様サポート
+            - paragraph [ref=e241]: 0800-100-1487
+            - paragraph [ref=e242]: qa-MAS-Customer_support@yopmail.com
+      - generic [ref=e243]:
+        - img "定期検査" [ref=e245]
+        - generic [ref=e247]:
+          - heading "Vision Care MARLÖ" [level=2] [ref=e248]:
+            - strong [ref=e249]: Vision Care
+            - text: MARLÖ
+          - list [ref=e250]:
+            - listitem [ref=e251]:
+              - generic [ref=e252]:
+                - img [ref=e254]
+                - paragraph [ref=e257]: コンタクトレンズ、レンズケア製品のご注文
+            - listitem [ref=e258]:
+              - generic [ref=e259]:
+                - img [ref=e261]
+                - paragraph [ref=e264]: 注文管理
+            - listitem [ref=e265]:
+              - generic [ref=e266]:
+                - img [ref=e268]
+                - paragraph [ref=e271]: ユーザー管理
+            - listitem [ref=e272]:
+              - generic [ref=e273]:
+                - img [ref=e275]
+                - paragraph [ref=e278]: アカウント情報の管理
+    - generic [ref=e187]:
+      - generic [ref=e188]:
+        - img "Alconロゴ" [ref=e279] [cursor=pointer]:
+          - img "Logo" [ref=e190]
+        - paragraph [ref=e191]: © 2026 Alcon Inc.
+      - list [ref=e192]:
+        - listitem [ref=e280]:
+          - link "プライバシー通知" [ref=e281] [cursor=pointer]:
+            - /url: https://preferences.myalcon.com/privacy-notice/?hidebanner=true
+            - paragraph [ref=e282]: プライバシー
+        - listitem [ref=e283]:
+          - link "クッキー通知" [ref=e284] [cursor=pointer]:
+            - /url: https://preferences.myalcon.com/cookie-notice?hidebanner=true
+            - paragraph [ref=e285]: クッキーについて
+        - listitem [ref=e286]:
+          - link "アルコンについて" [ref=e287] [cursor=pointer]:
+            - /url: https://www.alcon.co.jp/about-us
+            - paragraph [ref=e288]: 会社紹介
+        - listitem [ref=e289]:
+          - link "権利の行使" [ref=e290] [cursor=pointer]:
+            - /url: https://preferences.myalcon.com/exercise-my-rights/?hidebanner=true
+            - paragraph [ref=e291]: 権利の行使
+        - listitem [ref=e193]:
+          - link "利用規約" [ref=e292] [cursor=pointer]:
+            - /url: /terms-and-conditions?market=jp&locale=ja-JP
+            - paragraph [ref=e195]: 利用規約
+  - generic:
+    - region "Cookie banner" [ref=e196]:
+      - dialog "Privacy" [ref=e197]:
+        - generic [ref=e198]:
+          - generic [ref=e200]:
+            - text: By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+            - link "Legal Information, opens in a new tab" [ref=e201] [cursor=pointer]:
+              - /url: https://preferences.myalcon.com/privacy-notice/?hidebanner=true
+              - text: Privacy Notices
+          - generic [ref=e203]:
+            - button "Cookies Settings, Opens the preference center dialog" [ref=e204] [cursor=pointer]: Cookies Settings
+            - button "Accept All Cookies" [ref=e206] [cursor=pointer]
+    - text: Cookies Settings

@@ -1,0 +1,467 @@
+[2026-06-29 10:38:46.797] [INFO ] ══════════════════════════════════════════════════
+[2026-06-29 10:38:46.797] [INFO ]   🚀  Alcon Playwright BDD Test Suite — STARTED
+[2026-06-29 10:38:46.798] [INFO ]       Environment  : qa
+[2026-06-29 10:38:46.798] [INFO ]       Base URL     : https://www.saucedemo.com
+[2026-06-29 10:38:46.798] [INFO ]       Browser      : chromium
+[2026-06-29 10:38:46.798] [INFO ]       Headless     : false
+[2026-06-29 10:38:46.798] [INFO ]       Timeout (ms) : 30000
+[2026-06-29 10:38:46.798] [INFO ]       Workers      : 1
+[2026-06-29 10:38:46.799] [INFO ] ══════════════════════════════════════════════════
+[2026-06-29 10:38:46.800] [INFO ] ══════════════════════════════════════════════════
+[2026-06-29 10:38:46.808] [INFO ]   🚀  Alcon Playwright BDD Test Suite — STARTED
+[2026-06-29 10:38:46.808] [INFO ]       Environment  : qa
+[2026-06-29 10:38:46.809] [INFO ]       Base URL     : https://www.saucedemo.com
+[2026-06-29 10:38:46.809] [INFO ]       Browser      : chromium
+[2026-06-29 10:38:46.809] [INFO ]       Headless     : false
+[2026-06-29 10:38:46.809] [INFO ]       Timeout (ms) : 30000
+[2026-06-29 10:38:46.809] [INFO ]       Workers      : 1
+[2026-06-29 10:38:46.820] [INFO ] ══════════════════════════════════════════════════
+[2026-06-29 10:38:46.847] [INFO ] 
+▶  Scenario : "Configure random lens values and add trial pack to cart"
+[2026-06-29 10:38:46.847] [INFO ]    Tags     : @order, @smoke, @regression
+[2026-06-29 10:38:46.847] [INFO ] 📍 SETUP: Launching chromium browser
+[2026-06-29 10:38:47.494] [INFO ] 📍 SETUP: Creating browser context
+[2026-06-29 10:38:47.533] [INFO ] 📍 SETUP: Creating new page
+[2026-06-29 10:39:11.834] [INFO ] Lens selections -> LEFT: {"power":"-7.50","cylinder":"-1.25","axis":"090"} | RIGHT: {"power":"-5.00","cylinder":"-0.75","axis":"090"}
+[2026-06-29 10:39:14.210] [INFO ] ✅  "Configure random lens values and add trial pack to cart" → PASSED  (27363ms)
+[2026-06-29 10:39:14.211] [INFO ] 📍 TEARDOWN: Closing browser
+[2026-06-29 10:39:14.351] [INFO ] Allure environment.properties written ✓
+[2026-06-29 10:39:14.351] [INFO ] Allure environment.properties written ✓
+[2026-06-29 10:39:14.351] [INFO ] Run "npm run allure:generate" then "npm run allure:open" to view the report.
+[2026-06-29 10:39:14.351] [INFO ] ══════════════════════════════════════════════════
+[2026-06-29 10:39:14.351] [INFO ]   ✅  Alcon Playwright BDD Test Suite — COMPLETE
+[2026-06-29 10:39:14.351] [INFO ] ══════════════════════════════════════════════════
+[2026-06-29 10:39:14.351] [INFO ] Run "npm run allure:generate" then "npm run allure:open" to view the report.
+[2026-06-29 10:39:14.351] [INFO ] ══════════════════════════════════════════════════
+[2026-06-29 10:39:14.352] [INFO ]   ✅  Alcon Playwright BDD Test Suite — COMPLETE
+[2026-06-29 10:39:14.352] [INFO ] ══════════════════════════════════════════════════
+[2026-06-29 10:41:40.485] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:41:40.485] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:41:40.875] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:41:40.996] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:41:42.819] [INFO ] Login page navigation complete
+[2026-06-29 10:41:42.857] [INFO ] Login as: standard_user
+[2026-06-29 10:41:42.857] [INFO ] Entering username: standard_user
+[2026-06-29 10:41:42.892] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:41:42.915] [INFO ] Clicking login button
+[2026-06-29 10:41:42.998] [INFO ] Login page navigation complete
+[2026-06-29 10:41:43.001] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:41:43.017] [INFO ] Login as: invalid_user
+[2026-06-29 10:41:43.018] [INFO ] Entering username: invalid_user
+[2026-06-29 10:41:43.043] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:41:43.065] [INFO ] Login page navigation complete
+[2026-06-29 10:41:43.067] [INFO ] Clicking login button
+[2026-06-29 10:41:43.080] [INFO ] Login as: 
+[2026-06-29 10:41:43.080] [INFO ] Entering username: 
+[2026-06-29 10:41:43.094] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:41:43.108] [INFO ] Login error verified: "Epic sadface: Username and password do not match any user in this service"
+[2026-06-29 10:41:43.109] [INFO ] Login page navigation complete
+[2026-06-29 10:41:43.125] [INFO ] Clicking login button
+[2026-06-29 10:41:43.135] [INFO ] Login as: standard_user
+[2026-06-29 10:41:43.136] [INFO ] Entering username: standard_user
+[2026-06-29 10:41:43.162] [INFO ] Login error verified: "Epic sadface: Username is required"
+[2026-06-29 10:41:43.175] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:41:43.175] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:41:43.202] [INFO ] Clicking login button
+[2026-06-29 10:41:43.226] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:41:43.253] [INFO ] Dashboard loaded and verified ✓
+[2026-06-29 10:41:45.229] [INFO ] Login page navigation complete
+[2026-06-29 10:41:45.244] [INFO ] Login as: locked_out_user
+[2026-06-29 10:41:45.244] [INFO ] Entering username: locked_out_user
+[2026-06-29 10:41:45.258] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:41:45.290] [INFO ] Clicking login button
+[2026-06-29 10:41:45.295] [INFO ] Login page navigation complete
+[2026-06-29 10:41:45.315] [INFO ] Login as: standard_user
+[2026-06-29 10:41:45.316] [INFO ] Entering username: standard_user
+[2026-06-29 10:41:45.332] [INFO ] Login error verified: "Epic sadface: Sorry, this user has been locked out."
+[2026-06-29 10:41:45.334] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:41:45.349] [INFO ] Login page navigation complete
+[2026-06-29 10:41:45.364] [INFO ] Clicking login button
+[2026-06-29 10:41:45.365] [INFO ] Login as: standard_user
+[2026-06-29 10:41:45.365] [INFO ] Entering username: standard_user
+[2026-06-29 10:41:45.383] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:41:45.413] [INFO ] Clicking login button
+[2026-06-29 10:41:45.414] [INFO ] Dashboard loaded and verified ✓
+[2026-06-29 10:41:45.414] [INFO ] Logging out
+[2026-06-29 10:41:45.414] [INFO ] Opening navigation menu
+[2026-06-29 10:41:45.447] [INFO ] Login error verified: "Epic sadface: Password is required"
+[2026-06-29 10:41:45.643] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:41:47.461] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:41:47.664] [INFO ] Login page navigation complete
+[2026-06-29 10:41:47.694] [INFO ] Login as: standard_user
+[2026-06-29 10:41:47.695] [INFO ] Entering username: standard_user
+[2026-06-29 10:41:47.731] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:41:47.759] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:41:47.789] [INFO ] Clicking login button
+[2026-06-29 10:41:47.983] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:41:48.058] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:41:49.603] [INFO ] Login page navigation complete
+[2026-06-29 10:41:49.644] [INFO ] Login as: standard_user
+[2026-06-29 10:41:49.644] [INFO ] Entering username: standard_user
+[2026-06-29 10:41:49.676] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:41:49.690] [INFO ] Clicking login button
+[2026-06-29 10:41:49.749] [INFO ] Dashboard loaded and verified ✓
+[2026-06-29 10:41:49.777] [INFO ] Login page navigation complete
+[2026-06-29 10:41:49.797] [INFO ] Login as: 
+[2026-06-29 10:41:49.797] [INFO ] Entering username: 
+[2026-06-29 10:41:49.815] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:41:49.831] [INFO ] Clicking login button
+[2026-06-29 10:41:49.871] [INFO ] Login error verified: "Epic sadface: Username is required"
+[2026-06-29 10:41:49.921] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:41:49.979] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:41:50.207] [INFO ] Login page navigation complete
+[2026-06-29 10:41:50.223] [INFO ] Login as: standard_user
+[2026-06-29 10:41:50.223] [INFO ] Entering username: standard_user
+[2026-06-29 10:41:50.239] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:41:50.254] [INFO ] Clicking login button
+[2026-06-29 10:41:50.284] [INFO ] Login error verified: "Epic sadface: Password is required"
+[2026-06-29 10:41:50.291] [INFO ] Login page navigation complete
+[2026-06-29 10:41:50.320] [INFO ] Login as: invalid_user
+[2026-06-29 10:41:50.320] [INFO ] Entering username: invalid_user
+[2026-06-29 10:41:50.354] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:41:50.373] [INFO ] Clicking login button
+[2026-06-29 10:41:50.417] [INFO ] Login error verified: "Epic sadface: Username and password do not match any user in this service"
+[2026-06-29 10:41:51.912] [INFO ] Login page navigation complete
+[2026-06-29 10:41:51.940] [INFO ] Login as: locked_out_user
+[2026-06-29 10:41:51.940] [INFO ] Entering username: locked_out_user
+[2026-06-29 10:41:51.945] [INFO ] Login page navigation complete
+[2026-06-29 10:41:51.978] [INFO ] Login as: standard_user
+[2026-06-29 10:41:51.978] [INFO ] Entering username: standard_user
+[2026-06-29 10:41:51.989] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:41:52.038] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:41:52.042] [INFO ] Clicking login button
+[2026-06-29 10:41:52.058] [INFO ] Clicking login button
+[2026-06-29 10:41:52.113] [INFO ] Login error verified: "Epic sadface: Sorry, this user has been locked out."
+[2026-06-29 10:41:52.138] [INFO ] Dashboard loaded and verified ✓
+[2026-06-29 10:41:52.138] [INFO ] Logging out
+[2026-06-29 10:41:52.138] [INFO ] Opening navigation menu
+[2026-06-29 10:41:52.276] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:41:52.439] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:41:53.124] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:41:54.033] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:41:54.633] [INFO ] Login page navigation complete
+[2026-06-29 10:41:54.664] [INFO ] Login as: standard_user
+[2026-06-29 10:41:54.664] [INFO ] Entering username: standard_user
+[2026-06-29 10:41:54.704] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:41:54.714] [INFO ] Clicking login button
+[2026-06-29 10:41:54.771] [INFO ] Dashboard loaded and verified ✓
+[2026-06-29 10:41:54.781] [INFO ] Login page navigation complete
+[2026-06-29 10:41:54.802] [INFO ] Login as: invalid_user
+[2026-06-29 10:41:54.802] [INFO ] Entering username: invalid_user
+[2026-06-29 10:41:54.834] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:41:54.849] [INFO ] Clicking login button
+[2026-06-29 10:41:54.901] [INFO ] Login error verified: "Epic sadface: Username and password do not match any user in this service"
+[2026-06-29 10:41:54.964] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:41:55.083] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:41:55.514] [INFO ] Login page navigation complete
+[2026-06-29 10:41:55.540] [INFO ] Login as: standard_user
+[2026-06-29 10:41:55.540] [INFO ] Entering username: standard_user
+[2026-06-29 10:41:55.575] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:41:55.588] [INFO ] Clicking login button
+[2026-06-29 10:41:55.844] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:41:56.442] [INFO ] Login page navigation complete
+[2026-06-29 10:41:56.467] [INFO ] Login as: 
+[2026-06-29 10:41:56.468] [INFO ] Entering username: 
+[2026-06-29 10:41:56.487] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:41:56.515] [INFO ] Clicking login button
+[2026-06-29 10:41:56.564] [INFO ] Login error verified: "Epic sadface: Username is required"
+[2026-06-29 10:42:06.041] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:42:06.041] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:42:06.791] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:42:07.171] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:42:08.250] [INFO ] Login page navigation complete
+[2026-06-29 10:42:08.253] [INFO ] Login page navigation complete
+[2026-06-29 10:42:08.287] [INFO ] Login as: standard_user
+[2026-06-29 10:42:08.287] [INFO ] Login as: standard_user
+[2026-06-29 10:42:08.287] [INFO ] Entering username: standard_user
+[2026-06-29 10:42:08.287] [INFO ] Entering username: standard_user
+[2026-06-29 10:42:08.318] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:42:08.318] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:42:08.350] [INFO ] Clicking login button
+[2026-06-29 10:42:08.350] [INFO ] Clicking login button
+[2026-06-29 10:42:08.420] [INFO ] Dashboard loaded and verified ✓
+[2026-06-29 10:42:08.543] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:42:08.807] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:42:08.952] [INFO ] Login page navigation complete
+[2026-06-29 10:42:08.971] [INFO ] Login as: invalid_user
+[2026-06-29 10:42:08.971] [INFO ] Entering username: invalid_user
+[2026-06-29 10:42:08.991] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:42:09.006] [INFO ] Clicking login button
+[2026-06-29 10:42:09.045] [INFO ] Login error verified: "Epic sadface: Username and password do not match any user in this service"
+[2026-06-29 10:42:09.172] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:42:09.341] [INFO ] Login page navigation complete
+[2026-06-29 10:42:09.357] [INFO ] Login as: 
+[2026-06-29 10:42:09.358] [INFO ] Entering username: 
+[2026-06-29 10:42:09.375] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:42:09.403] [INFO ] Clicking login button
+[2026-06-29 10:42:09.430] [INFO ] Login error verified: "Epic sadface: Username is required"
+[2026-06-29 10:42:10.713] [INFO ] Login page navigation complete
+[2026-06-29 10:42:10.726] [INFO ] Login as: locked_out_user
+[2026-06-29 10:42:10.726] [INFO ] Entering username: locked_out_user
+[2026-06-29 10:42:10.747] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:42:10.758] [INFO ] Clicking login button
+[2026-06-29 10:42:10.789] [INFO ] Login error verified: "Epic sadface: Sorry, this user has been locked out."
+[2026-06-29 10:42:10.991] [INFO ] Login page navigation complete
+[2026-06-29 10:42:11.004] [INFO ] Login as: standard_user
+[2026-06-29 10:42:11.004] [INFO ] Entering username: standard_user
+[2026-06-29 10:42:11.017] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:42:11.033] [INFO ] Clicking login button
+[2026-06-29 10:42:11.065] [INFO ] Login error verified: "Epic sadface: Password is required"
+[2026-06-29 10:42:11.357] [INFO ] Login page navigation complete
+[2026-06-29 10:42:11.378] [INFO ] Login as: standard_user
+[2026-06-29 10:42:11.378] [INFO ] Entering username: standard_user
+[2026-06-29 10:42:11.407] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:42:11.424] [INFO ] Clicking login button
+[2026-06-29 10:42:11.489] [INFO ] Dashboard loaded and verified ✓
+[2026-06-29 10:42:11.489] [INFO ] Logging out
+[2026-06-29 10:42:11.489] [INFO ] Opening navigation menu
+[2026-06-29 10:42:11.939] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:42:13.190] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:42:13.655] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:42:13.966] [INFO ] Login page navigation complete
+[2026-06-29 10:42:13.990] [INFO ] Login as: standard_user
+[2026-06-29 10:42:13.991] [INFO ] Entering username: standard_user
+[2026-06-29 10:42:14.022] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:42:14.038] [INFO ] Clicking login button
+[2026-06-29 10:42:14.325] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:42:14.351] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:42:15.340] [INFO ] Login page navigation complete
+[2026-06-29 10:42:15.383] [INFO ] Login as: standard_user
+[2026-06-29 10:42:15.383] [INFO ] Entering username: standard_user
+[2026-06-29 10:42:15.417] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:42:15.435] [INFO ] Clicking login button
+[2026-06-29 10:42:15.511] [INFO ] Dashboard loaded and verified ✓
+[2026-06-29 10:42:15.658] [INFO ] Login page navigation complete
+[2026-06-29 10:42:15.678] [INFO ] Login as: 
+[2026-06-29 10:42:15.678] [INFO ] Entering username: 
+[2026-06-29 10:42:15.698] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:42:15.717] [INFO ] Clicking login button
+[2026-06-29 10:42:15.721] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:42:15.777] [INFO ] Login error verified: "Epic sadface: Username is required"
+[2026-06-29 10:42:15.950] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:42:16.425] [INFO ] Login page navigation complete
+[2026-06-29 10:42:16.451] [INFO ] Login as: invalid_user
+[2026-06-29 10:42:16.451] [INFO ] Entering username: invalid_user
+[2026-06-29 10:42:16.518] [INFO ] Login page navigation complete
+[2026-06-29 10:42:16.551] [INFO ] Login as: standard_user
+[2026-06-29 10:42:16.552] [INFO ] Entering username: standard_user
+[2026-06-29 10:42:16.554] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:42:16.581] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:42:16.591] [INFO ] Clicking login button
+[2026-06-29 10:42:16.601] [INFO ] Clicking login button
+[2026-06-29 10:42:16.650] [INFO ] Login error verified: "Epic sadface: Username and password do not match any user in this service"
+[2026-06-29 10:42:16.665] [INFO ] Login error verified: "Epic sadface: Password is required"
+[2026-06-29 10:42:17.726] [INFO ] Login page navigation complete
+[2026-06-29 10:42:17.747] [INFO ] Login as: locked_out_user
+[2026-06-29 10:42:17.747] [INFO ] Entering username: locked_out_user
+[2026-06-29 10:42:17.769] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:42:17.794] [INFO ] Clicking login button
+[2026-06-29 10:42:17.848] [INFO ] Login error verified: "Epic sadface: Sorry, this user has been locked out."
+[2026-06-29 10:42:17.950] [INFO ] Login page navigation complete
+[2026-06-29 10:42:17.970] [INFO ] Login as: standard_user
+[2026-06-29 10:42:17.970] [INFO ] Entering username: standard_user
+[2026-06-29 10:42:17.997] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:42:18.011] [INFO ] Clicking login button
+[2026-06-29 10:42:18.144] [INFO ] Dashboard loaded and verified ✓
+[2026-06-29 10:42:18.146] [INFO ] Logging out
+[2026-06-29 10:42:18.146] [INFO ] Opening navigation menu
+[2026-06-29 10:42:18.623] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:42:18.739] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:42:19.149] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:42:20.183] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:42:20.978] [INFO ] Login page navigation complete
+[2026-06-29 10:42:21.017] [INFO ] Login as: standard_user
+[2026-06-29 10:42:21.017] [INFO ] Entering username: standard_user
+[2026-06-29 10:42:21.053] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:42:21.064] [INFO ] Clicking login button
+[2026-06-29 10:42:21.129] [INFO ] Login page navigation complete
+[2026-06-29 10:42:21.149] [INFO ] Login as: invalid_user
+[2026-06-29 10:42:21.149] [INFO ] Entering username: invalid_user
+[2026-06-29 10:42:21.179] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:42:21.193] [INFO ] Clicking login button
+[2026-06-29 10:42:21.246] [INFO ] Login error verified: "Epic sadface: Username and password do not match any user in this service"
+[2026-06-29 10:42:21.328] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:42:21.451] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:42:21.516] [INFO ] Login page navigation complete
+[2026-06-29 10:42:21.537] [INFO ] Login as: standard_user
+[2026-06-29 10:42:21.538] [INFO ] Entering username: standard_user
+[2026-06-29 10:42:21.574] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:42:21.592] [INFO ] Clicking login button
+[2026-06-29 10:42:21.664] [INFO ] Dashboard loaded and verified ✓
+[2026-06-29 10:42:21.895] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:42:22.770] [INFO ] Login page navigation complete
+[2026-06-29 10:42:22.806] [INFO ] Login as: 
+[2026-06-29 10:42:22.806] [INFO ] Entering username: 
+[2026-06-29 10:42:22.842] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:42:22.855] [INFO ] Clicking login button
+[2026-06-29 10:42:22.895] [INFO ] Login error verified: "Epic sadface: Username is required"
+[2026-06-29 10:42:23.687] [INFO ] Login page navigation complete
+[2026-06-29 10:42:23.703] [INFO ] Login as: standard_user
+[2026-06-29 10:42:23.704] [INFO ] Entering username: standard_user
+[2026-06-29 10:42:23.721] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:42:23.736] [INFO ] Clicking login button
+[2026-06-29 10:42:23.786] [INFO ] Login error verified: "Epic sadface: Password is required"
+[2026-06-29 10:42:23.824] [INFO ] Login page navigation complete
+[2026-06-29 10:42:23.842] [INFO ] Login as: locked_out_user
+[2026-06-29 10:42:23.843] [INFO ] Entering username: locked_out_user
+[2026-06-29 10:42:23.858] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:42:23.869] [INFO ] Clicking login button
+[2026-06-29 10:42:23.916] [INFO ] Login error verified: "Epic sadface: Sorry, this user has been locked out."
+[2026-06-29 10:42:24.283] [INFO ] Login page navigation complete
+[2026-06-29 10:42:24.318] [INFO ] Login as: standard_user
+[2026-06-29 10:42:24.318] [INFO ] Entering username: standard_user
+[2026-06-29 10:42:24.341] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:42:24.352] [INFO ] Clicking login button
+[2026-06-29 10:42:24.419] [INFO ] Dashboard loaded and verified ✓
+[2026-06-29 10:42:24.419] [INFO ] Logging out
+[2026-06-29 10:42:24.419] [INFO ] Opening navigation menu
+[2026-06-29 10:44:45.018] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:44:45.018] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:44:45.466] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:44:45.523] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:44:47.222] [INFO ] Login page navigation complete
+[2026-06-29 10:44:47.247] [INFO ] Login page navigation complete
+[2026-06-29 10:44:47.251] [INFO ] Login as: standard_user
+[2026-06-29 10:44:47.251] [INFO ] Entering username: standard_user
+[2026-06-29 10:44:47.272] [INFO ] Login as: standard_user
+[2026-06-29 10:44:47.272] [INFO ] Entering username: standard_user
+[2026-06-29 10:44:47.277] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:44:47.295] [INFO ] Clicking login button
+[2026-06-29 10:44:47.299] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:44:47.333] [INFO ] Clicking login button
+[2026-06-29 10:44:47.353] [INFO ] Dashboard loaded and verified ✓
+[2026-06-29 10:44:47.485] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:44:47.543] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:44:47.668] [INFO ] Login page navigation complete
+[2026-06-29 10:44:47.686] [INFO ] Login as: invalid_user
+[2026-06-29 10:44:47.686] [INFO ] Entering username: invalid_user
+[2026-06-29 10:44:47.719] [INFO ] Login page navigation complete
+[2026-06-29 10:44:47.750] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:44:47.750] [INFO ] Login as: 
+[2026-06-29 10:44:47.751] [INFO ] Entering username: 
+[2026-06-29 10:44:47.769] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:44:47.780] [INFO ] Clicking login button
+[2026-06-29 10:44:47.798] [INFO ] Clicking login button
+[2026-06-29 10:44:47.813] [INFO ] Login error verified: "Epic sadface: Username and password do not match any user in this service"
+[2026-06-29 10:44:47.839] [INFO ] Login error verified: "Epic sadface: Username is required"
+[2026-06-29 10:44:47.958] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:44:49.642] [INFO ] Login page navigation complete
+[2026-06-29 10:44:49.655] [INFO ] Login as: standard_user
+[2026-06-29 10:44:49.655] [INFO ] Entering username: standard_user
+[2026-06-29 10:44:49.671] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:44:49.696] [INFO ] Clicking login button
+[2026-06-29 10:44:49.725] [INFO ] Login error verified: "Epic sadface: Password is required"
+[2026-06-29 10:44:49.733] [INFO ] Login page navigation complete
+[2026-06-29 10:44:49.758] [INFO ] Login as: locked_out_user
+[2026-06-29 10:44:49.758] [INFO ] Entering username: locked_out_user
+[2026-06-29 10:44:49.777] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:44:49.807] [INFO ] Clicking login button
+[2026-06-29 10:44:49.839] [INFO ] Login error verified: "Epic sadface: Sorry, this user has been locked out."
+[2026-06-29 10:44:50.113] [INFO ] Login page navigation complete
+[2026-06-29 10:44:50.133] [INFO ] Login as: standard_user
+[2026-06-29 10:44:50.133] [INFO ] Entering username: standard_user
+[2026-06-29 10:44:50.154] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:44:50.181] [INFO ] Clicking login button
+[2026-06-29 10:44:50.229] [INFO ] Dashboard loaded and verified ✓
+[2026-06-29 10:44:50.229] [INFO ] Logging out
+[2026-06-29 10:44:50.229] [INFO ] Opening navigation menu
+[2026-06-29 10:44:50.256] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:44:51.983] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:44:52.300] [INFO ] Login page navigation complete
+[2026-06-29 10:44:52.341] [INFO ] Login as: standard_user
+[2026-06-29 10:44:52.341] [INFO ] Entering username: standard_user
+[2026-06-29 10:44:52.403] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:44:52.512] [INFO ] Clicking login button
+[2026-06-29 10:44:52.735] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:44:52.849] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:44:52.989] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:44:54.308] [INFO ] Login page navigation complete
+[2026-06-29 10:44:54.342] [INFO ] Login as: standard_user
+[2026-06-29 10:44:54.342] [INFO ] Entering username: standard_user
+[2026-06-29 10:44:54.374] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:44:54.388] [INFO ] Clicking login button
+[2026-06-29 10:44:54.464] [INFO ] Dashboard loaded and verified ✓
+[2026-06-29 10:44:54.663] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:44:54.780] [INFO ] Login page navigation complete
+[2026-06-29 10:44:54.802] [INFO ] Login as: 
+[2026-06-29 10:44:54.802] [INFO ] Entering username: 
+[2026-06-29 10:44:54.826] [INFO ] Login page navigation complete
+[2026-06-29 10:44:54.842] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:44:54.845] [INFO ] Login as: standard_user
+[2026-06-29 10:44:54.845] [INFO ] Entering username: standard_user
+[2026-06-29 10:44:54.867] [INFO ] Clicking login button
+[2026-06-29 10:44:54.868] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:44:54.882] [INFO ] Clicking login button
+[2026-06-29 10:44:54.933] [INFO ] Login error verified: "Epic sadface: Username is required"
+[2026-06-29 10:44:54.943] [INFO ] Login error verified: "Epic sadface: Password is required"
+[2026-06-29 10:44:55.070] [INFO ] Login page navigation complete
+[2026-06-29 10:44:55.097] [INFO ] Login as: invalid_user
+[2026-06-29 10:44:55.097] [INFO ] Entering username: invalid_user
+[2026-06-29 10:44:55.099] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:44:55.146] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:44:55.188] [INFO ] Clicking login button
+[2026-06-29 10:44:55.255] [INFO ] Login error verified: "Epic sadface: Username and password do not match any user in this service"
+[2026-06-29 10:44:56.644] [INFO ] Login page navigation complete
+[2026-06-29 10:44:56.663] [INFO ] Login as: locked_out_user
+[2026-06-29 10:44:56.663] [INFO ] Entering username: locked_out_user
+[2026-06-29 10:44:56.695] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:44:56.714] [INFO ] Clicking login button
+[2026-06-29 10:44:56.798] [INFO ] Login error verified: "Epic sadface: Sorry, this user has been locked out."
+[2026-06-29 10:44:56.800] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:44:57.054] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:44:57.364] [INFO ] Login page navigation complete
+[2026-06-29 10:44:57.382] [INFO ] Login as: standard_user
+[2026-06-29 10:44:57.383] [INFO ] Entering username: standard_user
+[2026-06-29 10:44:57.399] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:44:57.412] [INFO ] Clicking login button
+[2026-06-29 10:44:57.483] [INFO ] Dashboard loaded and verified ✓
+[2026-06-29 10:44:57.484] [INFO ] Logging out
+[2026-06-29 10:44:57.484] [INFO ] Opening navigation menu
+[2026-06-29 10:44:57.920] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:44:59.150] [INFO ] Login page navigation complete
+[2026-06-29 10:44:59.211] [INFO ] Login as: standard_user
+[2026-06-29 10:44:59.212] [INFO ] Entering username: standard_user
+[2026-06-29 10:44:59.289] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:44:59.302] [INFO ] Clicking login button
+[2026-06-29 10:44:59.374] [INFO ] Dashboard loaded and verified ✓
+[2026-06-29 10:44:59.411] [INFO ] Login page navigation complete
+[2026-06-29 10:44:59.430] [INFO ] Login as: standard_user
+[2026-06-29 10:44:59.431] [INFO ] Entering username: standard_user
+[2026-06-29 10:44:59.467] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:44:59.488] [INFO ] Clicking login button
+[2026-06-29 10:44:59.502] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:44:59.598] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:44:59.766] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:45:00.291] [INFO ] Login page navigation complete
+[2026-06-29 10:45:00.317] [INFO ] Login as: invalid_user
+[2026-06-29 10:45:00.317] [INFO ] Entering username: invalid_user
+[2026-06-29 10:45:00.349] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:45:00.361] [INFO ] Clicking login button
+[2026-06-29 10:45:00.409] [INFO ] Login error verified: "Epic sadface: Username and password do not match any user in this service"
+[2026-06-29 10:45:00.622] [INFO ] Navigating → https://www.saucedemo.com
+[2026-06-29 10:45:01.881] [INFO ] Login page navigation complete
+[2026-06-29 10:45:01.917] [INFO ] Login as: 
+[2026-06-29 10:45:01.918] [INFO ] Entering username: 
+[2026-06-29 10:45:01.954] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:45:01.965] [INFO ] Login page navigation complete
+[2026-06-29 10:45:01.969] [INFO ] Clicking login button
+[2026-06-29 10:45:01.981] [INFO ] Login as: standard_user
+[2026-06-29 10:45:01.981] [INFO ] Entering username: standard_user
+[2026-06-29 10:45:01.998] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:45:02.018] [INFO ] Login error verified: "Epic sadface: Username is required"
+[2026-06-29 10:45:02.020] [INFO ] Clicking login button
+[2026-06-29 10:45:02.068] [INFO ] Login error verified: "Epic sadface: Password is required"
+[2026-06-29 10:45:02.158] [INFO ] Login page navigation complete
+[2026-06-29 10:45:02.175] [INFO ] Login as: locked_out_user
+[2026-06-29 10:45:02.176] [INFO ] Entering username: locked_out_user
+[2026-06-29 10:45:02.190] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:45:02.203] [INFO ] Clicking login button
+[2026-06-29 10:45:02.247] [INFO ] Login error verified: "Epic sadface: Sorry, this user has been locked out."
+[2026-06-29 10:45:03.004] [INFO ] Login page navigation complete
+[2026-06-29 10:45:03.021] [INFO ] Login as: standard_user
+[2026-06-29 10:45:03.021] [INFO ] Entering username: standard_user
+[2026-06-29 10:45:03.038] [INFO ] Entering password: [REDACTED]
+[2026-06-29 10:45:03.048] [INFO ] Clicking login button
+[2026-06-29 10:45:03.109] [INFO ] Dashboard loaded and verified ✓
+[2026-06-29 10:45:03.110] [INFO ] Logging out
+[2026-06-29 10:45:03.110] [INFO ] Opening navigation menu

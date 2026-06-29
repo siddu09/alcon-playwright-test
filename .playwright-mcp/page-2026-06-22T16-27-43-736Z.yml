@@ -1,0 +1,41 @@
+- generic [ref=e1]:
+  - main [ref=e16]:
+    - heading "MyAlcon ID logo logo" [level=1] [ref=e18]:
+      - img "MyAlcon ID logo logo" [ref=e19]
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - heading "MyAlconID にてログインしてください。" [level=2] [ref=e26]:
+          - text: MyAlconID
+          - text: にてログインしてください。
+        - alert
+        - generic [ref=e27]:
+          - generic [ref=e30]:
+            - generic:
+              - textbox "ユーザー名":
+                - /placeholder: "ユーザー名  "
+                - text: marloint.test+b2b2cnewuser@alconlabs.com
+          - text: 
+          - generic [ref=e35]:
+            - generic:
+              - textbox "パスワード" [active]:
+                - /placeholder: "パスワード "
+                - text: Bangalore##88
+              - generic:
+                - generic: 
+                - text: 
+          - generic [ref=e40]:
+            - generic:
+              - generic:
+                - checkbox
+                - link "パスワードをお忘れですか？":
+                  - /url: "#"
+                - link "ヘルプ":
+                  - /url: https://www.myalcon.com/international/professional/myalconid/faqs
+      - button "ログイン" [disabled] [ref=e47]
+  - contentinfo [ref=e13]:
+    - generic [ref=e49]:
+      - link "プライバシー通知" [ref=e50] [cursor=pointer]:
+        - /url: https://preferences.myalcon.com/privacy-notice/?hidebanner=true
+      - link "利用規約" [ref=e51] [cursor=pointer]:
+        - /url: https://www.alcon.co.jp/terms-use
+      - generic [ref=e52]: ©2026 Alcon Inc.

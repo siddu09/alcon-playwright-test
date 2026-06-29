@@ -1,0 +1,585 @@
+- generic [ref=e1]:
+  - generic [ref=e48]:
+    - generic [ref=e51]:
+      - img "Logo" [ref=e54] [cursor=pointer]
+      - menubar "Main menu" [ref=e56]:
+        - menu [ref=e58] [cursor=pointer]: New Order
+        - menuitem "My Patients" [ref=e59] [cursor=pointer]
+        - menu [ref=e61] [cursor=pointer]: Order Management
+        - menuitem "Dashboard" [ref=e62] [cursor=pointer]
+        - menu [ref=e64] [cursor=pointer]: Support
+      - generic [ref=e66]:
+        - button "Search" [ref=e67] [cursor=pointer]:
+          - img [ref=e69]
+        - button "Mini cart" [ref=e71] [cursor=pointer]:
+          - generic [ref=e72]:
+            - img [ref=e73]
+            - generic [ref=e75]: "22"
+        - button "Favorites" [ref=e76] [cursor=pointer]:
+          - generic [ref=e77]:
+            - img [ref=e78]
+            - generic: "0"
+        - button "Open user menu" [ref=e80] [cursor=pointer]:
+          - img [ref=e82]
+        - generic [ref=e84]:
+          - combobox [ref=e85] [cursor=pointer]:
+            - generic [ref=e86]:
+              - paragraph [ref=e88]: DEV
+              - generic [ref=e89]: "|"
+              - paragraph [ref=e91]: English
+          - textbox: en
+          - img
+          - group
+    - generic [ref=e541]:
+      - generic [ref=e544]:
+        - button "Go back" [ref=e545] [cursor=pointer]:
+          - img [ref=e547]
+        - heading "Patient Profile" [level=1] [ref=e549]
+      - generic [ref=e553]:
+        - generic [ref=e554]:
+          - generic [ref=e555]:
+            - heading "Belura Vinagar (Belura, Siddesh)" [level=2] [ref=e557]
+            - generic [ref=e558]:
+              - generic [ref=e559]:
+                - button "Cart" [ref=e560] [cursor=pointer]:
+                  - img [ref=e562]
+                  - paragraph [ref=e564]: Cart
+                - separator [ref=e565]
+              - button "Edit" [ref=e566] [cursor=pointer]:
+                - img [ref=e568]
+                - paragraph [ref=e570]: Edit
+            - separator [ref=e572]
+          - generic [ref=e573]:
+            - generic [ref=e574]:
+              - generic [ref=e576]:
+                - heading "Personal Data" [level=3] [ref=e577]
+                - generic [ref=e578]:
+                  - generic [ref=e579]: "Tel: +91 98454 58590"
+                  - generic [ref=e580]:
+                    - text: "E-mail:"
+                    - link "marloint.test+SiddeshBeluraR14SecondNewUser@alconlabs.com" [ref=e581] [cursor=pointer]:
+                      - /url: mailto:marloint.test+SiddeshBeluraR14SecondNewUser@alconlabs.com
+                  - generic [ref=e582]: "Reference no.:"
+              - generic [ref=e584]:
+                - heading "Main Address" [level=3] [ref=e585]
+                - paragraph [ref=e586]:
+                  - generic [ref=e587]:
+                    - text: "1000005"
+                    - text: Kyoto, 千代田区丸の内, Marunouchi
+                    - text: Building 1
+              - generic [ref=e589]:
+                - heading "Account Status" [level=3] [ref=e590]
+                - paragraph [ref=e593]: Registered via Invitation
+            - generic [ref=e594]:
+              - heading "Patient Clinic ID" [level=3] [ref=e595]
+              - paragraph
+        - generic [ref=e596]:
+          - tablist [ref=e600]:
+            - tab "Prescriptions" [selected] [ref=e601] [cursor=pointer]
+            - tab "Individual Orders" [ref=e602] [cursor=pointer]
+            - tab "Subscriptions" [ref=e603] [cursor=pointer]
+            - tab "Assigned coupons" [ref=e604] [cursor=pointer]
+            - generic [ref=e607]:
+              - paragraph [ref=e608]: "Date range:"
+              - generic [ref=e612]:
+                - textbox "yyyy/mm/dd - yyyy/mm/dd" [active] [ref=e613]
+                - img [ref=e615]
+                - group
+          - generic [ref=e619]:
+            - button "Add prescription" [ref=e621] [cursor=pointer]:
+              - img [ref=e623]
+              - paragraph [ref=e625]: Add prescription
+            - generic [ref=e626]:
+              - generic [ref=e627]:
+                - generic [ref=e628]:
+                  - paragraph [ref=e631]: Active
+                  - generic [ref=e632]:
+                    - generic [ref=e633]:
+                      - heading "Created:" [level=4] [ref=e634]
+                      - paragraph [ref=e635]: 2026/04/28
+                    - generic [ref=e636]:
+                      - heading "Updated:" [level=4] [ref=e637]
+                      - paragraph [ref=e638]: 2026/04/29
+                    - generic [ref=e639]:
+                      - heading "Expires:" [level=4] [ref=e640]
+                      - paragraph [ref=e641]: 2026/10/28
+                    - generic [ref=e642]:
+                      - heading "Duration:" [level=4] [ref=e643]
+                      - paragraph [ref=e644]: 6 months
+                - generic [ref=e645]:
+                  - button "Create subscription" [ref=e647] [cursor=pointer]:
+                    - img [ref=e649]
+                    - paragraph [ref=e651]: Create subscription
+                  - button "In-store checkout" [ref=e652] [cursor=pointer]:
+                    - paragraph [ref=e653]: In-store checkout
+                  - button "Edit" [ref=e654] [cursor=pointer]:
+                    - img [ref=e655]
+              - generic [ref=e658]:
+                - generic [ref=e660]:
+                  - paragraph [ref=e662]: Right Eye (OD)
+                  - generic [ref=e663]:
+                    - img [ref=e1123]
+                    - generic [ref=e665]:
+                      - paragraph [ref=e666]: DAILIES TOTAL1® (Sphere)
+                      - generic [ref=e668]:
+                        - generic [ref=e669]: "BC: 8.5"
+                        - generic [ref=e670]: "DIA: 14.1"
+                        - generic [ref=e671]: "PWR: -10.50"
+                      - separator [ref=e672]
+                      - paragraph [ref=e673]: 6 of 6 remaining
+                - generic [ref=e675]:
+                  - paragraph [ref=e677]: Left Eye (OS)
+                  - generic [ref=e678]:
+                    - img [ref=e1124]
+                    - generic [ref=e680]:
+                      - paragraph [ref=e681]: DAILIES TOTAL1® (Sphere)
+                      - generic [ref=e683]:
+                        - generic [ref=e684]: "BC: 8.5"
+                        - generic [ref=e685]: "DIA: 14.1"
+                        - generic [ref=e686]: "PWR: -10.00"
+                      - separator [ref=e687]
+                      - paragraph [ref=e688]: 6 of 6 remaining
+            - generic [ref=e689]:
+              - generic [ref=e690]:
+                - generic [ref=e691]:
+                  - paragraph [ref=e694]: Active
+                  - generic [ref=e695]:
+                    - generic [ref=e696]:
+                      - heading "Created:" [level=4] [ref=e697]
+                      - paragraph [ref=e698]: 2026/04/27
+                    - generic [ref=e699]:
+                      - heading "Updated:" [level=4] [ref=e700]
+                      - paragraph [ref=e701]: 2026/04/29
+                    - generic [ref=e702]:
+                      - heading "Expires:" [level=4] [ref=e703]
+                      - paragraph [ref=e704]: 2026/10/27
+                    - generic [ref=e705]:
+                      - heading "Duration:" [level=4] [ref=e706]
+                      - paragraph [ref=e707]: 6 months
+                - generic [ref=e708]:
+                  - generic "Not available because number of remaining boxes, pack sizes or prescriptions/correction is not eligible" [ref=e709]:
+                    - button "Create subscription" [disabled]:
+                      - generic:
+                        - img
+                      - paragraph: Create subscription
+                  - button "In-store checkout" [ref=e710] [cursor=pointer]:
+                    - paragraph [ref=e711]: In-store checkout
+                  - button "Edit" [ref=e712] [cursor=pointer]:
+                    - img [ref=e713]
+              - generic [ref=e716]:
+                - generic [ref=e718]:
+                  - paragraph [ref=e720]: Right Eye (OD)
+                  - generic [ref=e721]:
+                    - img [ref=e1125]
+                    - generic [ref=e723]:
+                      - paragraph [ref=e724]: DAILIES TOTAL1® (Sphere)
+                      - generic [ref=e726]:
+                        - generic [ref=e727]: "BC: 8.5"
+                        - generic [ref=e728]: "DIA: 14.1"
+                        - generic [ref=e729]: "PWR: -10.50"
+                      - separator [ref=e730]
+                      - paragraph [ref=e731]: 3 of 6 remaining
+                - generic [ref=e733]:
+                  - paragraph [ref=e735]: Left Eye (OS)
+                  - generic [ref=e736]:
+                    - img [ref=e1126]
+                    - generic [ref=e738]:
+                      - paragraph [ref=e739]: DAILIES TOTAL1® (Sphere)
+                      - generic [ref=e741]:
+                        - generic [ref=e742]: "BC: 8.5"
+                        - generic [ref=e743]: "DIA: 14.1"
+                        - generic [ref=e744]: "PWR: -11.00"
+                      - separator [ref=e745]
+                      - paragraph [ref=e746]: 3 of 6 remaining
+            - generic [ref=e747]:
+              - generic [ref=e748]:
+                - generic [ref=e749]:
+                  - paragraph [ref=e752]: Active
+                  - generic [ref=e753]:
+                    - generic [ref=e754]:
+                      - heading "Created:" [level=4] [ref=e755]
+                      - paragraph [ref=e756]: 2027/04/27
+                    - generic [ref=e757]:
+                      - heading "Updated:" [level=4] [ref=e758]
+                      - paragraph [ref=e759]: 2026/04/29
+                    - generic [ref=e760]:
+                      - heading "Expires:" [level=4] [ref=e761]
+                      - paragraph [ref=e762]: 2027/10/27
+                    - generic [ref=e763]:
+                      - heading "Duration:" [level=4] [ref=e764]
+                      - paragraph [ref=e765]: 6 months
+                - generic [ref=e766]:
+                  - button "Create subscription" [ref=e768] [cursor=pointer]:
+                    - img [ref=e770]
+                    - paragraph [ref=e772]: Create subscription
+                  - button "In-store checkout" [ref=e773] [cursor=pointer]:
+                    - paragraph [ref=e774]: In-store checkout
+                  - button "Edit" [ref=e775] [cursor=pointer]:
+                    - img [ref=e776]
+              - generic [ref=e779]:
+                - generic [ref=e781]:
+                  - paragraph [ref=e783]: Right Eye (OD)
+                  - generic [ref=e784]:
+                    - img [ref=e1127]
+                    - generic [ref=e786]:
+                      - paragraph [ref=e787]: DAILIES TOTAL1® (Sphere)
+                      - generic [ref=e789]:
+                        - generic [ref=e790]: "BC: 8.5"
+                        - generic [ref=e791]: "DIA: 14.1"
+                        - generic [ref=e792]: "PWR: -11.50"
+                      - separator [ref=e793]
+                      - paragraph [ref=e794]: 3 of 6 remaining
+                - generic [ref=e796]:
+                  - paragraph [ref=e798]: Left Eye (OS)
+                  - generic [ref=e799]:
+                    - img [ref=e1128]
+                    - generic [ref=e801]:
+                      - paragraph [ref=e802]: DAILIES TOTAL1® (Sphere)
+                      - generic [ref=e804]:
+                        - generic [ref=e805]: "BC: 8.5"
+                        - generic [ref=e806]: "DIA: 14.1"
+                        - generic [ref=e807]: "PWR: -12.00"
+                      - separator [ref=e808]
+                      - paragraph [ref=e809]: 3 of 6 remaining
+            - generic [ref=e810]:
+              - generic [ref=e811]:
+                - generic [ref=e812]:
+                  - paragraph [ref=e815]: Out of boxes
+                  - generic [ref=e816]:
+                    - generic [ref=e817]:
+                      - heading "Created:" [level=4] [ref=e818]
+                      - paragraph [ref=e819]: 2026/10/27
+                    - generic [ref=e820]:
+                      - heading "Updated:" [level=4] [ref=e821]
+                      - paragraph [ref=e822]: 2026/04/29
+                    - generic [ref=e823]:
+                      - heading "Expires:" [level=4] [ref=e824]
+                      - paragraph [ref=e825]: 2027/04/27
+                    - generic [ref=e826]:
+                      - heading "Duration:" [level=4] [ref=e827]
+                      - paragraph [ref=e828]: 6 months
+                - button "Reissue" [ref=e830] [cursor=pointer]:
+                  - paragraph [ref=e831]: Reissue
+                - alert [ref=e832]:
+                  - img [ref=e834]
+                  - paragraph [ref=e839]: Products in this prescription have been fully redeemed.
+              - generic [ref=e841]:
+                - generic [ref=e843]:
+                  - paragraph [ref=e845]: Right Eye (OD)
+                  - generic [ref=e846]:
+                    - img [ref=e1129]
+                    - generic [ref=e848]:
+                      - paragraph [ref=e849]: DAILIES TOTAL1® (Sphere)
+                      - generic [ref=e851]:
+                        - generic [ref=e852]: "BC: 8.5"
+                        - generic [ref=e853]: "DIA: 14.1"
+                        - generic [ref=e854]: "PWR: -11.50"
+                      - separator [ref=e855]
+                      - paragraph [ref=e856]: 0 of 6 remaining
+                - generic [ref=e858]:
+                  - paragraph [ref=e860]: Left Eye (OS)
+                  - generic [ref=e861]:
+                    - img [ref=e1130]
+                    - generic [ref=e863]:
+                      - paragraph [ref=e864]: DAILIES TOTAL1® (Sphere)
+                      - generic [ref=e866]:
+                        - generic [ref=e867]: "BC: 8.5"
+                        - generic [ref=e868]: "DIA: 14.1"
+                        - generic [ref=e869]: "PWR: -12.00"
+                      - separator [ref=e870]
+                      - paragraph [ref=e871]: 0 of 6 remaining
+            - generic [ref=e872]:
+              - generic [ref=e873]:
+                - generic [ref=e874]:
+                  - paragraph [ref=e877]: Active
+                  - generic [ref=e878]:
+                    - generic [ref=e879]:
+                      - heading "Created:" [level=4] [ref=e880]
+                      - paragraph [ref=e881]: 2026/04/27
+                    - generic [ref=e882]:
+                      - heading "Updated:" [level=4] [ref=e883]
+                      - paragraph [ref=e884]: "-"
+                    - generic [ref=e885]:
+                      - heading "Expires:" [level=4] [ref=e886]
+                      - paragraph [ref=e887]: 2026/10/27
+                    - generic [ref=e888]:
+                      - heading "Duration:" [level=4] [ref=e889]
+                      - paragraph [ref=e890]: 6 months
+                - generic [ref=e891]:
+                  - button "Create subscription" [ref=e893] [cursor=pointer]:
+                    - img [ref=e895]
+                    - paragraph [ref=e897]: Create subscription
+                  - button "In-store checkout" [ref=e898] [cursor=pointer]:
+                    - paragraph [ref=e899]: In-store checkout
+                  - button "Edit" [ref=e900] [cursor=pointer]:
+                    - img [ref=e901]
+              - generic [ref=e904]:
+                - generic [ref=e906]:
+                  - paragraph [ref=e908]: Right Eye (OD)
+                  - generic [ref=e909]:
+                    - img [ref=e1131]
+                    - generic [ref=e911]:
+                      - paragraph [ref=e912]: DAILIES® AquaComfort Plus® (Sphere)
+                      - generic [ref=e914]:
+                        - generic [ref=e915]: "BC: 8.7"
+                        - generic [ref=e916]: "DIA: 14.0"
+                        - generic [ref=e917]: "PWR: -15.00"
+                      - separator [ref=e918]
+                      - paragraph [ref=e919]: 6 of 6 remaining
+                - generic [ref=e921]:
+                  - paragraph [ref=e923]: Left Eye (OS)
+                  - generic [ref=e924]:
+                    - img [ref=e1132]
+                    - generic [ref=e926]:
+                      - paragraph [ref=e927]: DAILIES® AquaComfort Plus® (Sphere)
+                      - generic [ref=e929]:
+                        - generic [ref=e930]: "BC: 8.7"
+                        - generic [ref=e931]: "DIA: 14.0"
+                        - generic [ref=e932]: "PWR: -15.00"
+                      - separator [ref=e933]
+                      - paragraph [ref=e934]: 6 of 6 remaining
+            - generic [ref=e935]:
+              - generic [ref=e936]:
+                - generic [ref=e937]:
+                  - paragraph [ref=e940]: Out of boxes
+                  - generic [ref=e941]:
+                    - generic [ref=e942]:
+                      - heading "Created:" [level=4] [ref=e943]
+                      - paragraph [ref=e944]: 2026/04/27
+                    - generic [ref=e945]:
+                      - heading "Updated:" [level=4] [ref=e946]
+                      - paragraph [ref=e947]: 2026/04/29
+                    - generic [ref=e948]:
+                      - heading "Expires:" [level=4] [ref=e949]
+                      - paragraph [ref=e950]: 2026/10/27
+                    - generic [ref=e951]:
+                      - heading "Duration:" [level=4] [ref=e952]
+                      - paragraph [ref=e953]: 6 months
+                - button "Reissue" [ref=e955] [cursor=pointer]:
+                  - paragraph [ref=e956]: Reissue
+                - alert [ref=e957]:
+                  - img [ref=e959]
+                  - paragraph [ref=e964]: Products in this prescription have been fully redeemed.
+              - generic [ref=e966]:
+                - generic [ref=e968]:
+                  - paragraph [ref=e970]: Right Eye (OD)
+                  - generic [ref=e971]:
+                    - img [ref=e1133]
+                    - generic [ref=e973]:
+                      - paragraph [ref=e974]: DAILIES TOTAL1® (Sphere)
+                      - generic [ref=e976]:
+                        - generic [ref=e977]: "BC: 8.5"
+                        - generic [ref=e978]: "DIA: 14.1"
+                        - generic [ref=e979]: "PWR: -11.50"
+                      - separator [ref=e980]
+                      - paragraph [ref=e981]: 0 of 6 remaining
+                - generic [ref=e983]:
+                  - paragraph [ref=e985]: Left Eye (OS)
+                  - generic [ref=e986]:
+                    - img [ref=e1134]
+                    - generic [ref=e988]:
+                      - paragraph [ref=e989]: DAILIES TOTAL1® (Sphere)
+                      - generic [ref=e991]:
+                        - generic [ref=e992]: "BC: 8.5"
+                        - generic [ref=e993]: "DIA: 14.1"
+                        - generic [ref=e994]: "PWR: -12.00"
+                      - separator [ref=e995]
+                      - paragraph [ref=e996]: 0 of 6 remaining
+            - generic [ref=e997]:
+              - generic [ref=e998]:
+                - generic [ref=e999]:
+                  - paragraph [ref=e1002]: Active
+                  - generic [ref=e1003]:
+                    - generic [ref=e1004]:
+                      - heading "Created:" [level=4] [ref=e1005]
+                      - paragraph [ref=e1006]: 2026/04/27
+                    - generic [ref=e1007]:
+                      - heading "Updated:" [level=4] [ref=e1008]
+                      - paragraph [ref=e1009]: "-"
+                    - generic [ref=e1010]:
+                      - heading "Expires:" [level=4] [ref=e1011]
+                      - paragraph [ref=e1012]: 2026/10/27
+                    - generic [ref=e1013]:
+                      - heading "Duration:" [level=4] [ref=e1014]
+                      - paragraph [ref=e1015]: 6 months
+                - generic [ref=e1016]:
+                  - button "Create subscription" [ref=e1018] [cursor=pointer]:
+                    - img [ref=e1020]
+                    - paragraph [ref=e1022]: Create subscription
+                  - button "In-store checkout" [ref=e1023] [cursor=pointer]:
+                    - paragraph [ref=e1024]: In-store checkout
+                  - button "Edit" [ref=e1025] [cursor=pointer]:
+                    - img [ref=e1026]
+              - generic [ref=e1029]:
+                - generic [ref=e1031]:
+                  - paragraph [ref=e1033]: Right Eye (OD)
+                  - generic [ref=e1034]:
+                    - img [ref=e1135]
+                    - generic [ref=e1036]:
+                      - paragraph [ref=e1037]: DAILIES TOTAL1® (Sphere)
+                      - generic [ref=e1039]:
+                        - generic [ref=e1040]: "BC: 8.5"
+                        - generic [ref=e1041]: "DIA: 14.1"
+                        - generic [ref=e1042]: "PWR: -11.50"
+                      - separator [ref=e1043]
+                      - paragraph [ref=e1044]: 6 of 6 remaining
+                - generic [ref=e1046]:
+                  - paragraph [ref=e1048]: Left Eye (OS)
+                  - generic [ref=e1049]:
+                    - img [ref=e1136]
+                    - generic [ref=e1051]:
+                      - paragraph [ref=e1052]: DAILIES TOTAL1® (Sphere)
+                      - generic [ref=e1054]:
+                        - generic [ref=e1055]: "BC: 8.5"
+                        - generic [ref=e1056]: "DIA: 14.1"
+                        - generic [ref=e1057]: "PWR: -11.50"
+                      - separator [ref=e1058]
+                      - paragraph [ref=e1059]: 6 of 6 remaining
+            - generic [ref=e1060]:
+              - generic [ref=e1061]:
+                - generic [ref=e1062]:
+                  - paragraph [ref=e1065]: Active
+                  - generic [ref=e1066]:
+                    - generic [ref=e1067]:
+                      - heading "Created:" [level=4] [ref=e1068]
+                      - paragraph [ref=e1069]: 2026/04/27
+                    - generic [ref=e1070]:
+                      - heading "Updated:" [level=4] [ref=e1071]
+                      - paragraph [ref=e1072]: 2026/04/29
+                    - generic [ref=e1073]:
+                      - heading "Expires:" [level=4] [ref=e1074]
+                      - paragraph [ref=e1075]: 2026/10/27
+                    - generic [ref=e1076]:
+                      - heading "Duration:" [level=4] [ref=e1077]
+                      - paragraph [ref=e1078]: 6 months
+                - generic [ref=e1079]:
+                  - button "Create subscription" [ref=e1081] [cursor=pointer]:
+                    - img [ref=e1083]
+                    - paragraph [ref=e1085]: Create subscription
+                  - button "In-store checkout" [ref=e1086] [cursor=pointer]:
+                    - paragraph [ref=e1087]: In-store checkout
+                  - button "Edit" [ref=e1088] [cursor=pointer]:
+                    - img [ref=e1089]
+              - generic [ref=e1092]:
+                - generic [ref=e1094]:
+                  - paragraph [ref=e1096]: Right Eye (OD)
+                  - generic [ref=e1097]:
+                    - img [ref=e1137]
+                    - generic [ref=e1099]:
+                      - paragraph [ref=e1100]: DAILIES TOTAL1® (Sphere)
+                      - generic [ref=e1102]:
+                        - generic [ref=e1103]: "BC: 8.5"
+                        - generic [ref=e1104]: "DIA: 14.1"
+                        - generic [ref=e1105]: "PWR: -11.50"
+                      - separator [ref=e1106]
+                      - paragraph [ref=e1107]: 3 of 6 remaining
+                - generic [ref=e1109]:
+                  - paragraph [ref=e1111]: Left Eye (OS)
+                  - generic [ref=e1112]:
+                    - img [ref=e1138]
+                    - generic [ref=e1114]:
+                      - paragraph [ref=e1115]: DAILIES TOTAL1® (Sphere)
+                      - generic [ref=e1117]:
+                        - generic [ref=e1118]: "BC: 8.5"
+                        - generic [ref=e1119]: "DIA: 14.1"
+                        - generic [ref=e1120]: "PWR: -11.50"
+                      - separator [ref=e1121]
+                      - paragraph [ref=e1122]: 3 of 6 remaining
+    - generic [ref=e507]:
+      - generic [ref=e508]:
+        - img "Alcon logo" [ref=e509] [cursor=pointer]:
+          - img "Logo" [ref=e510]
+        - paragraph [ref=e511]: © 2026 Alcon Inc.
+      - list [ref=e512]:
+        - listitem [ref=e513]:
+          - link "Privacy Notice" [ref=e514] [cursor=pointer]:
+            - /url: https://preferences.myalcon.com/privacy-notice/?hidebanner=true
+            - paragraph [ref=e515]: Privacy
+        - listitem [ref=e516]:
+          - link "Contact Us" [ref=e517] [cursor=pointer]:
+            - /url: /mas/contact-us
+            - paragraph [ref=e518]: Contact Us
+        - listitem [ref=e519]:
+          - link "Cookie Notice" [ref=e520] [cursor=pointer]:
+            - /url: https://preferences.myalcon.com/cookie-notice?hidebanner=true
+            - paragraph [ref=e521]: Cookie Notice
+        - listitem [ref=e522]:
+          - link "About Alcon" [ref=e523] [cursor=pointer]:
+            - /url: https://www.alcon.co.jp/about-us
+            - paragraph [ref=e524]: About
+        - listitem [ref=e525]:
+          - link "Frequently Asked Questions" [ref=e526] [cursor=pointer]:
+            - /url: /mas/faq
+            - paragraph [ref=e527]: FAQ
+        - listitem [ref=e528]:
+          - link "Exercise your rights" [ref=e529] [cursor=pointer]:
+            - /url: https://preferences.myalcon.com/exercise-my-rights/?hidebanner=true
+            - paragraph [ref=e530]: Exercise your rights
+        - listitem [ref=e531]:
+          - link "Platform Terms & Conditions" [ref=e532] [cursor=pointer]:
+            - /url: /marlo-terms-and-conditions?market=jp&locale=en
+            - paragraph [ref=e533]: Platform Terms & Conditions
+        - listitem [ref=e534]:
+          - link "Listing base on commercial Law" [ref=e535] [cursor=pointer]:
+            - /url: https://qa.nonprod-store.myalcon.com/patient-portal/jp/en/legal-info/0100202357
+            - paragraph [ref=e536]: Listing base on commercial Law
+  - generic [ref=e537] [cursor=pointer]:
+    - button "Cookies Settings" [ref=e539]
+    - text: Cookies Settings
+  - text: 
+  - dialog "Choose Date" [ref=e1141]:
+    - alert [ref=e1142]
+    - button "Previous Month" [ref=e1143] [cursor=pointer]:
+      - generic: Previous Month
+    - generic [ref=e1144]:
+      - generic [ref=e1145]:
+        - heading "June 2026" [level=2] [ref=e1146]
+        - generic [ref=e1147]:
+          - generic "Sunday" [ref=e1148]: Su
+          - generic "Monday" [ref=e1149]: Mo
+          - generic "Tuesday" [ref=e1150]: Tu
+          - generic "Wednesday" [ref=e1151]: We
+          - generic "Thursday" [ref=e1152]: Th
+          - generic "Friday" [ref=e1153]: Fr
+          - generic "Saturday" [ref=e1154]: Sa
+      - listbox "Month June, 2026" [ref=e1155]:
+        - generic [ref=e1156]:
+          - option "Choose Sunday, May 31st, 2026" [ref=e1157] [cursor=pointer]: "31"
+          - option "Choose Monday, June 1st, 2026" [ref=e1158] [cursor=pointer]: "1"
+          - option "Choose Tuesday, June 2nd, 2026" [ref=e1159] [cursor=pointer]: "2"
+          - option "Choose Wednesday, June 3rd, 2026" [ref=e1160] [cursor=pointer]: "3"
+          - option "Choose Thursday, June 4th, 2026" [ref=e1161] [cursor=pointer]: "4"
+          - option "Choose Friday, June 5th, 2026" [ref=e1162] [cursor=pointer]: "5"
+          - option "Choose Saturday, June 6th, 2026" [ref=e1163] [cursor=pointer]: "6"
+        - generic [ref=e1164]:
+          - option "Choose Sunday, June 7th, 2026" [ref=e1165] [cursor=pointer]: "7"
+          - option "Choose Monday, June 8th, 2026" [ref=e1166] [cursor=pointer]: "8"
+          - option "Choose Tuesday, June 9th, 2026" [ref=e1167] [cursor=pointer]: "9"
+          - option "Choose Wednesday, June 10th, 2026" [ref=e1168] [cursor=pointer]: "10"
+          - option "Choose Thursday, June 11th, 2026" [ref=e1169] [cursor=pointer]: "11"
+          - option "Choose Friday, June 12th, 2026" [ref=e1170] [cursor=pointer]: "12"
+          - option "Choose Saturday, June 13th, 2026" [ref=e1171] [cursor=pointer]: "13"
+        - generic [ref=e1172]:
+          - option "Choose Sunday, June 14th, 2026" [ref=e1173] [cursor=pointer]: "14"
+          - option "Choose Monday, June 15th, 2026" [ref=e1174] [cursor=pointer]: "15"
+          - option "Choose Tuesday, June 16th, 2026" [ref=e1175] [cursor=pointer]: "16"
+          - option "Choose Wednesday, June 17th, 2026" [ref=e1176] [cursor=pointer]: "17"
+          - option "Choose Thursday, June 18th, 2026" [ref=e1177] [cursor=pointer]: "18"
+          - option "Choose Friday, June 19th, 2026" [ref=e1178] [cursor=pointer]: "19"
+          - option "Choose Saturday, June 20th, 2026" [ref=e1179] [cursor=pointer]: "20"
+        - generic [ref=e1180]:
+          - option "Choose Sunday, June 21st, 2026" [ref=e1181] [cursor=pointer]: "21"
+          - option "Choose Monday, June 22nd, 2026" [ref=e1182] [cursor=pointer]: "22"
+          - option "Not available Tuesday, June 23rd, 2026" [disabled] [ref=e1183]: "23"
+          - option "Not available Wednesday, June 24th, 2026" [disabled] [ref=e1184]: "24"
+          - option "Not available Thursday, June 25th, 2026" [disabled] [ref=e1185]: "25"
+          - option "Not available Friday, June 26th, 2026" [disabled] [ref=e1186]: "26"
+          - option "Not available Saturday, June 27th, 2026" [disabled] [ref=e1187]: "27"
+        - generic [ref=e1188]:
+          - option "Not available Sunday, June 28th, 2026" [disabled] [ref=e1189]: "28"
+          - option "Not available Monday, June 29th, 2026" [disabled] [ref=e1190]: "29"
+          - option "Not available Tuesday, June 30th, 2026" [disabled] [ref=e1191]: "30"
+          - option "Not available Wednesday, July 1st, 2026" [disabled] [ref=e1192]: "1"
+          - option "Not available Thursday, July 2nd, 2026" [disabled] [ref=e1193]: "2"
+          - option "Not available Friday, July 3rd, 2026" [disabled] [ref=e1194]: "3"
+          - option "Not available Saturday, July 4th, 2026" [disabled] [ref=e1195]: "4"

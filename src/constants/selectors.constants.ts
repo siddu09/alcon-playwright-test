@@ -66,10 +66,10 @@ export const COMMON_SELECTORS = {
 
 // ─── MyAlcon Individual Order ───────────────────────────────────────────────
 export const MYALCON_ORDER_SELECTORS = {
-  LOGIN_BUTTON:                     'button:has-text("Log in")',
-  EMAIL_INPUT:                      'input[placeholder*="Email Address"]',
-  PASSWORD_INPUT:                   'input[placeholder*="Password"]',
-  LOGIN_SUBMIT:                     'button:has-text("Log In")',
+  LOGIN_BUTTON:                     '[data-test="lf-loginBtn"]',
+  EMAIL_INPUT:                      'input[name="identifier"]',
+  PASSWORD_INPUT:                   'input[name="credentials.passcode"]',
+  LOGIN_SUBMIT:                     'button[type="submit"]',
   NEW_ORDER_NAV_BUTTON:             '[data-test="h-NavigateBtnNewOrder"]',
   INDIVIDUAL_ORDER_MENU_ITEM:       'role=menuitem[name="Individual Order"]',
   PRODUCT_CARD_CONTAINER:           '[data-test="pc-ProductCardContainer"]',

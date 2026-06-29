@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "@cucumber/cucumber": "^13.0.0",
+    "@playwright/cli": "^0.1.14",
     "allure-playwright": "^3.10.0",
     "dotenv": "^17.4.2",
     "playwright": "^1.61.0",

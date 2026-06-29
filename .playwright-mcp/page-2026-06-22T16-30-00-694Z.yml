@@ -1,0 +1,539 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e8]:
+      - img [ref=e1687] [cursor=pointer]
+      - menubar [ref=e1688]:
+        - menu [ref=e15] [cursor=pointer]: 店頭在庫注文
+        - menuitem [ref=e1689] [cursor=pointer]: ユーザー管理
+        - menu [ref=e18] [cursor=pointer]: 注文管理
+        - menuitem [ref=e1690] [cursor=pointer]: ダッシュボード
+        - menu [ref=e21] [cursor=pointer]: ヘルプ
+      - generic [ref=e23]:
+        - button [ref=e1691] [cursor=pointer]:
+          - img [ref=e26]
+        - button [ref=e1692] [cursor=pointer]:
+          - generic [ref=e29]:
+            - img [ref=e30]
+            - generic [ref=e32]: "22"
+        - button [ref=e1693] [cursor=pointer]:
+          - img [ref=e35]
+        - button [ref=e1694] [cursor=pointer]:
+          - img [ref=e39]
+        - generic [ref=e41]:
+          - combobox [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]:
+              - paragraph [ref=e45]: JA
+              - generic [ref=e46]: "|"
+              - paragraph [ref=e48]: 日本語
+          - textbox: ja-JP
+          - img
+          - group
+    - generic [ref=e1096]:
+      - tablist [ref=e1100]:
+        - tab [selected] [ref=e1695] [cursor=pointer]: ユーザー管理
+        - tab [ref=e1696] [cursor=pointer]: 指示書
+        - tab [ref=e1697] [cursor=pointer]: MARLO定期デリバリー
+      - generic [ref=e1105]:
+        - generic [ref=e1107]:
+          - generic [ref=e1108]:
+            - heading [level=1] [ref=e1698]: ユーザー管理
+            - heading [level=1] [ref=e1699]: (99)
+          - generic [ref=e1112]:
+            - generic [ref=e1114]:
+              - generic [ref=e1115]: 氏名（カタカナ）、メールアドレス、顧客ID
+              - generic [ref=e1116]:
+                - img [ref=e1117]
+                - textbox [ref=e1700]
+                - group:
+                  - generic: 氏名（カタカナ）、メールアドレス、顧客ID
+            - button [ref=e1701] [cursor=pointer]:
+              - paragraph [ref=e1121]: 検索
+          - button [ref=e1702] [cursor=pointer]:
+            - paragraph [ref=e1124]: ユーザー登録
+        - generic [ref=e1126]:
+          - generic [ref=e1128]:
+            - generic [ref=e1130]:
+              - generic [ref=e1131]: "登録状況:"
+              - generic [ref=e1132]:
+                - group [ref=e1133]:
+                  - radiogroup [ref=e1134]:
+                    - generic [ref=e1703] [cursor=pointer]:
+                      - generic [ref=e1136]:
+                        - radio [checked] [ref=e1704]
+                        - generic [ref=e1138]:
+                          - img [ref=e1139]
+                          - img [ref=e1141]
+                      - generic [ref=e1143]: すべて
+                    - generic [ref=e1705] [cursor=pointer]:
+                      - generic [ref=e1145]:
+                        - radio [ref=e1706]
+                        - img [ref=e1148]
+                      - generic [ref=e1150]: 登録済
+                    - generic [ref=e1707] [cursor=pointer]:
+                      - generic [ref=e1152]:
+                        - radio [ref=e1708]
+                        - img [ref=e1155]
+                      - generic [ref=e1157]: 未登録
+                - generic [ref=e1159]:
+                  - generic [ref=e1160]:
+                    - generic:
+                      - checkbox [disabled]
+                      - img
+                    - generic [ref=e1161]: 登録済
+                  - generic [ref=e1162]:
+                    - generic:
+                      - checkbox [disabled]
+                      - img
+                    - generic [ref=e1163]: セルフ登録済
+                  - generic [ref=e1164]:
+                    - generic:
+                      - checkbox [disabled]
+                      - img
+                    - generic [ref=e1165]: 未登録
+                  - generic [ref=e1166]:
+                    - generic:
+                      - checkbox [disabled]
+                      - img
+                    - generic [ref=e1167]: 未登録
+                  - generic [ref=e1168]:
+                    - generic:
+                      - checkbox [disabled]
+                      - img
+                    - generic [ref=e1169]: 登録待ち
+                  - generic [ref=e1170]:
+                    - generic:
+                      - checkbox [disabled]
+                      - img
+                    - generic [ref=e1171]: 期限切れ
+            - generic [ref=e1173]:
+              - generic [ref=e1174]: "指示書:"
+              - group [ref=e1176]:
+                - radiogroup [ref=e1177]:
+                  - generic [ref=e1709] [cursor=pointer]:
+                    - generic [ref=e1179]:
+                      - radio [checked] [ref=e1710]
+                      - generic [ref=e1181]:
+                        - img [ref=e1182]
+                        - img [ref=e1184]
+                    - generic [ref=e1186]: すべて
+                  - generic [ref=e1711] [cursor=pointer]:
+                    - generic [ref=e1188]:
+                      - radio [ref=e1712]
+                      - img [ref=e1191]
+                    - generic [ref=e1193]: 有効
+                  - generic [ref=e1713] [cursor=pointer]:
+                    - generic [ref=e1195]:
+                      - radio [ref=e1714]
+                      - img [ref=e1198]
+                    - generic [ref=e1200]: 無効
+                  - generic [ref=e1715] [cursor=pointer]:
+                    - generic [ref=e1202]:
+                      - radio [ref=e1716]
+                      - img [ref=e1205]
+                    - generic [ref=e1207]: なし
+          - generic [ref=e1209]:
+            - button [ref=e1717] [cursor=pointer]:
+              - text: 氏名
+              - img [ref=e1211]
+            - text: メールアドレス 電話番号 指示書 登録状況
+            - link [ref=e1718] [cursor=pointer]: Belura Vinagar (Belura, Siddesh)
+            - text: marloint.test+SiddeshBeluraR14SecondNewUser@alconlabs.com
+            - paragraph [ref=e1214]: +91 98454 58590
+            - paragraph [ref=e1215]: 有効
+            - generic [ref=e1216]:
+              - img [ref=e1218]
+              - paragraph [ref=e1223]: 登録済
+            - button [ref=e1719] [cursor=pointer]:
+              - img [ref=e1225]
+            - link [ref=e1720] [cursor=pointer]: Blore Hebbal (John, bea)
+            - text: marloint.test+SiddeshBeluraR14NewUser@alconlabs.com
+            - paragraph [ref=e1228]: +81 90 3043 4343
+            - paragraph [ref=e1229]: 有効
+            - generic [ref=e1230]:
+              - img [ref=e1232]
+              - paragraph [ref=e1237]: 登録済
+            - button [ref=e1721] [cursor=pointer]:
+              - img [ref=e1239]
+            - link [ref=e1722] [cursor=pointer]: Charan Test (Charan, Test)
+            - text: marloint.test+charantest@alconlabs.com
+            - paragraph [ref=e1242]: +81 93 8121 9049
+            - paragraph [ref=e1243]: 有効
+            - generic [ref=e1244]:
+              - img [ref=e1246]
+              - paragraph [ref=e1251]: 登録済
+            - button [ref=e1723] [cursor=pointer]:
+              - img [ref=e1253]
+            - link [ref=e1724] [cursor=pointer]: Charan Testa (Charan, Testa)
+            - text: marloint.test+charantest3@alconlabs.com
+            - paragraph [ref=e1256]: +81 88 8889 9993
+            - paragraph [ref=e1257]: 有効
+            - generic [ref=e1258]:
+              - img [ref=e1260]
+              - paragraph [ref=e1265]: 登録済
+            - button [ref=e1725] [cursor=pointer]:
+              - img [ref=e1267]
+            - link [ref=e1726] [cursor=pointer]: JP MASVC (JP, MASVC)
+            - text: marloint.test+vbt_qa_jpp401@alconlabs.com
+            - paragraph [ref=e1270]: +81 3 1423 4413
+            - paragraph [ref=e1271]: 有効
+            - generic [ref=e1272]:
+              - img [ref=e1274]
+              - generic [ref=e1277]:
+                - paragraph [ref=e1279]: 登録待ち
+                - paragraph [ref=e1281]: リンク送信済み
+            - button [ref=e1727] [cursor=pointer]:
+              - img [ref=e1283]
+            - link [ref=e1728] [cursor=pointer]: JP Test (JP, Test)
+            - text: testUser_1002@yopmail.com
+            - paragraph [ref=e1286]: "-"
+            - generic [ref=e1287]:
+              - img [ref=e1289]
+              - generic [ref=e1292]:
+                - paragraph [ref=e1294]: 未完了
+                - paragraph [ref=e1296]: 指示書の登録必要
+            - button [ref=e1729] [cursor=pointer]:
+              - img [ref=e1298]
+            - link [ref=e1730] [cursor=pointer]: JP Test (JP, Test)
+            - text: test_jp2301@yopmail.com
+            - paragraph [ref=e1301]: 有効
+            - generic [ref=e1302]:
+              - img [ref=e1304]
+              - generic [ref=e1307]:
+                - paragraph [ref=e1309]: 期限切れ
+                - paragraph [ref=e1311]: リンク送信必要
+            - button [ref=e1731] [cursor=pointer]:
+              - img [ref=e1313]
+            - link [ref=e1732] [cursor=pointer]: JP test (JP, Chiara)
+            - text: test_kavanajp001@yopmail.com
+            - paragraph [ref=e1316]: 有効
+            - generic [ref=e1317]:
+              - img [ref=e1319]
+              - generic [ref=e1322]:
+                - paragraph [ref=e1324]: 未登録
+                - paragraph [ref=e1326]: リンク再送必要
+            - button [ref=e1733] [cursor=pointer]:
+              - img [ref=e1328]
+            - link [ref=e1734] [cursor=pointer]: Kana Kana (Tester, Test)
+            - text: marloint.test+practice@alconlabs.com
+            - paragraph [ref=e1331]: +81 879 65 7478
+            - paragraph [ref=e1332]: 有効
+            - generic [ref=e1333]:
+              - img [ref=e1335]
+              - generic [ref=e1338]:
+                - paragraph [ref=e1340]: 登録待ち
+                - paragraph [ref=e1342]: リンク送信済み
+            - button [ref=e1735] [cursor=pointer]:
+              - img [ref=e1344]
+            - link [ref=e1736] [cursor=pointer]: Marlo AlconMarlo (Bangalore, Alcon)
+            - text: marloint.test+JapanTestUser@alconlabs.com
+            - paragraph [ref=e1347]: 有効
+            - generic [ref=e1348]:
+              - img [ref=e1350]
+              - paragraph [ref=e1355]: 登録済
+            - button [ref=e1737] [cursor=pointer]:
+              - img [ref=e1357]
+            - link [ref=e1738] [cursor=pointer]: Test Jessi (Test, Jessi)
+            - text: testjp_emailtest_01@yopmail.com
+            - paragraph [ref=e1360]: +81 90 3452 3438
+            - paragraph [ref=e1361]: 有効
+            - generic [ref=e1362]:
+              - img [ref=e1364]
+              - paragraph [ref=e1369]: 登録済
+            - button [ref=e1739] [cursor=pointer]:
+              - img [ref=e1371]
+            - link [ref=e1740] [cursor=pointer]: Test Test (Test, Test)
+            - text: test1230@yopmail.com
+            - paragraph [ref=e1374]: +81 90 1234 5678
+            - paragraph [ref=e1375]: 有効
+            - generic [ref=e1376]:
+              - img [ref=e1378]
+              - paragraph [ref=e1383]: 登録済
+            - button [ref=e1741] [cursor=pointer]:
+              - img [ref=e1385]
+            - link [ref=e1742] [cursor=pointer]: VB Teju (VB, Teju)
+            - text: testjp_pf1a_vbt_02@yopmail.com
+            - paragraph [ref=e1388]: 有効
+            - generic [ref=e1389]:
+              - img [ref=e1391]
+              - generic [ref=e1394]:
+                - paragraph [ref=e1396]: 期限切れ
+                - paragraph [ref=e1398]: リンク送信必要
+            - button [ref=e1743] [cursor=pointer]:
+              - img [ref=e1400]
+            - link [ref=e1744] [cursor=pointer]: VB Teju (VB, Teju)
+            - text: marloint.test+QAJPPatient01@alconlabs.com
+            - paragraph [ref=e1403]: 有効
+            - generic [ref=e1404]:
+              - img [ref=e1406]
+              - generic [ref=e1409]:
+                - paragraph [ref=e1411]: 期限切れ
+                - paragraph [ref=e1413]: リンク送信必要
+            - button [ref=e1745] [cursor=pointer]:
+              - img [ref=e1415]
+            - link [ref=e1746] [cursor=pointer]: a a (a, ab)
+            - text: marloint.test+ppp5@alconlabs.com
+            - paragraph [ref=e1418]: +81 90 1234 1234
+            - paragraph [ref=e1419]: 有効
+            - generic [ref=e1420]:
+              - img [ref=e1422]
+              - paragraph [ref=e1427]: 登録済
+            - button [ref=e1747] [cursor=pointer]:
+              - img [ref=e1429]
+            - link [ref=e1748] [cursor=pointer]: a a (a, a)
+            - text: marloint.test+ppp4@alconlabs.com
+            - paragraph [ref=e1432]: +81 90 1234 1234
+            - paragraph [ref=e1433]: 有効
+            - generic [ref=e1434]:
+              - img [ref=e1436]
+              - paragraph [ref=e1441]: 登録済
+            - button [ref=e1749] [cursor=pointer]:
+              - img [ref=e1443]
+            - link [ref=e1750] [cursor=pointer]: a a (a, a)
+            - text: marloint.test+ppp3@alconlabs.com
+            - paragraph [ref=e1446]: +81 90 1234 1234
+            - paragraph [ref=e1447]: 有効
+            - generic [ref=e1448]:
+              - img [ref=e1450]
+              - paragraph [ref=e1455]: 登録済
+            - button [ref=e1751] [cursor=pointer]:
+              - img [ref=e1457]
+            - link [ref=e1752] [cursor=pointer]: authoo testing (ln, fn)
+            - text: marloint.test+autho0testing@alconlabs.com
+            - paragraph [ref=e1460]: 有効
+            - generic [ref=e1461]:
+              - img [ref=e1463]
+              - paragraph [ref=e1468]: 登録済
+            - button [ref=e1753] [cursor=pointer]:
+              - img [ref=e1470]
+            - link [ref=e1754] [cursor=pointer]: b a (name, aa)
+            - text: marloint.test+ppp2@alconlabs.com
+            - paragraph [ref=e1473]: +81 90 1234 1232
+            - paragraph [ref=e1474]: 有効
+            - generic [ref=e1475]:
+              - img [ref=e1477]
+              - paragraph [ref=e1482]: 登録済
+            - button [ref=e1755] [cursor=pointer]:
+              - img [ref=e1484]
+            - link [ref=e1756] [cursor=pointer]: blore kengeri (Niharika, Belura)
+            - text: NiharikaBelura@yopmail.com
+            - paragraph [ref=e1487]: +91 98454 58590
+            - paragraph [ref=e1488]: 有効
+            - generic [ref=e1489]:
+              - img [ref=e1491]
+              - paragraph [ref=e1496]: 登録済
+            - button [ref=e1757] [cursor=pointer]:
+              - img [ref=e1498]
+            - generic [ref=e1500]:
+              - paragraph [ref=e1501]: ページごとの行数
+              - generic [ref=e1502]:
+                - combobox [ref=e1758] [cursor=pointer]: "20"
+                - textbox: "20"
+                - img
+              - paragraph [ref=e1504]: 1-20 の 99
+              - generic [ref=e1505]:
+                - button [disabled]:
+                  - img
+                - button [ref=e1759] [cursor=pointer]:
+                  - img [ref=e1507]
+    - generic [ref=e464]:
+      - generic [ref=e465]:
+        - img [ref=e1760] [cursor=pointer]:
+          - img [ref=e1761]
+        - paragraph [ref=e468]: © 2026 Alcon Inc.
+      - list [ref=e469]:
+        - listitem [ref=e470]:
+          - link [ref=e1762] [cursor=pointer]:
+            - /url: https://preferences.myalcon.com/privacy-notice/?hidebanner=true
+            - paragraph [ref=e472]: プライバシー
+        - listitem [ref=e473]:
+          - link [ref=e1763] [cursor=pointer]:
+            - /url: /mas/contact-us
+            - paragraph [ref=e475]: お問い合わせ
+        - listitem [ref=e476]:
+          - link [ref=e1764] [cursor=pointer]:
+            - /url: https://preferences.myalcon.com/cookie-notice?hidebanner=true
+            - paragraph [ref=e478]: クッキーについて
+        - listitem [ref=e479]:
+          - link [ref=e1765] [cursor=pointer]:
+            - /url: https://www.alcon.co.jp/about-us
+            - paragraph [ref=e481]: 会社紹介
+        - listitem [ref=e482]:
+          - link [ref=e1766] [cursor=pointer]:
+            - /url: /mas/faq
+            - paragraph [ref=e484]: よくある質問
+        - listitem [ref=e485]:
+          - link [ref=e1767] [cursor=pointer]:
+            - /url: https://preferences.myalcon.com/exercise-my-rights/?hidebanner=true
+            - paragraph [ref=e487]: 権利の行使
+        - listitem [ref=e488]:
+          - link [ref=e1768] [cursor=pointer]:
+            - /url: /marlo-terms-and-conditions?market=jp&locale=ja-JP
+            - paragraph [ref=e490]: ユーザー利用規約
+        - listitem [ref=e491]:
+          - link [ref=e1769] [cursor=pointer]:
+            - /url: https://qa.nonprod-store.myalcon.com/patient-portal/jp/ja/legal-info/0100202357
+            - paragraph [ref=e493]: 特定商取引法に基づく表記
+  - generic [ref=e494] [cursor=pointer]:
+    - button [ref=e1770]
+    - text: Cookies Settings
+  - text: 
+  - dialog "新規ユーザー追加 閉じる" [ref=e1773]:
+    - heading "新規ユーザー追加 閉じる" [level=2] [ref=e1774]:
+      - generic [ref=e1775]:
+        - heading "新規ユーザー追加" [ref=e1777]
+        - button "閉じる" [ref=e1779] [cursor=pointer]:
+          - img [ref=e1780]
+    - generic [ref=e1785]:
+      - generic [ref=e1786]:
+        - generic [ref=e1787]:
+          - heading "ユーザー情報" [level=4] [ref=e1788]
+          - generic [ref=e1789]:
+            - group "タイトル" [ref=e1791]:
+              - generic [ref=e1792]: タイトル
+              - generic [ref=e1794]:
+                - generic: タイトル
+                - generic [ref=e1795]:
+                  - combobox "タイトル" [ref=e1796]
+                  - button "開く" [ref=e1798] [cursor=pointer]:
+                    - img [ref=e1799]
+                  - group:
+                    - generic: タイトル
+            - group "姓" [ref=e1802]:
+              - generic [ref=e1803]: 姓
+              - generic [ref=e1804]:
+                - generic:
+                  - text: 姓
+                  - generic: "*"
+                - generic [ref=e1805]:
+                  - textbox "姓" [ref=e1806]
+                  - group:
+                    - generic: 姓 *
+            - group "名" [ref=e1808]:
+              - generic [ref=e1809]: 名
+              - generic [ref=e1810]:
+                - generic:
+                  - text: 名
+                  - generic: "*"
+                - generic [ref=e1811]:
+                  - textbox "名" [ref=e1812]
+                  - group:
+                    - generic: 名 *
+            - generic [ref=e1813]:
+              - group "姓（半角カナ）" [ref=e1815]:
+                - generic [ref=e1816]: 姓（半角カナ）
+                - generic [ref=e1817]:
+                  - generic:
+                    - text: 姓（半角カナ）
+                    - generic: "*"
+                  - generic [ref=e1818]:
+                    - textbox "姓（半角カナ）" [ref=e1819]
+                    - group:
+                      - generic: 姓（半角カナ） *
+              - group "名（半角カナ）" [ref=e1821]:
+                - generic [ref=e1822]: 名（半角カナ）
+                - generic [ref=e1823]:
+                  - generic:
+                    - text: 名（半角カナ）
+                    - generic: "*"
+                  - generic [ref=e1824]:
+                    - textbox "名（半角カナ）" [ref=e1825]
+                    - group:
+                      - generic: 名（半角カナ） *
+            - group "メールアドレス" [ref=e1827]:
+              - generic [ref=e1828]: メールアドレス
+              - generic [ref=e1829]:
+                - generic:
+                  - text: メールアドレス
+                  - generic: "*"
+                - generic [ref=e1830]:
+                  - textbox "メールアドレス" [ref=e1831]
+                  - group:
+                    - generic: メールアドレス *
+            - group "電話番号" [ref=e1833]:
+              - generic [ref=e1834]: 電話番号
+              - generic [ref=e1835]:
+                - generic [ref=e1836]: 電話番号
+                - generic [ref=e1837]:
+                  - generic [ref=e1840] [cursor=pointer]:
+                    - text: 🇯🇵
+                    - img [ref=e1841]
+                  - textbox "電話番号" [ref=e1843]: "+81"
+                  - group:
+                    - generic: 電話番号
+            - group "MARLO ID（入力不要）" [ref=e1845]:
+              - generic [ref=e1846]: MARLO ID（入力不要）
+              - generic [ref=e1847]:
+                - generic: MARLO ID（入力不要）
+                - generic [ref=e1848]:
+                  - textbox "MARLO ID（入力不要）" [ref=e1849]
+                  - group:
+                    - generic: MARLO ID（入力不要）
+            - group "顧客ID（任意）" [ref=e1851]:
+              - generic [ref=e1852]: 顧客ID（任意）
+              - generic [ref=e1853]:
+                - generic: 顧客ID（任意）
+                - generic [ref=e1854]:
+                  - textbox "顧客ID（任意）" [ref=e1855]
+                  - group:
+                    - generic: 顧客ID（任意）
+        - generic [ref=e1856]:
+          - group "住所（メイン）" [ref=e1857]:
+            - generic [ref=e1858]: 住所（メイン）
+            - generic [ref=e1859] [cursor=pointer]:
+              - generic [ref=e1860]:
+                - checkbox "住所（メイン）" [ref=e1861]
+                - img [ref=e1862]
+              - heading "住所（メイン）" [level=3] [ref=e1865]
+          - generic:
+            - generic:
+              - group "郵便番号":
+                - generic: 郵便番号
+                - generic:
+                  - generic: 郵便番号
+                  - generic:
+                    - textbox "郵便番号" [disabled]
+                    - group:
+                      - generic: 郵便番号
+              - group "都道府県":
+                - generic: 都道府県
+                - generic:
+                  - generic:
+                    - generic: 都道府県
+                    - generic:
+                      - combobox "都道府県" [disabled]
+                      - generic:
+                        - button "開く" [disabled]:
+                          - img
+                      - group:
+                        - generic: 都道府県
+              - group "市町村":
+                - generic: 市町村
+                - generic:
+                  - generic: 市町村
+                  - generic:
+                    - textbox "市町村" [disabled]
+                    - group:
+                      - generic: 市町村
+              - group "番地・部屋番号など":
+                - generic: 番地・部屋番号など
+                - generic:
+                  - generic: 番地・部屋番号など
+                  - generic:
+                    - textbox "番地・部屋番号など"
+                    - group:
+                      - generic: 番地・部屋番号など
+              - group "マンション名（任意）":
+                - generic: マンション名（任意）
+                - generic:
+                  - generic: マンション名（任意）
+                  - generic:
+                    - textbox "マンション名（任意）" [disabled]
+                    - group:
+                      - generic: マンション名（任意）
+      - paragraph [ref=e1866]: "* 必須"
+      - paragraph [ref=e1867]: ”保存”をクリックすることにより、このユーザーが18歳以上であり、MARLOのデータ共有について同意したことを確認します。
+      - generic [ref=e1868]:
+        - button "キャンセル" [ref=e1869] [cursor=pointer]:
+          - paragraph [ref=e1870]: キャンセル
+        - button "保存" [disabled]:
+          - paragraph: 保存

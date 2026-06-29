@@ -1,0 +1,2 @@
+[    1097ms] [ERROR] Refused to apply style from 'https://qa.nonprod-store.myalcon.com/mas/style/twemoji/style.css' because its MIME type ('application/xml') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ https://qa.nonprod-store.myalcon.com/mas/patients?h=myPatients:0
+[    1232ms] [INFO] 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙 @ https://qa.nonprod-store.myalcon.com/assets/index-BNq_Ev5N.js:2359

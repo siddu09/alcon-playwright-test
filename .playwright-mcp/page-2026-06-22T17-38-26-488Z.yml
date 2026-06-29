@@ -1,0 +1,388 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e48]:
+    - generic [ref=e51]:
+      - img "Logo" [ref=e54] [cursor=pointer]
+      - menubar "Main menu" [ref=e56]:
+        - menu [ref=e58] [cursor=pointer]: New Order
+        - menuitem "My Patients" [ref=e59] [cursor=pointer]
+        - menu [ref=e61] [cursor=pointer]: Order Management
+        - menuitem "Dashboard" [ref=e62] [cursor=pointer]
+        - menu [ref=e64] [cursor=pointer]: Support
+      - generic [ref=e66]:
+        - button "Search" [ref=e67] [cursor=pointer]:
+          - img [ref=e69]
+        - button "Mini cart" [ref=e71] [cursor=pointer]:
+          - generic [ref=e72]:
+            - img [ref=e73]
+            - generic [ref=e75]: "22"
+        - button "Favorites" [ref=e76] [cursor=pointer]:
+          - generic [ref=e77]:
+            - img [ref=e78]
+            - generic: "0"
+        - button "Open user menu" [ref=e80] [cursor=pointer]:
+          - img [ref=e82]
+        - generic [ref=e84]:
+          - combobox [ref=e85] [cursor=pointer]:
+            - generic [ref=e86]:
+              - paragraph [ref=e88]: DEV
+              - generic [ref=e89]: "|"
+              - paragraph [ref=e91]: English
+          - textbox: en
+          - img
+          - group
+    - generic [ref=e93]:
+      - tablist [ref=e97]:
+        - tab "My Patients" [selected] [ref=e98] [cursor=pointer]
+        - tab "Prescriptions" [ref=e99] [cursor=pointer]
+        - tab "Subscriptions" [ref=e100] [cursor=pointer]
+      - generic [ref=e102]:
+        - generic [ref=e104]:
+          - generic [ref=e105]:
+            - heading "My Patients" [level=1] [ref=e106]
+            - heading "(99)" [level=1] [ref=e107]
+          - generic [ref=e109]:
+            - generic [ref=e111]:
+              - generic [ref=e112]: Search by name, email, patient clinic ID, or reference no
+              - generic [ref=e113]:
+                - img [ref=e114]
+                - textbox "Search by name, email, patient clinic ID, or reference no" [ref=e116]
+                - group:
+                  - generic: Search by name, email, patient clinic ID, or reference no
+            - button "Search" [ref=e117] [cursor=pointer]:
+              - paragraph [ref=e118]: Search
+          - button "Add Patient" [ref=e120] [cursor=pointer]:
+            - paragraph [ref=e121]: Add Patient
+        - generic [ref=e123]:
+          - generic [ref=e125]:
+            - generic [ref=e127]:
+              - generic [ref=e128]: "Status:"
+              - generic [ref=e129]:
+                - group [ref=e130]:
+                  - radiogroup [ref=e131]:
+                    - generic "All" [ref=e132] [cursor=pointer]:
+                      - generic [ref=e133]:
+                        - radio "All" [checked] [ref=e134]
+                        - generic [ref=e135]:
+                          - img [ref=e136]
+                          - img [ref=e138]
+                      - generic [ref=e140]: All
+                    - generic "Registered" [ref=e141] [cursor=pointer]:
+                      - generic [ref=e142]:
+                        - radio "Registered" [ref=e143]
+                        - img [ref=e145]
+                      - generic [ref=e147]: Registered
+                    - generic "Not Registered" [ref=e148] [cursor=pointer]:
+                      - generic [ref=e149]:
+                        - radio "Not Registered" [ref=e150]
+                        - img [ref=e152]
+                      - generic [ref=e154]: Not Registered
+                - generic [ref=e156]:
+                  - generic [ref=e157]:
+                    - generic:
+                      - checkbox "Registered via Invitation" [disabled]
+                      - img
+                    - generic [ref=e158]: Registered via Invitation
+                  - generic [ref=e159]:
+                    - generic:
+                      - checkbox "Self-Registered" [disabled]
+                      - img
+                    - generic [ref=e160]: Self-Registered
+                  - generic [ref=e161]:
+                    - generic:
+                      - checkbox "patientList.filters.incomplete" [disabled]
+                      - img
+                    - generic [ref=e162]: Incomplete (Requires Prescription)
+                  - generic [ref=e163]:
+                    - generic:
+                      - checkbox "Not Registered (Awaiting invitation)" [disabled]
+                      - img
+                    - generic [ref=e164]: Not Registered (Awaiting invitation)
+                  - generic [ref=e165]:
+                    - generic:
+                      - checkbox "Pending (Invitation Sent)" [disabled]
+                      - img
+                    - generic [ref=e166]: Pending (Invitation Sent)
+                  - generic [ref=e167]:
+                    - generic:
+                      - checkbox "Expired (Awaiting New Invitation)" [disabled]
+                      - img
+                    - generic [ref=e168]: Expired (Awaiting New Invitation)
+            - generic [ref=e170]:
+              - generic [ref=e171]: "Prescription:"
+              - group [ref=e173]:
+                - radiogroup [ref=e174]:
+                  - generic "All" [ref=e175] [cursor=pointer]:
+                    - generic [ref=e176]:
+                      - radio "All" [checked] [ref=e177]
+                      - generic [ref=e178]:
+                        - img [ref=e179]
+                        - img [ref=e181]
+                    - generic [ref=e183]: All
+                  - generic "Active" [ref=e184] [cursor=pointer]:
+                    - generic [ref=e185]:
+                      - radio "Active" [ref=e186]
+                      - img [ref=e188]
+                    - generic [ref=e190]: Active
+                  - generic "Inactive" [ref=e191] [cursor=pointer]:
+                    - generic [ref=e192]:
+                      - radio "Inactive" [ref=e193]
+                      - img [ref=e195]
+                    - generic [ref=e197]: Inactive
+                  - generic "None" [ref=e198] [cursor=pointer]:
+                    - generic [ref=e199]:
+                      - radio "None" [ref=e200]
+                      - img [ref=e202]
+                    - generic [ref=e204]: None
+          - generic [ref=e206]:
+            - button "Name" [ref=e207] [cursor=pointer]:
+              - text: Name
+              - img [ref=e208]
+            - text: Email Phone Prescription Status
+            - link "Belura Vinagar (Belura, Siddesh)" [ref=e210] [cursor=pointer]
+            - text: marloint.test+SiddeshBeluraR14SecondNewUser@alconlabs.com
+            - paragraph [ref=e211]: +91 98454 58590
+            - paragraph [ref=e212]: Active
+            - generic [ref=e213]:
+              - img [ref=e215]
+              - paragraph [ref=e220]: Registered via Invitation
+            - button "more" [ref=e221] [cursor=pointer]:
+              - img [ref=e222]
+            - link "Blore Hebbal (John, bea)" [ref=e224] [cursor=pointer]
+            - text: marloint.test+SiddeshBeluraR14NewUser@alconlabs.com
+            - paragraph [ref=e225]: +81 90 3043 4343
+            - paragraph [ref=e226]: Active
+            - generic [ref=e227]:
+              - img [ref=e229]
+              - paragraph [ref=e234]: Registered via Invitation
+            - button "more" [ref=e235] [cursor=pointer]:
+              - img [ref=e236]
+            - link "Charan Test (Charan, Test)" [ref=e238] [cursor=pointer]
+            - text: marloint.test+charantest@alconlabs.com
+            - paragraph [ref=e239]: +81 93 8121 9049
+            - paragraph [ref=e240]: Active
+            - generic [ref=e241]:
+              - img [ref=e243]
+              - paragraph [ref=e248]: Registered via Invitation
+            - button "more" [ref=e249] [cursor=pointer]:
+              - img [ref=e250]
+            - link "Charan Testa (Charan, Testa)" [ref=e252] [cursor=pointer]
+            - text: marloint.test+charantest3@alconlabs.com
+            - paragraph [ref=e253]: +81 88 8889 9993
+            - paragraph [ref=e254]: Active
+            - generic [ref=e255]:
+              - img [ref=e257]
+              - paragraph [ref=e262]: Registered via Invitation
+            - button "more" [ref=e263] [cursor=pointer]:
+              - img [ref=e264]
+            - link "JP MASVC (JP, MASVC)" [ref=e266] [cursor=pointer]
+            - text: marloint.test+vbt_qa_jpp401@alconlabs.com
+            - paragraph [ref=e267]: +81 3 1423 4413
+            - paragraph [ref=e268]: Active
+            - generic [ref=e269]:
+              - img [ref=e271]
+              - generic [ref=e274]:
+                - paragraph [ref=e276]: Pending
+                - paragraph [ref=e278]: Invitation Sent
+            - button "more" [ref=e279] [cursor=pointer]:
+              - img [ref=e280]
+            - link "JP Test (JP, Test)" [ref=e282] [cursor=pointer]
+            - text: testUser_1002@yopmail.com
+            - paragraph
+            - paragraph [ref=e283]: "-"
+            - generic [ref=e284]:
+              - img [ref=e286]
+              - generic [ref=e289]:
+                - paragraph [ref=e291]: Incomplete
+                - paragraph [ref=e293]: Requires Prescription
+            - button "more" [ref=e294] [cursor=pointer]:
+              - img [ref=e295]
+            - link "JP Test (JP, Test)" [ref=e297] [cursor=pointer]
+            - text: test_jp2301@yopmail.com
+            - paragraph
+            - paragraph [ref=e298]: Active
+            - generic [ref=e299]:
+              - img [ref=e301]
+              - generic [ref=e304]:
+                - paragraph [ref=e306]: Expired
+                - paragraph [ref=e308]: Awaiting New Invitation
+            - button "more" [ref=e309] [cursor=pointer]:
+              - img [ref=e310]
+            - link "JP test (JP, Chiara)" [ref=e312] [cursor=pointer]
+            - text: test_kavanajp001@yopmail.com
+            - paragraph
+            - paragraph [ref=e313]: Active
+            - generic [ref=e314]:
+              - img [ref=e316]
+              - generic [ref=e319]:
+                - paragraph [ref=e321]: Not Registered
+                - paragraph [ref=e323]: Awaiting invitation
+            - button "more" [ref=e324] [cursor=pointer]:
+              - img [ref=e325]
+            - link "Kana Kana (Tester, Test)" [ref=e327] [cursor=pointer]
+            - text: marloint.test+practice@alconlabs.com
+            - paragraph [ref=e328]: +81 879 65 7478
+            - paragraph [ref=e329]: Active
+            - generic [ref=e330]:
+              - img [ref=e332]
+              - generic [ref=e335]:
+                - paragraph [ref=e337]: Pending
+                - paragraph [ref=e339]: Invitation Sent
+            - button "more" [ref=e340] [cursor=pointer]:
+              - img [ref=e341]
+            - link "Marlo AlconMarlo (Bangalore, Alcon)" [ref=e343] [cursor=pointer]
+            - text: marloint.test+JapanTestUser@alconlabs.com
+            - paragraph
+            - paragraph [ref=e344]: Active
+            - generic [ref=e345]:
+              - img [ref=e347]
+              - paragraph [ref=e352]: Registered via Invitation
+            - button "more" [ref=e353] [cursor=pointer]:
+              - img [ref=e354]
+            - link "Test Jessi (Test, Jessi)" [ref=e356] [cursor=pointer]
+            - text: testjp_emailtest_01@yopmail.com
+            - paragraph [ref=e357]: +81 90 3452 3438
+            - paragraph [ref=e358]: Active
+            - generic [ref=e359]:
+              - img [ref=e361]
+              - paragraph [ref=e366]: Registered via Invitation
+            - button "more" [ref=e367] [cursor=pointer]:
+              - img [ref=e368]
+            - link "Test Test (Test, Test)" [ref=e370] [cursor=pointer]
+            - text: test1230@yopmail.com
+            - paragraph [ref=e371]: +81 90 1234 5678
+            - paragraph [ref=e372]: Active
+            - generic [ref=e373]:
+              - img [ref=e375]
+              - paragraph [ref=e380]: Registered via Invitation
+            - button "more" [ref=e381] [cursor=pointer]:
+              - img [ref=e382]
+            - link "VB Teju (VB, Teju)" [ref=e384] [cursor=pointer]
+            - text: testjp_pf1a_vbt_02@yopmail.com
+            - paragraph
+            - paragraph [ref=e385]: Active
+            - generic [ref=e386]:
+              - img [ref=e388]
+              - generic [ref=e391]:
+                - paragraph [ref=e393]: Expired
+                - paragraph [ref=e395]: Awaiting New Invitation
+            - button "more" [ref=e396] [cursor=pointer]:
+              - img [ref=e397]
+            - link "VB Teju (VB, Teju)" [ref=e399] [cursor=pointer]
+            - text: marloint.test+QAJPPatient01@alconlabs.com
+            - paragraph
+            - paragraph [ref=e400]: Active
+            - generic [ref=e401]:
+              - img [ref=e403]
+              - generic [ref=e406]:
+                - paragraph [ref=e408]: Expired
+                - paragraph [ref=e410]: Awaiting New Invitation
+            - button "more" [ref=e411] [cursor=pointer]:
+              - img [ref=e412]
+            - link "a a (a, ab)" [ref=e414] [cursor=pointer]
+            - text: marloint.test+ppp5@alconlabs.com
+            - paragraph [ref=e415]: +81 90 1234 1234
+            - paragraph [ref=e416]: Active
+            - generic [ref=e417]:
+              - img [ref=e419]
+              - paragraph [ref=e424]: Registered via Invitation
+            - button "more" [ref=e425] [cursor=pointer]:
+              - img [ref=e426]
+            - link "a a (a, a)" [ref=e428] [cursor=pointer]
+            - text: marloint.test+ppp4@alconlabs.com
+            - paragraph [ref=e429]: +81 90 1234 1234
+            - paragraph [ref=e430]: Active
+            - generic [ref=e431]:
+              - img [ref=e433]
+              - paragraph [ref=e438]: Registered via Invitation
+            - button "more" [ref=e439] [cursor=pointer]:
+              - img [ref=e440]
+            - link "a a (a, a)" [ref=e442] [cursor=pointer]
+            - text: marloint.test+ppp3@alconlabs.com
+            - paragraph [ref=e443]: +81 90 1234 1234
+            - paragraph [ref=e444]: Active
+            - generic [ref=e445]:
+              - img [ref=e447]
+              - paragraph [ref=e452]: Registered via Invitation
+            - button "more" [ref=e453] [cursor=pointer]:
+              - img [ref=e454]
+            - link "authoo testing (ln, fn)" [ref=e456] [cursor=pointer]
+            - text: marloint.test+autho0testing@alconlabs.com
+            - paragraph
+            - paragraph [ref=e457]: Active
+            - generic [ref=e458]:
+              - img [ref=e460]
+              - paragraph [ref=e465]: Registered via Invitation
+            - button "more" [ref=e466] [cursor=pointer]:
+              - img [ref=e467]
+            - link "b a (name, aa)" [ref=e469] [cursor=pointer]
+            - text: marloint.test+ppp2@alconlabs.com
+            - paragraph [ref=e470]: +81 90 1234 1232
+            - paragraph [ref=e471]: Active
+            - generic [ref=e472]:
+              - img [ref=e474]
+              - paragraph [ref=e479]: Registered via Invitation
+            - button "more" [ref=e480] [cursor=pointer]:
+              - img [ref=e481]
+            - link "blore kengeri (Niharika, Belura)" [ref=e483] [cursor=pointer]
+            - text: NiharikaBelura@yopmail.com
+            - paragraph [ref=e484]: +91 98454 58590
+            - paragraph [ref=e485]: Active
+            - generic [ref=e486]:
+              - img [ref=e488]
+              - paragraph [ref=e493]: Registered via Invitation
+            - button "more" [ref=e494] [cursor=pointer]:
+              - img [ref=e495]
+            - generic [ref=e497]:
+              - paragraph [ref=e498]: Rows per page
+              - generic [ref=e499]:
+                - combobox "Rows per page 20" [ref=e500] [cursor=pointer]: "20"
+                - textbox: "20"
+                - img
+              - paragraph [ref=e501]: 1-20 of 99
+              - generic [ref=e502]:
+                - button "Go to previous page" [disabled]:
+                  - img
+                - button "Go to next page" [ref=e503] [cursor=pointer]:
+                  - img [ref=e504]
+    - generic [ref=e507]:
+      - generic [ref=e508]:
+        - img "Alcon logo" [ref=e509] [cursor=pointer]:
+          - img "Logo" [ref=e510]
+        - paragraph [ref=e511]: © 2026 Alcon Inc.
+      - list [ref=e512]:
+        - listitem [ref=e513]:
+          - link "Privacy Notice" [ref=e514] [cursor=pointer]:
+            - /url: https://preferences.myalcon.com/privacy-notice/?hidebanner=true
+            - paragraph [ref=e515]: Privacy
+        - listitem [ref=e516]:
+          - link "Contact Us" [ref=e517] [cursor=pointer]:
+            - /url: /mas/contact-us
+            - paragraph [ref=e518]: Contact Us
+        - listitem [ref=e519]:
+          - link "Cookie Notice" [ref=e520] [cursor=pointer]:
+            - /url: https://preferences.myalcon.com/cookie-notice?hidebanner=true
+            - paragraph [ref=e521]: Cookie Notice
+        - listitem [ref=e522]:
+          - link "About Alcon" [ref=e523] [cursor=pointer]:
+            - /url: https://www.alcon.co.jp/about-us
+            - paragraph [ref=e524]: About
+        - listitem [ref=e525]:
+          - link "Frequently Asked Questions" [ref=e526] [cursor=pointer]:
+            - /url: /mas/faq
+            - paragraph [ref=e527]: FAQ
+        - listitem [ref=e528]:
+          - link "Exercise your rights" [ref=e529] [cursor=pointer]:
+            - /url: https://preferences.myalcon.com/exercise-my-rights/?hidebanner=true
+            - paragraph [ref=e530]: Exercise your rights
+        - listitem [ref=e531]:
+          - link "Platform Terms & Conditions" [ref=e532] [cursor=pointer]:
+            - /url: /marlo-terms-and-conditions?market=jp&locale=en
+            - paragraph [ref=e533]: Platform Terms & Conditions
+        - listitem [ref=e534]:
+          - link "Listing base on commercial Law" [ref=e535] [cursor=pointer]:
+            - /url: https://qa.nonprod-store.myalcon.com/patient-portal/jp/en/legal-info/0100202357
+            - paragraph [ref=e536]: Listing base on commercial Law
+  - generic [ref=e537] [cursor=pointer]:
+    - button "Cookies Settings" [ref=e539]
+    - text: Cookies Settings
+  - text: 

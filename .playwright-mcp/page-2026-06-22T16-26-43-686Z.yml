@@ -1,0 +1,78 @@
+- generic [ref=e3]:
+  - generic [ref=e6]:
+    - img "Logo" [ref=e9] [cursor=pointer]
+    - generic [ref=e12]:
+      - combobox [ref=e13] [cursor=pointer]:
+        - generic [ref=e14]:
+          - paragraph [ref=e16]: JA
+          - generic [ref=e17]: "|"
+          - paragraph [ref=e19]: 日本語
+      - textbox: ja-JP
+      - img
+      - group
+  - generic [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e27]:
+        - heading "ようこそ！ MARLÖへ" [level=1] [ref=e28]
+        - generic [ref=e29]: MARLOをはじめましょう！
+        - button "ログイン" [ref=e30] [cursor=pointer]:
+          - paragraph [ref=e31]: ログイン
+        - button "ユーザーの方はこちらをクリックしてください" [ref=e32] [cursor=pointer]:
+          - paragraph [ref=e33]: ユーザーの方はこちらをクリックしてください
+          - img [ref=e35]
+      - generic [ref=e40]:
+        - heading "ご不明点はお問い合わせください。" [level=2] [ref=e41]
+        - paragraph [ref=e42]: "お問い合わせ先：:"
+        - generic [ref=e44]:
+          - paragraph [ref=e45]: MARLOお客様サポート
+          - paragraph [ref=e46]: 0800-100-1487
+          - paragraph [ref=e47]: qa-MAS-Customer_support@yopmail.com
+    - generic [ref=e48]:
+      - img "定期検査" [ref=e50]
+      - generic [ref=e52]:
+        - heading "Vision Care MARLÖ" [level=2] [ref=e53]:
+          - strong [ref=e54]: Vision Care
+          - text: MARLÖ
+        - list [ref=e55]:
+          - listitem [ref=e56]:
+            - generic [ref=e57]:
+              - img [ref=e59]
+              - paragraph [ref=e62]: コンタクトレンズ、レンズケア製品のご注文
+          - listitem [ref=e63]:
+            - generic [ref=e64]:
+              - img [ref=e66]
+              - paragraph [ref=e69]: 注文管理
+          - listitem [ref=e70]:
+            - generic [ref=e71]:
+              - img [ref=e73]
+              - paragraph [ref=e76]: ユーザー管理
+          - listitem [ref=e77]:
+            - generic [ref=e78]:
+              - img [ref=e80]
+              - paragraph [ref=e83]: アカウント情報の管理
+  - generic [ref=e85]:
+    - generic [ref=e86]:
+      - img "Alconロゴ" [ref=e87] [cursor=pointer]:
+        - img "Logo" [ref=e88]
+      - paragraph [ref=e89]: © 2026 Alcon Inc.
+    - list [ref=e90]:
+      - listitem [ref=e91]:
+        - link "プライバシー通知" [ref=e92] [cursor=pointer]:
+          - /url: https://preferences.myalcon.com/privacy-notice/?hidebanner=true
+          - paragraph [ref=e93]: プライバシー
+      - listitem [ref=e94]:
+        - link "クッキー通知" [ref=e95] [cursor=pointer]:
+          - /url: https://preferences.myalcon.com/cookie-notice?hidebanner=true
+          - paragraph [ref=e96]: クッキーについて
+      - listitem [ref=e97]:
+        - link "アルコンについて" [ref=e98] [cursor=pointer]:
+          - /url: https://www.alcon.co.jp/about-us
+          - paragraph [ref=e99]: 会社紹介
+      - listitem [ref=e100]:
+        - link "権利の行使" [ref=e101] [cursor=pointer]:
+          - /url: https://preferences.myalcon.com/exercise-my-rights/?hidebanner=true
+          - paragraph [ref=e102]: 権利の行使
+      - listitem [ref=e103]:
+        - link "利用規約" [ref=e104] [cursor=pointer]:
+          - /url: /terms-and-conditions?market=jp&locale=ja-JP
+          - paragraph [ref=e105]: 利用規約

@@ -1,0 +1,103 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - img "Logo" [ref=e9] [cursor=pointer]
+      - menubar "Main menu" [ref=e11]:
+        - menu [ref=e13] [cursor=pointer]: New Order
+        - menuitem "My Patients" [ref=e14] [cursor=pointer]
+        - menu [ref=e16] [cursor=pointer]: Order Management
+        - menuitem "Dashboard" [ref=e17] [cursor=pointer]
+        - menu [ref=e19] [cursor=pointer]: Support
+      - generic [ref=e21]:
+        - button "Search" [ref=e22] [cursor=pointer]:
+          - img [ref=e24]
+        - button "Mini cart" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]:
+            - img [ref=e28]
+            - generic [ref=e30]: "2"
+        - button "Favorites" [ref=e31] [cursor=pointer]:
+          - generic [ref=e32]:
+            - img [ref=e33]
+            - generic: "0"
+        - button "Open user menu" [ref=e35] [cursor=pointer]:
+          - img [ref=e37]
+        - generic [ref=e39]:
+          - combobox [ref=e40] [cursor=pointer]:
+            - generic [ref=e41]:
+              - paragraph [ref=e43]: DEV
+              - generic [ref=e44]: "|"
+              - paragraph [ref=e46]: English
+          - textbox: en
+          - img
+          - group
+    - generic [ref=e50]:
+      - generic [ref=e52]:
+        - generic [ref=e54]:
+          - img [ref=e56]
+          - generic [ref=e58]:
+            - heading "Patient prescriptions" [level=1] [ref=e59]
+            - paragraph [ref=e60]: Create a prescription for a patient with the products you have added to the patient catalog.
+            - generic [ref=e63]:
+              - button "Create Prescription" [ref=e64] [cursor=pointer]:
+                - paragraph [ref=e65]: Create Prescription
+              - button "Add Patient" [ref=e66] [cursor=pointer]:
+                - paragraph [ref=e67]: Add Patient
+              - button "Update a Patient" [ref=e68] [cursor=pointer]:
+                - paragraph [ref=e69]: Update a Patient
+        - heading "Discover Alcon Vision Care Products" [level=1] [ref=e71]
+        - list [ref=e72]:
+          - link "Daily Contact Lenses" [ref=e73] [cursor=pointer]:
+            - img [ref=e75]
+            - paragraph [ref=e78]: Daily Contact Lenses
+          - link "Bi-Weekly Contact Lenses" [ref=e79] [cursor=pointer]:
+            - img [ref=e81]
+            - paragraph [ref=e85]: Bi-Weekly Contact Lenses
+          - link "Monthly Contact Lenses" [ref=e86] [cursor=pointer]:
+            - img [ref=e88]
+            - paragraph [ref=e91]: Monthly Contact Lenses
+          - link "Contact Lens Solutions" [ref=e92] [cursor=pointer]:
+            - img [ref=e94]
+            - paragraph [ref=e97]: Contact Lens Solutions
+        - img "Logo" [ref=e102] [cursor=pointer]
+      - heading "Latest Orders" [level=2] [ref=e106]
+    - generic [ref=e114]:
+      - generic [ref=e115]:
+        - img "Alcon logo" [ref=e116] [cursor=pointer]:
+          - img "Logo" [ref=e117]
+        - paragraph [ref=e118]: © 2026 Alcon Inc.
+      - list [ref=e119]:
+        - listitem [ref=e120]:
+          - link "Privacy Notice" [ref=e121] [cursor=pointer]:
+            - /url: https://preferences.myalcon.com/privacy-notice/?hidebanner=true
+            - paragraph [ref=e122]: Privacy
+        - listitem [ref=e123]:
+          - link "Contact Us" [ref=e124] [cursor=pointer]:
+            - /url: /mas/contact-us
+            - paragraph [ref=e125]: Contact Us
+        - listitem [ref=e126]:
+          - link "Cookie Notice" [ref=e127] [cursor=pointer]:
+            - /url: https://preferences.myalcon.com/cookie-notice?hidebanner=true
+            - paragraph [ref=e128]: Cookie Notice
+        - listitem [ref=e129]:
+          - link "About Alcon" [ref=e130] [cursor=pointer]:
+            - /url: https://www.alcon.co.jp/about-us
+            - paragraph [ref=e131]: About
+        - listitem [ref=e132]:
+          - link "Frequently Asked Questions" [ref=e133] [cursor=pointer]:
+            - /url: /mas/faq
+            - paragraph [ref=e134]: FAQ
+        - listitem [ref=e135]:
+          - link "Exercise your rights" [ref=e136] [cursor=pointer]:
+            - /url: https://preferences.myalcon.com/exercise-my-rights/?hidebanner=true
+            - paragraph [ref=e137]: Exercise your rights
+        - listitem [ref=e138]:
+          - link "Platform Terms & Conditions" [ref=e139] [cursor=pointer]:
+            - /url: /marlo-terms-and-conditions?market=jp&locale=en
+            - paragraph [ref=e140]: Platform Terms & Conditions
+        - listitem [ref=e141]:
+          - link "Listing base on commercial Law" [ref=e142] [cursor=pointer]:
+            - /url: https://qa.nonprod-store.myalcon.com/patient-portal/jp/en/legal-info/0100202357
+            - paragraph [ref=e143]: Listing base on commercial Law
+  - generic [ref=e144] [cursor=pointer]:
+    - button "Cookies Settings" [ref=e146]
+    - text: Cookies Settings

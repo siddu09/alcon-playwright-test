@@ -1,0 +1,41 @@
+- generic [ref=e1]:
+  - main [ref=e16]:
+    - heading "MyAlcon ID logo logo" [level=1] [ref=e18]:
+      - img "MyAlcon ID logo logo" [ref=e19]
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - heading "Log in with your MyAlcon ID" [level=2] [ref=e26]:
+          - text: Log in with your
+          - text: MyAlcon ID
+        - alert
+        - generic [ref=e27]:
+          - generic [ref=e30]:
+            - generic:
+              - textbox "Email Address":
+                - /placeholder: "Email Address "
+                - text: marloint.test+b2b2cnewuser@alconlabs.com
+          - text:  
+          - generic [ref=e35]:
+            - generic:
+              - textbox "Password" [active]:
+                - /placeholder: "Password "
+                - text: Bangalore##88
+              - generic:
+                - generic: 
+                - text: 
+          - generic [ref=e40]:
+            - generic:
+              - generic:
+                - checkbox
+                - link "Forgot password?":
+                  - /url: "#"
+                - link "Help":
+                  - /url: https://www.myalcon.com/international/professional/myalconid/faqs
+      - button "Log In" [disabled] [ref=e47]
+  - contentinfo [ref=e13]:
+    - generic [ref=e49]:
+      - link "Privacy notices" [ref=e50] [cursor=pointer]:
+        - /url: https://preferences.myalcon.com/privacy-notice/?hidebanner=true
+      - link "Terms of use" [ref=e51] [cursor=pointer]:
+        - /url: https://www.alcon.com/terms-use
+      - generic [ref=e52]: ©2026 Alcon Inc.

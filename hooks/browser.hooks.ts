@@ -156,8 +156,8 @@ After(async function (this: CustomWorld, { result, pickle }) {
         );
         await this.context.tracing.stop({ path: tracePath });
         logger.info(`   🔍 Trace → ${tracePath}`);
-      } catch (err) {
-        logger.error('Failed to save trace', err);
+      } catch (error) {
+        logger.error('Failed to save trace', error);
       }
     }
   } else {
@@ -172,7 +172,7 @@ After(async function (this: CustomWorld, { result, pickle }) {
     await this.page?.close();
     await this.context?.close();
     await this.browser?.close();
-  } catch (err) {
+  } catch {
     logger.warn('Cleanup error during scenario teardown');
   }
 });

@@ -1,0 +1,181 @@
+- generic [ref=e3]:
+  - img "Logo" [ref=e9] [cursor=pointer]
+  - generic [ref=e16]:
+    - generic [ref=e17]:
+      - heading "Choose a location" [level=1] [ref=e18]
+      - generic [ref=e19]:
+        - generic: Search market...
+        - generic [ref=e20]:
+          - textbox "Search market..." [ref=e21]
+          - group:
+            - generic: Search market...
+    - separator [ref=e22]
+    - tablist "Region Tabs" [ref=e25]:
+      - tab "Asia Pacific" [selected] [ref=e26] [cursor=pointer]
+      - tab "Europe / Middle East / Africa" [ref=e27] [cursor=pointer]
+      - tab "Americas" [ref=e28] [cursor=pointer]
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - heading "Asia" [level=2] [ref=e32]
+        - generic [ref=e33]:
+          - generic [ref=e35]:
+            - img "United Arab Emirates" [ref=e36]
+            - generic [ref=e37]:
+              - text: United Arab Emirates
+              - generic [ref=e38]:
+                - button "DEV" [ref=e39] [cursor=pointer]
+                - button "English" [ref=e40] [cursor=pointer]
+          - generic [ref=e42]:
+            - img "Azerbaijan" [ref=e43]
+            - generic [ref=e44]:
+              - text: Azerbaijan
+              - generic [ref=e45]:
+                - button "DEV" [ref=e46] [cursor=pointer]
+                - button "English" [ref=e47] [cursor=pointer]
+          - generic [ref=e49]:
+            - img "Bahrain" [ref=e50]
+            - generic [ref=e51]:
+              - text: Bahrain
+              - generic [ref=e52]:
+                - button "DEV" [ref=e53] [cursor=pointer]
+                - button "English" [ref=e54] [cursor=pointer]
+          - generic [ref=e56]:
+            - img "Cyprus" [ref=e57]
+            - generic [ref=e58]:
+              - text: Cyprus
+              - generic [ref=e59]:
+                - button "DEV" [ref=e60] [cursor=pointer]
+                - button "English" [ref=e61] [cursor=pointer]
+          - generic [ref=e63]:
+            - img "Georgia" [ref=e64]
+            - generic [ref=e65]:
+              - text: Georgia
+              - generic [ref=e66]:
+                - button "DEV" [ref=e67] [cursor=pointer]
+                - button "English" [ref=e68] [cursor=pointer]
+          - generic [ref=e70]:
+            - img "Indonesia" [ref=e71]
+            - generic [ref=e72]:
+              - text: Indonesia
+              - generic [ref=e73]:
+                - button "DEV" [ref=e74] [cursor=pointer]
+                - button "English" [ref=e75] [cursor=pointer]
+          - generic [ref=e77]:
+            - img "Israel" [ref=e78]
+            - generic [ref=e79]:
+              - text: Israel
+              - generic [ref=e80]:
+                - button "DEV" [ref=e81] [cursor=pointer]
+                - button "English" [ref=e82] [cursor=pointer]
+          - generic [ref=e84]:
+            - img "Jordan" [ref=e85]
+            - generic [ref=e86]:
+              - text: Jordan
+              - generic [ref=e87]:
+                - button "DEV" [ref=e88] [cursor=pointer]
+                - button "English" [ref=e89] [cursor=pointer]
+          - generic [ref=e91]:
+            - img "Japan" [ref=e92]
+            - generic [ref=e93]:
+              - text: Japan
+              - generic [ref=e94]:
+                - button "DEV" [ref=e95] [cursor=pointer]
+                - button "Japanese" [ref=e96] [cursor=pointer]
+          - generic [ref=e98]:
+            - img "South Korea" [ref=e99]
+            - generic [ref=e100]:
+              - text: South Korea
+              - generic [ref=e101]:
+                - button "DEV" [ref=e102] [cursor=pointer]
+                - button "English" [ref=e103] [cursor=pointer]
+          - generic [ref=e105]:
+            - img "Kuwait" [ref=e106]
+            - generic [ref=e107]:
+              - text: Kuwait
+              - generic [ref=e108]:
+                - button "DEV" [ref=e109] [cursor=pointer]
+                - button "English" [ref=e110] [cursor=pointer]
+          - generic [ref=e112]:
+            - img "Lebanon" [ref=e113]
+            - generic [ref=e114]:
+              - text: Lebanon
+              - generic [ref=e115]:
+                - button "DEV" [ref=e116] [cursor=pointer]
+                - button "English" [ref=e117] [cursor=pointer]
+          - generic [ref=e119]:
+            - img "Mongolia" [ref=e120]
+            - generic [ref=e121]:
+              - text: Mongolia
+              - generic [ref=e122]:
+                - button "DEV" [ref=e123] [cursor=pointer]
+                - button "English" [ref=e124] [cursor=pointer]
+          - generic [ref=e126]:
+            - img "Oman" [ref=e127]
+            - generic [ref=e128]:
+              - text: Oman
+              - generic [ref=e129]:
+                - button "DEV" [ref=e130] [cursor=pointer]
+                - button "English" [ref=e131] [cursor=pointer]
+          - generic [ref=e133]:
+            - img "Qatar" [ref=e134]
+            - generic [ref=e135]:
+              - text: Qatar
+              - generic [ref=e136]:
+                - button "DEV" [ref=e137] [cursor=pointer]
+                - button "English" [ref=e138] [cursor=pointer]
+          - generic [ref=e140]:
+            - img "Saudi Arabia" [ref=e141]
+            - generic [ref=e142]:
+              - text: Saudi Arabia
+              - generic [ref=e143]:
+                - button "DEV" [ref=e144] [cursor=pointer]
+                - button "English" [ref=e145] [cursor=pointer]
+          - generic [ref=e147]:
+            - img "Turkey" [ref=e148]
+            - generic [ref=e149]:
+              - text: Turkey
+              - generic [ref=e150]:
+                - button "DEV" [ref=e151] [cursor=pointer]
+                - button "Turkish" [ref=e152] [cursor=pointer]
+          - generic [ref=e154]:
+            - img "Uzbekistan" [ref=e155]
+            - generic [ref=e156]:
+              - text: Uzbekistan
+              - generic [ref=e157]:
+                - button "DEV" [ref=e158] [cursor=pointer]
+                - button "English" [ref=e159] [cursor=pointer]
+          - generic [ref=e161]:
+            - img "Yemen" [ref=e162]
+            - generic [ref=e163]:
+              - text: Yemen
+              - generic [ref=e164]:
+                - button "DEV" [ref=e165] [cursor=pointer]
+                - button "English" [ref=e166] [cursor=pointer]
+        - separator [ref=e168]
+      - generic [ref=e169]:
+        - heading "Pacific" [level=2] [ref=e170]
+        - generic [ref=e171]:
+          - generic [ref=e173]:
+            - img "Australia" [ref=e174]
+            - generic [ref=e175]:
+              - text: Australia
+              - generic [ref=e176]:
+                - button "DEV" [ref=e177] [cursor=pointer]
+                - button "English" [ref=e178] [cursor=pointer]
+          - generic [ref=e180]:
+            - img "New Zealand" [ref=e181]
+            - generic [ref=e182]:
+              - text: New Zealand
+              - generic [ref=e183]:
+                - button "DEV" [ref=e184] [cursor=pointer]
+                - button "English" [ref=e185] [cursor=pointer]
+  - generic [ref=e187]:
+    - generic [ref=e188]:
+      - img "Alcon logo" [ref=e189] [cursor=pointer]:
+        - img "Logo" [ref=e190]
+      - paragraph [ref=e191]: © 2026 Alcon Inc.
+    - list [ref=e192]:
+      - listitem [ref=e193]:
+        - link "Terms & Conditions" [ref=e194] [cursor=pointer]:
+          - /url: /terms-and-conditions?market=&locale=en-US
+          - paragraph [ref=e195]: Terms & Conditions
